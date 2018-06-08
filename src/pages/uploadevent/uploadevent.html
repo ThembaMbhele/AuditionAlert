@@ -4,15 +4,27 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>Upload Event</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
 <ion-content padding>
-
+ <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">Upload Event</h2>
+<ion-list>
+   <ion-item>
+    <ion-label floating>Name</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>URL</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+   <ion-item>
+      <ion-label floating>Description</ion-label>
+  <ion-textarea rows="6"></ion-textarea>
+  </ion-item>
+   <ion-item no-lines>
+    <h4 style="color: darkgray !important">Upload Photo</h4>
+    <img src="{{imageFile}}" alt="Ionic File" width="300" height="400"/>
+  </ion-item>
+   <ion-item class="center" no-lines>
+    <button ion-button class="summitbutton" color="secondary" (click)="upload()">Share</button>
+  </ion-item>
+  </ion-list>
 </ion-content>

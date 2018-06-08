@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
+import { DashboardPage } from '../dashboard/dashboard';
 
 /**
  * Generated class for the UploadeventPage page.
@@ -8,18 +9,23 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-uploadevent',
   templateUrl: 'uploadevent.html',
 })
 export class UploadeventPage {
 
+  imageFile: String = "assets/imgs/aud1.jpg";
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad UploadeventPage');
+  }
+
+   upload(){
+    this.navCtrl.setRoot(DashboardPage);    
   }
 
 }

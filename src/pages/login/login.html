@@ -4,7 +4,7 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-content style="background-image: url('../assets/imgs/background.png')" padding>
+<ion-content padding>
     <div style="text-align:center">
         <h4 style="font-family: 'Black Han Sans', sans-serif;color:white;margin-top: 30%">Audition Alert</h4>
     </div>
@@ -20,7 +20,7 @@
             </ion-item>
         </ion-list>
         <div padding>
-            <button ion-button block class="secondary" (click)="login()">Sign In</button>
+            <button ion-button block color="secondary" (click)="login()">Sign In</button>
             <p *ngIf="showError" style="color: red;font-size: xx-small"> invalid email or password. </p>
         </div>
         <ion-row style="margin-top: -20px;">

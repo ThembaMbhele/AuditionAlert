@@ -1,6 +1,5 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { UploadeventPage } from '../uploadevent/uploadevent';
 import { LoginPage } from '../login/login'
 
 @Component({
@@ -22,10 +21,6 @@ export class HomePage {
   showNav(navCtrl)
   {
       this.navCtrl.setRoot(LoginPage);
-  }
-
-  openUpload(){
-    this.navCtrl.push(UploadeventPage);
-  }
+  }  
 
 }

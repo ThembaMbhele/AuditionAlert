@@ -38,12 +38,29 @@
     <ion-input type="password"></ion-input>
   </ion-item>
 
+    <ion-item>
+  <ion-label floating>Contry</ion-label>
+  <ion-select [(ngModel)]="contry">
+        <ion-option value="Afghanistan">Afghanistan</ion-option>
+<ion-option value="Albania">Albania</ion-option>
+<ion-option value="Algeria">Algeria</ion-option>
+<ion-option value="Andorra">Andorra</ion-option>
+<ion-option value="Angola">Angola</ion-option>
+<ion-option value="Anguilla">Anguilla</ion-option>
+<ion-option value="Antigua & Barbuda">Antigua & Barbuda</ion-option>
+<ion-option value="Armenia">Armenia</ion-option>
+<ion-option value="Australia">Australia</ion-option>
+<ion-option value="Austria">Austria</ion-option>
+<ion-option value="Azerbaijan">Azerbaijan</ion-option>
+  </ion-select>
+</ion-item>
+
  <ion-item class="center" no-lines justify-content-center align-items-center>
   <a class="item" href="#" onclick="window.open('http://www.starwars.com/', '_system', 'location=yes'); return false;">View participation agreement</a>
  </ion-item>
 
  <ion-item class="center" no-lines justify-content-center align-items-center>
-    <button ion-button color="secondary">Sign Up</button>
+    <button ion-button color="secondary" class="summitbutton" (click)="signup()">Sign Up</button>
   </ion-item>
 
 </ion-list>
