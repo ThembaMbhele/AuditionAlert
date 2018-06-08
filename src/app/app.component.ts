@@ -6,8 +6,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { SignupPage } from '../pages/signup/signup';
 import { ListPage } from '../pages/list/list';
+<<<<<<< HEAD
 import { AboutusPage } from '../pages/aboutus/aboutus';
 import { ContactusPage } from '../pages/contactus/contactus';
+=======
+import { LoginPage } from '../pages/login/login';
+>>>>>>> af9a4aca2be15ec970fe2ba0c5b606eb5aa0db56
 
 @Component({
   templateUrl: 'app.html'
