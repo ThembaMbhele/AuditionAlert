@@ -6,7 +6,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { SignupPage } from '../pages/signup/signup';
-import { UploadeventPage } from '../pages/uploadEvent/uploadEvent';
+import { UploadeventPage } from '../pages/uploadevent/uploadevent';
 import { AboutusPage } from '../pages/aboutus/aboutus';
 import { ContactusPage } from '../pages/contactus/contactus';
 import { LoginPage } from '../pages/login/login';

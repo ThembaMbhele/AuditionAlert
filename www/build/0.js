@@ -8,8 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UploadeventPageModule", function() { return UploadeventPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__uploadevent__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__uploadevent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__uploadevent__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__uploadevent__ = __webpack_require__(201);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -25,10 +24,10 @@ var UploadeventPageModule = /** @class */ (function () {
     UploadeventPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__uploadevent__["UploadeventPage"],
+                __WEBPACK_IMPORTED_MODULE_2__uploadevent__["a" /* UploadeventPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__uploadevent__["UploadeventPage"]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__uploadevent__["a" /* UploadeventPage */]),
             ],
         })
     ], UploadeventPageModule);
@@ -36,13 +35,6 @@ var UploadeventPageModule = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=uploadevent.module.js.map
-
-/***/ }),
-
-/***/ 286:
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\src\\pages\\uploadevent\\uploadevent.js'");
 
 /***/ })
 

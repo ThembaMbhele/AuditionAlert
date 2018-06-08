@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { UploadeventPage } from '../uploadEvent/uploadEvent';
+import { UploadeventPage } from '../uploadevent/uploadevent';
 import { LoginPage } from '../login/login'
 
 @Component({

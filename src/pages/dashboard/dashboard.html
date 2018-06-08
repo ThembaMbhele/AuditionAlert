@@ -10,7 +10,7 @@
      <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-       <ion-title>Home</ion-title>
+       <ion-title style="text-color:white !important">Home</ion-title>
         <ion-buttons end>
        <button ion-button (click)="openUpload()">
            UPLOAD
@@ -23,5 +23,25 @@
 
 
 <ion-content padding>
-
+    <div style="text-align:center">
+        <h4 style="font-family: 'Black Han Sans', sans-serif;color:white">Auditions</h4>
+    </div>
+    <ion-grid>
+        <ion-row>
+            <ion-col s6>
+                <ion-card>
+                    <img src="../assets/imgs/aud1.jpg"/>
+                    <div class="card-title"></div>
+                    <div class="card-subtitle"></div>
+                </ion-card>
+            </ion-col>
+            <ion-col s6>
+                <ion-card>
+                    <img src="../assets/imgs/aud2.jpg"/>
+                    <div class="card-title"></div>
+                    <div class="card-subtitle"></div>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
 </ion-content>
