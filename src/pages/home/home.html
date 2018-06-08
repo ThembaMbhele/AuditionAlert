@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar transparent>
+  <ion-navbar *ngIf="showNavBar" transparent>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
@@ -7,6 +7,16 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  
+<ion-content style="background-image: url('../assets/imgs/background.png')" padding>
+    <div *ngIf="!showNavBar" style='text-align: center;margin-top: 90px'>
+        <img src="../assets/imgs/auditionlogo.png">
+    </div>
+    <div *ngIf="!showNavBar" style="text-align: center">
+        <p style="font-family: 'Black Han Sans', sans-serif;font-size:1.5rem">
+            Audition Alert
+        </p>
+    </div>
+    <div *ngIf="showNavBar">
+        
+    </div>
 </ion-content>
