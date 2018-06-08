@@ -5,14 +5,14 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-<<<<<<< HEAD
 import { SignupPage } from '../pages/signup/signup';
 import { UploadeventPage } from '../pages/uploadEvent/uploadEvent';
 import { AboutusPage } from '../pages/aboutus/aboutus';
 import { ContactusPage } from '../pages/contactus/contactus';
-=======
 import { LoginPage } from '../pages/login/login';
->>>>>>> af9a4aca2be15ec970fe2ba0c5b606eb5aa0db56
+import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
+import { DashboardPage } from '../pages/dashboard/dashboard';
+import { ProfilePage } from '../pages/profile/profile';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -20,18 +20,18 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [ 
     MyApp,
-<<<<<<< HEAD
     HomePage, 
     ListPage,
     SignupPage,
     UploadeventPage,
     AboutusPage,
-    ContactusPage
-=======
+    ContactusPage,
     HomePage,
     ListPage,
-    LoginPage
->>>>>>> af9a4aca2be15ec970fe2ba0c5b606eb5aa0db56
+    LoginPage,
+    ForgotpasswordPage,
+    DashboardPage,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -42,14 +42,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-<<<<<<< HEAD
     SignupPage,
     UploadeventPage,
     AboutusPage,
-    ContactusPage
-=======
-    LoginPage
->>>>>>> af9a4aca2be15ec970fe2ba0c5b606eb5aa0db56
+    ContactusPage,
+    LoginPage,
+    ForgotpasswordPage,
+    DashboardPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,

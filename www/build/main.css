@@ -25721,6 +25721,14 @@ page-contactus toolbar-background-md {
   background-color: transparent !important;
 }
 
+page-dashboard ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-forgotpassword ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
 page-home {
   /* ion-content {
     @include linear-gradient(left,$green-and-blue);
