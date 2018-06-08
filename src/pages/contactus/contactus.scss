@@ -1,0 +1,29 @@
+page-contactus {
+ .center{
+     text-align:center;
+}
+ion-content {
+    background-image: url('../assets/imgs/background.png');
+}
+.item-md {
+    background-color: transparent !important;
+}
+ion-input{
+    color: white;
+}
+ion-textarea{
+     color: white;
+}
+.summitbutton{
+        width: 150px;
+    height: 30px !important;
+}
+ion-title{
+    font-size: xx-large;
+    color:white;
+    font-weight: bold;
+}
+toolbar-background-md{
+    background-color: transparent !important;
+}
+}

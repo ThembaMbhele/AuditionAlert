@@ -25678,6 +25678,49 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-aboutus ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-aboutus .center {
+  text-align: center;
+}
+
+page-contactus .center {
+  text-align: center;
+}
+
+page-contactus ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-contactus .item-md {
+  background-color: transparent !important;
+}
+
+page-contactus ion-input {
+  color: white;
+}
+
+page-contactus ion-textarea {
+  color: white;
+}
+
+page-contactus .summitbutton {
+  width: 150px;
+  height: 30px !important;
+}
+
+page-contactus ion-title {
+  font-size: xx-large;
+  color: white;
+  font-weight: bold;
+}
+
+page-contactus toolbar-background-md {
+  background-color: transparent !important;
+}
+
 page-home {
   /* ion-content {
     @include linear-gradient(left,$green-and-blue);
@@ -25685,4 +25728,20 @@ page-home {
     -moz-background-size: cover;
     background-size: cover;
   }*/
+}
+
+page-signup .center {
+  text-align: center;
+}
+
+page-signup ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-signup .item-md {
+  background-color: transparent !important;
+}
+
+page-signup ion-input {
+  color: white;
 }
