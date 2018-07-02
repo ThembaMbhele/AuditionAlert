@@ -41,18 +41,9 @@
     <ion-item>
   <ion-label floating>Country</ion-label>
   <ion-select [(ngModel)]="country">
-        <ion-option value="Afghanistan">Afghanistan</ion-option>
-<ion-option value="Albania">Albania</ion-option>
-<ion-option value="Algeria">Algeria</ion-option>
-<ion-option value="Andorra">Andorra</ion-option>
-<ion-option value="Angola">Angola</ion-option>
-<ion-option value="Anguilla">Anguilla</ion-option>
-<ion-option value="Antigua & Barbuda">Antigua & Barbuda</ion-option>
-<ion-option value="Armenia">Armenia</ion-option>
-<ion-option value="Australia">Australia</ion-option>
-<ion-option value="Austria">Austria</ion-option>
-<ion-option value="Azerbaijan">Azerbaijan</ion-option>
-  </ion-select>
+        <ion-option value="Afghanistan">{{countries[0].Name}}</ion-option>
+
+  </ion-select> 
 </ion-item>
 
  <ion-item class="center" no-lines justify-content-center align-items-center>
