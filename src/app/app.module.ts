@@ -17,6 +17,9 @@ import { ProfilePage } from '../pages/profile/profile';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { HTTP } from '@ionic-native/http';
+import { HttpModule } from '@angular/http';
+
 @NgModule({
   declarations: [ 
     MyApp,
@@ -34,6 +37,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
@@ -53,7 +57,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    HTTP
   ]
 })
 export class AppModule {}
