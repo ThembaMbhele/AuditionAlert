@@ -40,9 +40,8 @@
 
     <ion-item>
   <ion-label floating>Country</ion-label>
-  <ion-select [(ngModel)]="country">
-        <ion-option value="Afghanistan">{{countries[0].Name}}</ion-option>
-
+  <ion-select [(ngModel)]="user.country">
+        <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>
   </ion-select> 
 </ion-item>
 
@@ -51,7 +50,7 @@
  </ion-item>
 
  <ion-item class="center" no-lines justify-content-center align-items-center>
-    <button ion-button color="secondary" class="summitbutton" (click)="signup()">Sign Up</button>
+    <button ion-button color="secondary" class="summitbutton" (click)="signup(user)">Sign Up</button>
   </ion-item>
 
 </ion-list>

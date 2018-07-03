@@ -3,6 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { SignupPage } from '../signup/signup';
 import { ForgotpasswordPage } from '../forgotpassword/forgotpassword';
 import { DashboardPage } from '../dashboard/dashboard';
+import { HttpClient} from  '@angular/common/http';
 
 /**
  * Generated class for the LoginPage page.
@@ -16,8 +17,14 @@ import { DashboardPage } from '../dashboard/dashboard';
   templateUrl: 'login.html',
 })
 export class LoginPage {
+    
+    public user = {
+        emailAddress: "",
+        password: ""
+    };
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,
+              public http: HttpClient) {
   }
 
   ionViewDidLoad() {
@@ -32,8 +39,16 @@ export class LoginPage {
     this.navCtrl.push(ForgotpasswordPage)
   }
 
-   login(){
-    this.navCtrl.setRoot(DashboardPage)
+   login(user)
+   {
+       this.http.post("http://localhost/api/loginUser", user).subscribe(data => 
+       {
+           if(data)
+           {
+               this.navCtrl.setRoot(DashboardPage);
+           }  
+       });
+       
   }
 
 }
