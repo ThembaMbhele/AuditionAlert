@@ -4,6 +4,7 @@ import { SignupPage } from '../signup/signup';
 import { ForgotpasswordPage } from '../forgotpassword/forgotpassword';
 import { DashboardPage } from '../dashboard/dashboard';
 import { HttpClient} from  '@angular/common/http';
+import { GlobalVariablesProvider } from '../../providers/global-variables/global-variables';
 
 /**
  * Generated class for the LoginPage page.
@@ -22,9 +23,11 @@ export class LoginPage {
         emailAddress: "",
         password: ""
     };
-
+    
+    public showError: boolean = false;
+    
   constructor(public navCtrl: NavController, public navParams: NavParams,
-              public http: HttpClient) {
+              public http: HttpClient, public globalVariables: GlobalVariablesProvider) {
   }
 
   ionViewDidLoad() {
@@ -40,12 +43,20 @@ export class LoginPage {
   }
 
    login(user)
-   {
-       this.http.post("http://localhost:7777/api/loginUser", user).subscribe(data => 
+   {   
+     //this.navCtrl.setRoot(DashboardPage);
+
+       this.http.post("http://192.168.42.47/api/loginUser", user).subscribe((response: any) => 
        {
-           if(data)
+           if(response.result == true)
            {
+               this.globalVariables.setUserId(response.data.userId);
+               this.globalVariables.setFirstTimeLogin(response.data.firstLogin);
                this.navCtrl.setRoot(DashboardPage);
+           }
+           else if(response.result == false)
+           {
+               this.showError = true;
            }  
        });
        

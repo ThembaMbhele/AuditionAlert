@@ -239,6 +239,22 @@ module.exports = [
     "clobbers": [
       "cordova.plugin.http"
     ]
+  },
+  {
+    "id": "cordova-plugin-nativeaudio.nativeaudio",
+    "file": "plugins/cordova-plugin-nativeaudio/www/nativeaudio.js",
+    "pluginId": "cordova-plugin-nativeaudio",
+    "clobbers": [
+      "window.plugins.NativeAudio"
+    ]
+  },
+  {
+    "id": "cordova-plugin-filechooser.FileChooser",
+    "file": "plugins/cordova-plugin-filechooser/www/fileChooser.js",
+    "pluginId": "cordova-plugin-filechooser",
+    "clobbers": [
+      "fileChooser"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -250,7 +266,9 @@ module.exports.metadata =
   "cordova-plugin-ionic-webview": "1.1.19",
   "cordova-plugin-ionic-keyboard": "2.0.5",
   "cordova-plugin-file": "6.0.1",
-  "cordova-plugin-advanced-http": "1.11.1"
+  "cordova-plugin-advanced-http": "1.11.1",
+  "cordova-plugin-nativeaudio": "3.0.9",
+  "cordova-plugin-filechooser": "1.0.1"
 };
 // BOTTOM OF METADATA
 });

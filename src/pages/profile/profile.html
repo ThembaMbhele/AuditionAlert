@@ -10,22 +10,22 @@
 
   <ion-item>
     <ion-label floating>First Name</ion-label>
-    <ion-input type="text"></ion-input>
+    <ion-input type="text" [(ngModel)]="profile.firstName"></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label floating>Last Name</ion-label>
-    <ion-input type="text"></ion-input>
+    <ion-input type="text" [(ngModel)]="profile.lastName"></ion-input>
   </ion-item>
 
   <ion-item>
     <ion-label stacked>Date Of Birth</ion-label>
-    <ion-input type="date" ></ion-input>
+    <ion-input type="date" [(ngModel)]="profile.dateOfBirth"></ion-input>
   </ion-item>
 
   <ion-item>
   <ion-label floating>Gender</ion-label>
-  <ion-select [(ngModel)]="gender">
+  <ion-select [(ngModel)]="profile.gender">
     <ion-option value="f">Female</ion-option>
     <ion-option value="m">Male</ion-option>
     <ion-option value="o">Other</ion-option>
@@ -34,33 +34,23 @@
 
   <ion-item>
     <ion-label floating>Career</ion-label>
-    <ion-input type="text"></ion-input>
+    <ion-input type="text" [(ngModel)]="profile.career"></ion-input>
   </ion-item>
 
   <ion-item>
-  <ion-label floating>Contry</ion-label>
-  <ion-select [(ngModel)]="contry">
-        <ion-option value="Afghanistan">Afghanistan</ion-option>
-<ion-option value="Albania">Albania</ion-option>
-<ion-option value="Algeria">Algeria</ion-option>
-<ion-option value="Andorra">Andorra</ion-option>
-<ion-option value="Angola">Angola</ion-option>
-<ion-option value="Anguilla">Anguilla</ion-option>
-<ion-option value="Antigua & Barbuda">Antigua & Barbuda</ion-option>
-<ion-option value="Armenia">Armenia</ion-option>
-<ion-option value="Australia">Australia</ion-option>
-<ion-option value="Austria">Austria</ion-option>
-<ion-option value="Azerbaijan">Azerbaijan</ion-option>
+  <ion-label floating>Country</ion-label>
+  <ion-select [(ngModel)]="profile.country">
+        <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>
   </ion-select>
 </ion-item>
 
    <ion-item>
     <ion-label floating>Cell Phone</ion-label>
-    <ion-input type="text"></ion-input>
+    <ion-input type="text" [(ngModel)]="profile.cellPhone"></ion-input>
   </ion-item>
 
  <ion-item class="center" no-lines justify-content-center align-items-center>
-    <button ion-button color="secondary" class="summitbutton" (click)="update()">Update</button>
+    <button ion-button color="secondary" class="summitbutton" (click)="update(profile)">Update</button>
   </ion-item>
 
 </ion-list>

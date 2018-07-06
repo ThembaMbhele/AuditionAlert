@@ -22,11 +22,30 @@
 </ion-header>
 
 
-<ion-content padding>
-    <div style="text-align:center">
+<ion-content>
+    <div *ngIf="showSlides">
+        <ion-slides pager="true">
+            <ion-slide>
+                <img style="height: 88vh !important;width:88vh !important" src="../assets/imgs/img1.jpg">
+                <div style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%)">be a model</div>
+            </ion-slide>
+            
+            <ion-slide>
+                <img style="height: 88vh !important;width:88vh !important" src="../assets/imgs/img2.jpg">
+                <div style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%)">be a model</div>
+            </ion-slide>
+            
+            <ion-slide>
+                <img style="height: 88vh !important;width:88vh !important" src="../assets/imgs/img3.jpg">
+                <div style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%)">be a model</div>
+            </ion-slide> 
+            
+        </ion-slides>
+    </div>
+    <div *ngIf="!showSlides" style="text-align:center">
         <h4 style="font-family: 'Black Han Sans', sans-serif;color:white">Auditions</h4>
     </div>
-    <ion-grid>
+    <ion-grid *ngIf="!showSlides">
         <ion-row>
             <ion-col s6>
                 <ion-card>

@@ -1,1 +1,1065 @@
-webpackJsonp([0],{136:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=136},162:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=162},189:function(l,n,u){"use strict";function a(l){return y._19(0,[(l()(),y.Z(0,0,null,null,7,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var a=!0,t=l.component;if("click"===n){a=!1!==y._11(l,6).close()&&a}if("click"===n){a=!1!==t.openPage(l.context.$implicit)&&a}return a},q.b,q.a)),y.Y(1,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,4,{contentLabel:0}),y._16(603979776,5,{_buttons:1}),y._16(603979776,6,{_icons:1}),y.Y(5,16384,null,0,Q.a,[],null,null),y.Y(6,16384,null,0,ll.a,[nl.a],{menuClose:[0,"menuClose"]},null),(l()(),y._18(7,2,["\n        ","\n      "]))],function(l,n){l(n,6,0,"")},function(l,n){l(n,7,0,n.context.$implicit.title)})}function t(l){return y._19(0,[y._16(402653184,1,{nav:0}),(l()(),y.Z(1,0,null,null,28,"ion-menu",[["role","navigation"]],null,null,null,ul.b,ul.a)),y._14(6144,null,al.a,null,[tl.a]),y.Y(3,245760,null,2,tl.a,[nl.a,y.j,W.a,el.a,y.z,ol.a,il.l,sl.a,_l.a],{content:[0,"content"]},null),y._16(335544320,2,{menuContent:0}),y._16(335544320,3,{menuNav:0}),(l()(),y._18(-1,0,["\n  "])),(l()(),y.Z(7,0,null,0,10,"ion-header",[],null,null,null,null,null)),y.Y(8,16384,null,0,rl.a,[W.a,y.j,y.z,[2,cl.a]],null,null),(l()(),y._18(-1,null,["\n    "])),(l()(),y.Z(10,0,null,null,6,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,dl.b,dl.a)),y.Y(11,49152,null,0,pl.a,[W.a,y.j,y.z],null,null),(l()(),y._18(-1,3,["\n      "])),(l()(),y.Z(13,0,null,3,2,"ion-title",[],null,null,null,bl.b,bl.a)),y.Y(14,49152,null,0,gl.a,[W.a,y.j,y.z,[2,pl.a],[2,ml.a]],null,null),(l()(),y._18(-1,0,["Menu"])),(l()(),y._18(-1,3,["\n    "])),(l()(),y._18(-1,null,["\n  "])),(l()(),y._18(-1,0,["\n\n  "])),(l()(),y.Z(19,0,null,0,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(20,4374528,[[2,4]],0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n    "])),(l()(),y.Z(22,0,null,1,5,"ion-list",[],null,null,null,null,null)),y.Y(23,16384,null,0,Zl.a,[W.a,y.j,y.z,el.a,il.l,sl.a],null,null),(l()(),y._18(-1,null,["\n      "])),(l()(),y.U(16777216,null,null,1,null,a)),y.Y(26,802816,null,0,jl.h,[y.I,y.F,y.p],{ngForOf:[0,"ngForOf"]},null),(l()(),y._18(-1,null,["\n    "])),(l()(),y._18(-1,1,["\n  "])),(l()(),y._18(-1,0,["\n\n"])),(l()(),y._18(-1,null,["\n\n"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(32,0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,vl.b,vl.a)),y._14(6144,null,al.a,null,[yl.a]),y.Y(34,4374528,[[1,4],["content",4]],0,yl.a,[[2,cl.a],[2,hl.a],_l.a,W.a,el.a,y.j,y.u,y.z,y.i,il.l,zl.a,[2,kl.a],sl.a,y.k],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null)],function(l,n){var u=n.component;l(n,3,0,y._11(n,34));l(n,26,0,u.pages);l(n,34,0,"false",u.rootPage)},function(l,n){l(n,10,0,y._11(n,11)._sbPadding);l(n,19,0,y._11(n,20).statusbarPadding,y._11(n,20)._hasRefresher)})}function e(l){return y._19(0,[(l()(),y.Z(0,0,null,null,16,"ion-navbar",[["class","toolbar"],["transparent",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Cl.b,Cl.a)),y.Y(1,49152,null,0,ml.a,[_l.a,[2,cl.a],[2,hl.a],W.a,y.j,y.z],null,null),(l()(),y._18(-1,3,["\n    "])),(l()(),y.Z(3,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==y._11(l,5).toggle()&&a}return a},Pl.b,Pl.a)),y.Y(4,1097728,[[1,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],null,null),y.Y(5,1064960,null,0,xl.a,[nl.a,[2,cl.a],[2,Ll.a],[2,ml.a]],{menuToggle:[0,"menuToggle"]},null),y.Y(6,16384,null,1,Vl.a,[W.a,y.j,y.z,[2,pl.a],[2,ml.a]],null,null),y._16(603979776,1,{_buttons:1}),(l()(),y._18(-1,0,["\n      "])),(l()(),y.Z(9,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),y.Y(10,147456,null,0,Il.a,[W.a,y.j,y.z],{name:[0,"name"]},null),(l()(),y._18(-1,0,["\n    "])),(l()(),y._18(-1,3,["\n    "])),(l()(),y.Z(13,0,null,3,2,"ion-title",[],null,null,null,bl.b,bl.a)),y.Y(14,49152,null,0,gl.a,[W.a,y.j,y.z,[2,pl.a],[2,ml.a]],null,null),(l()(),y._18(-1,0,["Home"])),(l()(),y._18(-1,3,["   \n  "]))],function(l,n){l(n,5,0,"");l(n,10,0,"menu")},function(l,n){l(n,0,0,y._11(n,1)._hidden,y._11(n,1)._sbPadding);l(n,3,0,y._11(n,5).isHidden);l(n,9,0,y._11(n,10)._hidden)})}function o(l){return y._19(0,[(l()(),y.Z(0,0,null,null,3,"div",[["style","text-align: center;margin-top: 90px"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(2,0,null,null,0,"img",[["src","../assets/imgs/auditionlogo.png"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n    "]))],null,null)}function i(l){return y._19(0,[(l()(),y.Z(0,0,null,null,4,"div",[["style","text-align: center"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(2,0,null,null,1,"p",[["style","font-family: 'Black Han Sans', sans-serif;font-size:1.5rem"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n            Audition Alert\n        "])),(l()(),y._18(-1,null,["\n    "]))],null,null)}function s(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"div",[],null,null,null,null,null)),(l()(),y._18(-1,null,["\n        \n    "]))],null,null)}function _(l){return y._19(0,[(l()(),y.Z(0,0,null,null,5,"ion-header",[],null,null,null,null,null)),y.Y(1,16384,null,0,rl.a,[W.a,y.j,y.z,[2,cl.a]],null,null),(l()(),y._18(-1,null,["\n  "])),(l()(),y.U(16777216,null,null,1,null,e)),y.Y(4,16384,null,0,jl.i,[y.I,y.F],{ngIf:[0,"ngIf"]},null),(l()(),y._18(-1,null,["\n"])),(l()(),y._18(-1,null,["\n\n"])),(l()(),y.Z(7,0,null,null,11,"ion-content",[["padding",""],["style","background-image: url('../assets/imgs/background.png')"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(8,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n    "])),(l()(),y.U(16777216,null,1,1,null,o)),y.Y(11,16384,null,0,jl.i,[y.I,y.F],{ngIf:[0,"ngIf"]},null),(l()(),y._18(-1,1,["\n    "])),(l()(),y.U(16777216,null,1,1,null,i)),y.Y(14,16384,null,0,jl.i,[y.I,y.F],{ngIf:[0,"ngIf"]},null),(l()(),y._18(-1,1,["\n    "])),(l()(),y.U(16777216,null,1,1,null,s)),y.Y(17,16384,null,0,jl.i,[y.I,y.F],{ngIf:[0,"ngIf"]},null),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,4,0,u.showNavBar);l(n,11,0,!u.showNavBar);l(n,14,0,!u.showNavBar);l(n,17,0,u.showNavBar)},function(l,n){l(n,7,0,y._11(n,8).statusbarPadding,y._11(n,8)._hasRefresher)})}function r(l){return y._19(0,[(l()(),y.Z(0,0,null,null,12,"button",[["class","item item-block"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.itemTapped(u,l.context.$implicit)&&a}return a},q.b,q.a)),y.Y(1,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,2,{contentLabel:0}),y._16(603979776,3,{_buttons:1}),y._16(603979776,4,{_icons:1}),y.Y(5,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n      "])),(l()(),y.Z(7,0,null,0,1,"ion-icon",[["item-start",""],["role","img"]],[[2,"hide",null]],null,null,null,null)),y.Y(8,147456,[[4,4]],0,Il.a,[W.a,y.j,y.z],{name:[0,"name"]},null),(l()(),y._18(9,2,["\n      ","\n      "])),(l()(),y.Z(10,0,null,4,1,"div",[["class","item-note"],["item-end",""]],null,null,null,null,null)),(l()(),y._18(11,null,["\n        ","\n      "])),(l()(),y._18(-1,2,["\n    "]))],function(l,n){l(n,8,0,n.context.$implicit.icon)},function(l,n){l(n,7,0,y._11(n,8)._hidden);l(n,9,0,n.context.$implicit.title);l(n,11,0,n.context.$implicit.note)})}function c(l){return y._19(0,[(l()(),y.Z(0,0,null,null,4,"div",[["padding",""]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n    You navigated here from "])),(l()(),y.Z(2,0,null,null,1,"b",[],null,null,null,null,null)),(l()(),y._18(3,null,["",""])),(l()(),y._18(-1,null,["\n  "]))],null,function(l,n){l(n,3,0,n.component.selectedItem.title)})}function d(l){return y._19(0,[(l()(),y.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),y.Y(1,16384,null,0,rl.a,[W.a,y.j,y.z,[2,cl.a]],null,null),(l()(),y._18(-1,null,["\n  "])),(l()(),y.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Cl.b,Cl.a)),y.Y(4,49152,null,0,ml.a,[_l.a,[2,cl.a],[2,hl.a],W.a,y.j,y.z],null,null),(l()(),y._18(-1,3,["\n    "])),(l()(),y.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==y._11(l,8).toggle()&&a}return a},Pl.b,Pl.a)),y.Y(7,1097728,[[1,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],null,null),y.Y(8,1064960,null,0,xl.a,[nl.a,[2,cl.a],[2,Ll.a],[2,ml.a]],{menuToggle:[0,"menuToggle"]},null),y.Y(9,16384,null,1,Vl.a,[W.a,y.j,y.z,[2,pl.a],[2,ml.a]],null,null),y._16(603979776,1,{_buttons:1}),(l()(),y._18(-1,0,["\n      "])),(l()(),y.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),y.Y(13,147456,null,0,Il.a,[W.a,y.j,y.z],{name:[0,"name"]},null),(l()(),y._18(-1,0,["\n    "])),(l()(),y._18(-1,3,["\n    "])),(l()(),y.Z(16,0,null,3,2,"ion-title",[],null,null,null,bl.b,bl.a)),y.Y(17,49152,null,0,gl.a,[W.a,y.j,y.z,[2,pl.a],[2,ml.a]],null,null),(l()(),y._18(-1,0,["List"])),(l()(),y._18(-1,3,["\n  "])),(l()(),y._18(-1,null,["\n"])),(l()(),y._18(-1,null,["\n\n"])),(l()(),y.Z(22,0,null,null,12,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(23,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n  "])),(l()(),y.Z(25,0,null,1,5,"ion-list",[],null,null,null,null,null)),y.Y(26,16384,null,0,Zl.a,[W.a,y.j,y.z,el.a,il.l,sl.a],null,null),(l()(),y._18(-1,null,["\n    "])),(l()(),y.U(16777216,null,null,1,null,r)),y.Y(29,802816,null,0,jl.h,[y.I,y.F,y.p],{ngForOf:[0,"ngForOf"]},null),(l()(),y._18(-1,null,["\n  "])),(l()(),y._18(-1,1,["\n  "])),(l()(),y.U(16777216,null,1,1,null,c)),y.Y(33,16384,null,0,jl.i,[y.I,y.F],{ngIf:[0,"ngIf"]},null),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,29,0,u.items);l(n,33,0,u.selectedItem)},function(l,n){l(n,3,0,y._11(n,4)._hidden,y._11(n,4)._sbPadding);l(n,6,0,y._11(n,8).isHidden);l(n,12,0,y._11(n,13)._hidden);l(n,22,0,y._11(n,23).statusbarPadding,y._11(n,23)._hasRefresher)})}function p(l){return y._19(0,[(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(1,0,null,null,187,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(2,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n   "])),(l()(),y.Z(4,0,null,1,1,"h2",[["style","margin-top: 10%;color: darkgray !important;text-align: center;"]],null,null,null,null,null)),(l()(),y._18(-1,null,["Sign Up"])),(l()(),y._18(-1,1,["\n"])),(l()(),y.Z(7,0,null,1,180,"ion-list",[],null,null,null,null,null)),y.Y(8,16384,null,0,Zl.a,[W.a,y.j,y.z,el.a,il.l,sl.a],null,null),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(10,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(11,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,1,{contentLabel:0}),y._16(603979776,2,{_buttons:1}),y._16(603979776,3,{_icons:1}),y.Y(15,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(17,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(18,16384,[[1,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["First Name"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(21,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(22,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(25,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(26,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,4,{contentLabel:0}),y._16(603979776,5,{_buttons:1}),y._16(603979776,6,{_icons:1}),y.Y(30,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(32,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(33,16384,[[4,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Last Name"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(36,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(37,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(40,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(41,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,7,{contentLabel:0}),y._16(603979776,8,{_buttons:1}),y._16(603979776,9,{_icons:1}),y.Y(45,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(47,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(48,16384,[[7,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Email Address"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(51,0,null,3,1,"ion-input",[["type","email"]],null,null,null,Tl.b,Tl.a)),y.Y(52,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(55,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(56,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,10,{contentLabel:0}),y._16(603979776,11,{_buttons:1}),y._16(603979776,12,{_icons:1}),y.Y(60,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(62,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(63,16384,[[10,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Confirm Email Address"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(66,0,null,3,1,"ion-input",[["type","email"]],null,null,null,Tl.b,Tl.a)),y.Y(67,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(70,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(71,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,13,{contentLabel:0}),y._16(603979776,14,{_buttons:1}),y._16(603979776,15,{_icons:1}),y.Y(75,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(77,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(78,16384,[[13,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Password"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(81,0,null,3,1,"ion-input",[["type","password"]],null,null,null,Tl.b,Tl.a)),y.Y(82,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(85,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(86,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,16,{contentLabel:0}),y._16(603979776,17,{_buttons:1}),y._16(603979776,18,{_icons:1}),y.Y(90,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(92,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(93,16384,[[16,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Confirm Password"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(96,0,null,3,1,"ion-input",[["type","password"]],null,null,null,Tl.b,Tl.a)),y.Y(97,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n    "])),(l()(),y.Z(100,0,null,null,63,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(101,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,19,{contentLabel:0}),y._16(603979776,20,{_buttons:1}),y._16(603979776,21,{_icons:1}),y.Y(105,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(107,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(108,16384,[[19,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Contry"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(111,0,null,3,51,"ion-select",[],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var a=!0,t=l.component;if("click"===n){a=!1!==y._11(l,112)._click(u)&&a}if("keyup.space"===n){a=!1!==y._11(l,112)._keyup()&&a}if("ngModelChange"===n){a=!1!==(t.contry=u)&&a}return a},El.b,El.a)),y.Y(112,1228800,null,1,Hl.a,[_l.a,J.a,W.a,y.j,y.z,[2,G.a],kl.a],null,null),y._16(603979776,22,{options:1}),y._14(1024,null,Sl.e,function(l){return[l]},[Hl.a]),y.Y(115,671744,null,0,Sl.h,[[8,null],[8,null],[8,null],[2,Sl.e]],{model:[0,"model"]},{update:"ngModelChange"}),y._14(2048,null,Sl.f,null,[Sl.h]),y.Y(117,16384,null,0,Sl.g,[Sl.f],null,null),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(119,0,null,null,2,"ion-option",[["value","Afghanistan"]],null,null,null,null,null)),y.Y(120,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Afghanistan"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(123,0,null,null,2,"ion-option",[["value","Albania"]],null,null,null,null,null)),y.Y(124,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Albania"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(127,0,null,null,2,"ion-option",[["value","Algeria"]],null,null,null,null,null)),y.Y(128,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Algeria"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(131,0,null,null,2,"ion-option",[["value","Andorra"]],null,null,null,null,null)),y.Y(132,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Andorra"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(135,0,null,null,2,"ion-option",[["value","Angola"]],null,null,null,null,null)),y.Y(136,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Angola"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(139,0,null,null,2,"ion-option",[["value","Anguilla"]],null,null,null,null,null)),y.Y(140,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Anguilla"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(143,0,null,null,2,"ion-option",[["value","Antigua & Barbuda"]],null,null,null,null,null)),y.Y(144,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Antigua & Barbuda"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(147,0,null,null,2,"ion-option",[["value","Armenia"]],null,null,null,null,null)),y.Y(148,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Armenia"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(151,0,null,null,2,"ion-option",[["value","Australia"]],null,null,null,null,null)),y.Y(152,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Australia"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(155,0,null,null,2,"ion-option",[["value","Austria"]],null,null,null,null,null)),y.Y(156,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Austria"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(159,0,null,null,2,"ion-option",[["value","Azerbaijan"]],null,null,null,null,null)),y.Y(160,16384,[[22,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Azerbaijan"])),(l()(),y._18(-1,null,["\n  "])),(l()(),y._18(-1,2,["\n"])),(l()(),y._18(-1,null,["\n\n "])),(l()(),y.Z(165,0,null,null,9,"ion-item",[["align-items-center",""],["class","center item item-block"],["justify-content-center",""],["no-lines",""]],null,null,null,q.b,q.a)),y.Y(166,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,23,{contentLabel:0}),y._16(603979776,24,{_buttons:1}),y._16(603979776,25,{_icons:1}),y.Y(170,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(172,0,null,2,1,"a",[["class","item"],["href","#"],["onclick","window.open('http://www.starwars.com/', '_system', 'location=yes'); return false;"]],null,null,null,null,null)),(l()(),y._18(-1,null,["View participation agreement"])),(l()(),y._18(-1,2,["\n "])),(l()(),y._18(-1,null,["\n\n "])),(l()(),y.Z(176,0,null,null,10,"ion-item",[["align-items-center",""],["class","center item item-block"],["justify-content-center",""],["no-lines",""]],null,null,null,q.b,q.a)),y.Y(177,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,26,{contentLabel:0}),y._16(603979776,27,{_buttons:1}),y._16(603979776,28,{_icons:1}),y.Y(181,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(183,0,null,2,2,"button",[["class","summitbutton"],["color","secondary"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.signup()&&a}return a},Pl.b,Pl.a)),y.Y(184,1097728,[[27,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],{color:[0,"color"]},null),(l()(),y._18(-1,0,["Sign Up"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n"])),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,22,0,"text");l(n,37,0,"text");l(n,52,0,"email");l(n,67,0,"email");l(n,82,0,"password");l(n,97,0,"password");l(n,115,0,u.contry);l(n,120,0,"Afghanistan");l(n,124,0,"Albania");l(n,128,0,"Algeria");l(n,132,0,"Andorra");l(n,136,0,"Angola");l(n,140,0,"Anguilla");l(n,144,0,"Antigua & Barbuda");l(n,148,0,"Armenia");l(n,152,0,"Australia");l(n,156,0,"Austria");l(n,160,0,"Azerbaijan");l(n,184,0,"secondary")},function(l,n){l(n,1,0,y._11(n,2).statusbarPadding,y._11(n,2)._hasRefresher);l(n,111,0,y._11(n,112)._disabled,y._11(n,117).ngClassUntouched,y._11(n,117).ngClassTouched,y._11(n,117).ngClassPristine,y._11(n,117).ngClassDirty,y._11(n,117).ngClassValid,y._11(n,117).ngClassInvalid,y._11(n,117).ngClassPending)})}function b(l){return y._19(0,[(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(1,0,null,null,79,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(2,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n "])),(l()(),y.Z(4,0,null,1,1,"h2",[["style","margin-top: 10%;color: darkgray !important;text-align: center;"]],null,null,null,null,null)),(l()(),y._18(-1,null,["Upload Event"])),(l()(),y._18(-1,1,["\n"])),(l()(),y.Z(7,0,null,1,72,"ion-list",[],null,null,null,null,null)),y.Y(8,16384,null,0,Zl.a,[W.a,y.j,y.z,el.a,il.l,sl.a],null,null),(l()(),y._18(-1,null,["\n   "])),(l()(),y.Z(10,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(11,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,1,{contentLabel:0}),y._16(603979776,2,{_buttons:1}),y._16(603979776,3,{_icons:1}),y.Y(15,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(17,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(18,16384,[[1,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Name"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(21,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(22,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n  "])),(l()(),y.Z(25,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(26,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,4,{contentLabel:0}),y._16(603979776,5,{_buttons:1}),y._16(603979776,6,{_icons:1}),y.Y(30,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(32,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(33,16384,[[4,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["URL"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(36,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(37,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n   "])),(l()(),y.Z(40,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(41,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,7,{contentLabel:0}),y._16(603979776,8,{_buttons:1}),y._16(603979776,9,{_icons:1}),y.Y(45,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n      "])),(l()(),y.Z(47,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(48,16384,[[7,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Description"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(51,0,null,3,1,"ion-textarea",[["rows","6"]],null,null,null,Tl.b,Tl.a)),y.Y(52,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],null,null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n   "])),(l()(),y.Z(55,0,null,null,11,"ion-item",[["class","item item-block"],["no-lines",""]],null,null,null,q.b,q.a)),y.Y(56,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,10,{contentLabel:0}),y._16(603979776,11,{_buttons:1}),y._16(603979776,12,{_icons:1}),y.Y(60,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(62,0,null,2,1,"h4",[["style","color: darkgray !important"]],null,null,null,null,null)),(l()(),y._18(-1,null,["Upload Photo"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(65,0,null,2,0,"img",[["alt","Ionic File"],["height","400"],["width","300"]],[[8,"src",4]],null,null,null,null)),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n   "])),(l()(),y.Z(68,0,null,null,10,"ion-item",[["class","center item item-block"],["no-lines",""]],null,null,null,q.b,q.a)),y.Y(69,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,13,{contentLabel:0}),y._16(603979776,14,{_buttons:1}),y._16(603979776,15,{_icons:1}),y.Y(73,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(75,0,null,2,2,"button",[["class","summitbutton"],["color","secondary"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.upload()&&a}return a},Pl.b,Pl.a)),y.Y(76,1097728,[[14,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],{color:[0,"color"]},null),(l()(),y._18(-1,0,["Share"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n  "])),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],function(l,n){l(n,22,0,"text");l(n,37,0,"text");l(n,76,0,"secondary")},function(l,n){var u=n.component;l(n,1,0,y._11(n,2).statusbarPadding,y._11(n,2)._hasRefresher);l(n,65,0,y._2(1,"",u.imageFile,""))})}function g(l){return y._19(0,[(l()(),y._18(-1,null,["\n\n"])),(l()(),y.Z(1,0,null,null,14,"ion-content",[["class","center"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(2,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n"])),(l()(),y.Z(4,0,null,1,1,"h2",[["style","margin-top: 50%;color: darkgray !important;font-size: 40px !important;"]],null,null,null,null,null)),(l()(),y._18(-1,null,["About Us"])),(l()(),y._18(-1,1,["\n"])),(l()(),y.Z(7,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),y._18(-1,1,["\n"])),(l()(),y.Z(9,0,null,1,5,"p",[["style","color: darkgray;font-size: 15px;"]],null,null,null,null,null)),(l()(),y._18(-1,null,[" \n  Audition Alert helps to empower"])),(l()(),y.Z(11,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),y._18(-1,null,["\n  creative minds and serve as a"])),(l()(),y.Z(13,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),y._18(-1,null,["\n  tool in making dreams a reality\n"])),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],null,function(l,n){l(n,1,0,y._11(n,2).statusbarPadding,y._11(n,2)._hasRefresher)})}function m(l){return y._19(0,[(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(1,0,null,null,81,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(2,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n  "])),(l()(),y.Z(4,0,null,1,1,"h2",[["style","margin-top: 10%;color: darkgray !important;text-align: center;"]],null,null,null,null,null)),(l()(),y._18(-1,null,["Contact Us"])),(l()(),y._18(-1,1,["\n"])),(l()(),y.Z(7,0,null,1,74,"ion-list",[],null,null,null,null,null)),y.Y(8,16384,null,0,Zl.a,[W.a,y.j,y.z,el.a,il.l,sl.a],null,null),(l()(),y._18(-1,null,["\n  "])),(l()(),y.Z(10,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(11,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,1,{contentLabel:0}),y._16(603979776,2,{_buttons:1}),y._16(603979776,3,{_icons:1}),y.Y(15,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(17,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(18,16384,[[1,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Full Name"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(21,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(22,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(25,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(26,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,4,{contentLabel:0}),y._16(603979776,5,{_buttons:1}),y._16(603979776,6,{_icons:1}),y.Y(30,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(32,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(33,16384,[[4,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Subject"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(36,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(37,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(40,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(41,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,7,{contentLabel:0}),y._16(603979776,8,{_buttons:1}),y._16(603979776,9,{_icons:1}),y.Y(45,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(47,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(48,16384,[[7,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Email Address"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(51,0,null,3,1,"ion-input",[["type","email"]],null,null,null,Tl.b,Tl.a)),y.Y(52,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(55,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(56,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,10,{contentLabel:0}),y._16(603979776,11,{_buttons:1}),y._16(603979776,12,{_icons:1}),y.Y(60,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n      "])),(l()(),y.Z(62,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(63,16384,[[10,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Message"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(66,0,null,3,1,"ion-textarea",[["rows","6"]],null,null,null,Tl.b,Tl.a)),y.Y(67,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],null,null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n   "])),(l()(),y.Z(70,0,null,null,10,"ion-item",[["class","center item item-block"],["no-lines",""]],null,null,null,q.b,q.a)),y.Y(71,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,13,{contentLabel:0}),y._16(603979776,14,{_buttons:1}),y._16(603979776,15,{_icons:1}),y.Y(75,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(77,0,null,2,2,"button",[["class","summitbutton"],["color","secondary"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.send()&&a}return a},Pl.b,Pl.a)),y.Y(78,1097728,[[14,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],{color:[0,"color"]},null),(l()(),y._18(-1,0,["SEND"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n"])),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],function(l,n){l(n,22,0,"text");l(n,37,0,"text");l(n,52,0,"email");l(n,78,0,"secondary")},function(l,n){l(n,1,0,y._11(n,2).statusbarPadding,y._11(n,2)._hasRefresher)})}function f(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"p",[["style","color: red;font-size: xx-small"]],null,null,null,null,null)),(l()(),y._18(-1,null,[" invalid email or password. "]))],null,null)}function Y(l){return y._19(0,[(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(1,0,null,null,81,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(2,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n    "])),(l()(),y.Z(4,0,null,1,4,"div",[["style","text-align:center"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(6,0,null,null,1,"h4",[["style","font-family: 'Black Han Sans', sans-serif;color:white;margin-top: 30%"]],null,null,null,null,null)),(l()(),y._18(-1,null,["Audition Alert"])),(l()(),y._18(-1,null,["\n    "])),(l()(),y._18(-1,1,["\n    "])),(l()(),y.Z(10,0,null,1,71,"div",[],null,null,null,null,null)),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(12,0,null,null,32,"ion-list",[["transparent",""]],null,null,null,null,null)),y.Y(13,16384,null,0,Zl.a,[W.a,y.j,y.z,el.a,il.l,sl.a],null,null),(l()(),y._18(-1,null,["\n            "])),(l()(),y.Z(15,0,null,null,13,"ion-item",[["class","item item-block"],["style","background: transparent !important"]],null,null,null,q.b,q.a)),y.Y(16,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,1,{contentLabel:0}),y._16(603979776,2,{_buttons:1}),y._16(603979776,3,{_icons:1}),y.Y(20,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n                "])),(l()(),y.Z(22,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(23,16384,[[1,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Username"])),(l()(),y._18(-1,2,["\n                "])),(l()(),y.Z(26,0,null,3,1,"ion-input",[["placeholder",""]],null,null,null,Tl.b,Tl.a)),y.Y(27,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{placeholder:[0,"placeholder"]},null),(l()(),y._18(-1,2,["\n            "])),(l()(),y._18(-1,null,["\n            "])),(l()(),y.Z(30,0,null,null,13,"ion-item",[["class","item item-block"],["style","background: transparent !important"]],null,null,null,q.b,q.a)),y.Y(31,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,4,{contentLabel:0}),y._16(603979776,5,{_buttons:1}),y._16(603979776,6,{_icons:1}),y.Y(35,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n                "])),(l()(),y.Z(37,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(38,16384,[[4,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Password"])),(l()(),y._18(-1,2,["\n                "])),(l()(),y.Z(41,0,null,3,1,"ion-input",[["placeholder",""]],null,null,null,Tl.b,Tl.a)),y.Y(42,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{placeholder:[0,"placeholder"]},null),(l()(),y._18(-1,2,["\n            "])),(l()(),y._18(-1,null,["\n        "])),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(46,0,null,null,8,"div",[["padding",""]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n            "])),(l()(),y.Z(48,0,null,null,2,"button",[["block",""],["color","secondary"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.login()&&a}return a},Pl.b,Pl.a)),y.Y(49,1097728,null,0,Ll.a,[[8,""],W.a,y.j,y.z],{color:[0,"color"],block:[1,"block"]},null),(l()(),y._18(-1,0,["Sign In"])),(l()(),y._18(-1,null,["\n            "])),(l()(),y.U(16777216,null,null,1,null,f)),y.Y(53,16384,null,0,jl.i,[y.I,y.F],{ngIf:[0,"ngIf"]},null),(l()(),y._18(-1,null,["\n        "])),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(56,0,null,null,24,"ion-row",[["class","row"],["style","margin-top: -20px;"]],null,null,null,null,null)),y.Y(57,16384,null,0,ln.a,[],null,null),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(59,0,null,null,9,"ion-col",[["class","col"]],null,null,null,null,null)),y.Y(60,16384,null,0,nn.a,[],null,null),(l()(),y._18(-1,null,["\n          "])),(l()(),y.Z(62,0,null,null,5,"button",[["class","login-links"],["clear",""],["icon-left",""],["ion-button",""],["small",""],["style","color:white !important"]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.register()&&a}return a},Pl.b,Pl.a)),y.Y(63,1097728,null,0,Ll.a,[[8,""],W.a,y.j,y.z],{small:[0,"small"],clear:[1,"clear"]},null),(l()(),y._18(-1,0,["\n        "])),(l()(),y.Z(65,0,null,0,1,"div",[],null,null,null,null,null)),(l()(),y._18(-1,null,["Register"])),(l()(),y._18(-1,0,["\n      "])),(l()(),y._18(-1,null,["\n        "])),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(70,0,null,null,9,"ion-col",[["class","col"]],null,null,null,null,null)),y.Y(71,16384,null,0,nn.a,[],null,null),(l()(),y._18(-1,null,["\n          "])),(l()(),y.Z(73,0,null,null,5,"button",[["class","login-links"],["clear",""],["icon-left",""],["ion-button",""],["small",""],["style","color:white !important"]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.forgotPassword()&&a}return a},Pl.b,Pl.a)),y.Y(74,1097728,null,0,Ll.a,[[8,""],W.a,y.j,y.z],{small:[0,"small"],clear:[1,"clear"]},null),(l()(),y._18(-1,0,["\n        "])),(l()(),y.Z(76,0,null,0,1,"div",[],null,null,null,null,null)),(l()(),y._18(-1,null,["Forgot Password?"])),(l()(),y._18(-1,0,["\n      "])),(l()(),y._18(-1,null,["\n        "])),(l()(),y._18(-1,null,["\n      "])),(l()(),y._18(-1,null,["\n    "])),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,27,0,"");l(n,42,0,"");l(n,49,0,"secondary","");l(n,53,0,u.showError);l(n,63,0,"","");l(n,74,0,"","")},function(l,n){l(n,1,0,y._11(n,2).statusbarPadding,y._11(n,2)._hasRefresher)})}function h(l){return y._19(0,[(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(1,0,null,null,81,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(2,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n   "])),(l()(),y.Z(4,0,null,1,1,"h2",[["style","margin-top: 10%;color: darkgray !important;text-align: center;"]],null,null,null,null,null)),(l()(),y._18(-1,null,["Forgot Password"])),(l()(),y._18(-1,1,["\n"])),(l()(),y.Z(7,0,null,1,74,"ion-list",[],null,null,null,null,null)),y.Y(8,16384,null,0,Zl.a,[W.a,y.j,y.z,el.a,il.l,sl.a],null,null),(l()(),y._18(-1,null,["\n  "])),(l()(),y.Z(10,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(11,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,1,{contentLabel:0}),y._16(603979776,2,{_buttons:1}),y._16(603979776,3,{_icons:1}),y.Y(15,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(17,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(18,16384,[[1,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Email Address"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(21,0,null,3,1,"ion-input",[["type","email"]],null,null,null,Tl.b,Tl.a)),y.Y(22,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(25,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(26,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,4,{contentLabel:0}),y._16(603979776,5,{_buttons:1}),y._16(603979776,6,{_icons:1}),y.Y(30,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(32,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(33,16384,[[4,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Confirm Email Address"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(36,0,null,3,1,"ion-input",[["type","email"]],null,null,null,Tl.b,Tl.a)),y.Y(37,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(40,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(41,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,7,{contentLabel:0}),y._16(603979776,8,{_buttons:1}),y._16(603979776,9,{_icons:1}),y.Y(45,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(47,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(48,16384,[[7,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["New Password"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(51,0,null,3,1,"ion-input",[["type","password"]],null,null,null,Tl.b,Tl.a)),y.Y(52,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(55,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(56,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,10,{contentLabel:0}),y._16(603979776,11,{_buttons:1}),y._16(603979776,12,{_icons:1}),y.Y(60,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(62,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(63,16384,[[10,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Confirm Password"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(66,0,null,3,1,"ion-input",[["type","password"]],null,null,null,Tl.b,Tl.a)),y.Y(67,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n "])),(l()(),y.Z(70,0,null,null,10,"ion-item",[["align-items-center",""],["class","center item item-block"],["justify-content-center",""],["no-lines",""]],null,null,null,q.b,q.a)),y.Y(71,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,13,{contentLabel:0}),y._16(603979776,14,{_buttons:1}),y._16(603979776,15,{_icons:1}),y.Y(75,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(77,0,null,2,2,"button",[["class","summitbutton"],["color","secondary"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.changePassword()&&a}return a},Pl.b,Pl.a)),y.Y(78,1097728,[[14,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],{color:[0,"color"]},null),(l()(),y._18(-1,0,["Change Password"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n"])),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],function(l,n){l(n,22,0,"email");l(n,37,0,"email");l(n,52,0,"password");l(n,67,0,"password");l(n,78,0,"secondary")},function(l,n){l(n,1,0,y._11(n,2).statusbarPadding,y._11(n,2)._hasRefresher)})}function Z(l){return y._19(0,[(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(1,0,null,null,28,"ion-header",[],null,null,null,null,null)),y.Y(2,16384,null,0,rl.a,[W.a,y.j,y.z,[2,cl.a]],null,null),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(4,0,null,null,24,"ion-navbar",[["class","toolbar"],["transparent",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Cl.b,Cl.a)),y.Y(5,49152,null,0,ml.a,[_l.a,[2,cl.a],[2,hl.a],W.a,y.j,y.z],null,null),(l()(),y._18(-1,3,["\n     "])),(l()(),y.Z(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==y._11(l,9).toggle()&&a}return a},Pl.b,Pl.a)),y.Y(8,1097728,[[1,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],null,null),y.Y(9,1064960,null,0,xl.a,[nl.a,[2,cl.a],[2,Ll.a],[2,ml.a]],{menuToggle:[0,"menuToggle"]},null),y.Y(10,16384,null,1,Vl.a,[W.a,y.j,y.z,[2,pl.a],[2,ml.a]],null,null),y._16(603979776,1,{_buttons:1}),(l()(),y._18(-1,0,["\n      "])),(l()(),y.Z(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"],["style","color: darkgray !important"]],[[2,"hide",null]],null,null,null,null)),y.Y(14,147456,null,0,Il.a,[W.a,y.j,y.z],{name:[0,"name"]},null),(l()(),y._18(-1,0,["\n    "])),(l()(),y._18(-1,3,["\n       "])),(l()(),y.Z(17,0,null,3,1,"h4",[["style","color: darkgray"]],null,null,null,null,null)),(l()(),y._18(-1,null,["Home"])),(l()(),y._18(-1,3,["\n        "])),(l()(),y.Z(20,0,null,2,7,"ion-buttons",[["end",""]],null,null,null,null,null)),y.Y(21,16384,null,1,Vl.a,[W.a,y.j,y.z,[2,pl.a],[2,ml.a]],null,null),y._16(603979776,2,{_buttons:1}),(l()(),y._18(-1,null,["\n       "])),(l()(),y.Z(24,0,null,null,2,"button",[["ion-button",""],["style","color: darkgray !important"]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.openUpload()&&a}return a},Pl.b,Pl.a)),y.Y(25,1097728,[[2,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],null,null),(l()(),y._18(-1,0,["\n           UPLOAD\n            "])),(l()(),y._18(-1,null,["\n     \n    "])),(l()(),y._18(-1,3,["\n  "])),(l()(),y._18(-1,null,["\n\n"])),(l()(),y._18(-1,null,["\n\n\n"])),(l()(),y.Z(31,0,null,null,44,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(32,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n    "])),(l()(),y.Z(34,0,null,1,4,"div",[["style","text-align:center"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(36,0,null,null,1,"h4",[["style","font-family: 'Black Han Sans', sans-serif;color:white"]],null,null,null,null,null)),(l()(),y._18(-1,null,["Auditions"])),(l()(),y._18(-1,null,["\n    "])),(l()(),y._18(-1,1,["\n    "])),(l()(),y.Z(40,0,null,1,34,"ion-grid",[["class","grid"]],null,null,null,null,null)),y.Y(41,16384,null,0,on.a,[],null,null),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(43,0,null,null,30,"ion-row",[["class","row"]],null,null,null,null,null)),y.Y(44,16384,null,0,ln.a,[],null,null),(l()(),y._18(-1,null,["\n            "])),(l()(),y.Z(46,0,null,null,12,"ion-col",[["class","col"],["s6",""]],null,null,null,null,null)),y.Y(47,16384,null,0,nn.a,[],null,null),(l()(),y._18(-1,null,["\n                "])),(l()(),y.Z(49,0,null,null,8,"ion-card",[],null,null,null,null,null)),y.Y(50,16384,null,0,sn.a,[W.a,y.j,y.z],null,null),(l()(),y._18(-1,null,["\n                    "])),(l()(),y.Z(52,0,null,null,0,"img",[["src","assets/imgs/aud1.jpg"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n                    "])),(l()(),y.Z(54,0,null,null,0,"div",[["class","card-title"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n                    "])),(l()(),y.Z(56,0,null,null,0,"div",[["class","card-subtitle"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n                "])),(l()(),y._18(-1,null,["\n            "])),(l()(),y._18(-1,null,["\n            "])),(l()(),y.Z(60,0,null,null,12,"ion-col",[["class","col"],["s6",""]],null,null,null,null,null)),y.Y(61,16384,null,0,nn.a,[],null,null),(l()(),y._18(-1,null,["\n                "])),(l()(),y.Z(63,0,null,null,8,"ion-card",[],null,null,null,null,null)),y.Y(64,16384,null,0,sn.a,[W.a,y.j,y.z],null,null),(l()(),y._18(-1,null,["\n                    "])),(l()(),y.Z(66,0,null,null,0,"img",[["src","assets/imgs/aud2.jpg"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n                    "])),(l()(),y.Z(68,0,null,null,0,"div",[["class","card-title"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n                    "])),(l()(),y.Z(70,0,null,null,0,"div",[["class","card-subtitle"]],null,null,null,null,null)),(l()(),y._18(-1,null,["\n                "])),(l()(),y._18(-1,null,["\n            "])),(l()(),y._18(-1,null,["\n        "])),(l()(),y._18(-1,null,["\n    "])),(l()(),y._18(-1,1,["\n"])),(l()(),y._18(-1,null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,y._11(n,5)._hidden,y._11(n,5)._sbPadding);l(n,7,0,y._11(n,9).isHidden);l(n,13,0,y._11(n,14)._hidden);l(n,31,0,y._11(n,32).statusbarPadding,y._11(n,32)._hasRefresher)})}function j(l){return y._19(0,[(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(1,0,null,null,194,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,fl.b,fl.a)),y.Y(2,4374528,null,0,Yl.a,[W.a,el.a,sl.a,y.j,y.z,_l.a,ol.a,y.u,[2,cl.a],[2,hl.a]],null,null),(l()(),y._18(-1,1,["\n   "])),(l()(),y.Z(4,0,null,1,1,"h2",[["style","margin-top: 10%;color: darkgray !important;text-align: center;"]],null,null,null,null,null)),(l()(),y._18(-1,null,["My Profile"])),(l()(),y._18(-1,1,["\n"])),(l()(),y.Z(7,0,null,1,187,"ion-list",[],null,null,null,null,null)),y.Y(8,16384,null,0,Zl.a,[W.a,y.j,y.z,el.a,il.l,sl.a],null,null),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(10,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(11,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,1,{contentLabel:0}),y._16(603979776,2,{_buttons:1}),y._16(603979776,3,{_icons:1}),y.Y(15,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(17,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(18,16384,[[1,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["First Name"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(21,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(22,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(25,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(26,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,4,{contentLabel:0}),y._16(603979776,5,{_buttons:1}),y._16(603979776,6,{_icons:1}),y.Y(30,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(32,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(33,16384,[[4,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Last Name"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(36,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(37,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(40,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(41,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,7,{contentLabel:0}),y._16(603979776,8,{_buttons:1}),y._16(603979776,9,{_icons:1}),y.Y(45,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(47,0,null,1,2,"ion-label",[["stacked",""]],null,null,null,null,null)),y.Y(48,16384,[[7,4]],0,Ml.a,[W.a,y.j,y.z,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Date Of Birth"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(51,0,null,3,1,"ion-input",[["type","date"]],null,null,null,Tl.b,Tl.a)),y.Y(52,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(55,0,null,null,31,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(56,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,10,{contentLabel:0}),y._16(603979776,11,{_buttons:1}),y._16(603979776,12,{_icons:1}),y.Y(60,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(62,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(63,16384,[[10,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Gender"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(66,0,null,3,19,"ion-select",[],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var a=!0,t=l.component;if("click"===n){a=!1!==y._11(l,67)._click(u)&&a}if("keyup.space"===n){a=!1!==y._11(l,67)._keyup()&&a}if("ngModelChange"===n){a=!1!==(t.gender=u)&&a}return a},El.b,El.a)),y.Y(67,1228800,null,1,Hl.a,[_l.a,J.a,W.a,y.j,y.z,[2,G.a],kl.a],null,null),y._16(603979776,13,{options:1}),y._14(1024,null,Sl.e,function(l){return[l]},[Hl.a]),y.Y(70,671744,null,0,Sl.h,[[8,null],[8,null],[8,null],[2,Sl.e]],{model:[0,"model"]},{update:"ngModelChange"}),y._14(2048,null,Sl.f,null,[Sl.h]),y.Y(72,16384,null,0,Sl.g,[Sl.f],null,null),(l()(),y._18(-1,null,["\n    "])),(l()(),y.Z(74,0,null,null,2,"ion-option",[["value","f"]],null,null,null,null,null)),y.Y(75,16384,[[13,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Female"])),(l()(),y._18(-1,null,["\n    "])),(l()(),y.Z(78,0,null,null,2,"ion-option",[["value","m"]],null,null,null,null,null)),y.Y(79,16384,[[13,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Male"])),(l()(),y._18(-1,null,["\n    "])),(l()(),y.Z(82,0,null,null,2,"ion-option",[["value","o"]],null,null,null,null,null)),y.Y(83,16384,[[13,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Other"])),(l()(),y._18(-1,null,["\n  "])),(l()(),y._18(-1,2,["\n"])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(88,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(89,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,14,{contentLabel:0}),y._16(603979776,15,{_buttons:1}),y._16(603979776,16,{_icons:1}),y.Y(93,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(95,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(96,16384,[[14,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Career"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(99,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(100,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n  "])),(l()(),y.Z(103,0,null,null,63,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(104,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,17,{contentLabel:0}),y._16(603979776,18,{_buttons:1}),y._16(603979776,19,{_icons:1}),y.Y(108,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(110,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(111,16384,[[17,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Contry"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y.Z(114,0,null,3,51,"ion-select",[],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var a=!0,t=l.component;if("click"===n){a=!1!==y._11(l,115)._click(u)&&a}if("keyup.space"===n){a=!1!==y._11(l,115)._keyup()&&a}if("ngModelChange"===n){a=!1!==(t.contry=u)&&a}return a},El.b,El.a)),y.Y(115,1228800,null,1,Hl.a,[_l.a,J.a,W.a,y.j,y.z,[2,G.a],kl.a],null,null),y._16(603979776,20,{options:1}),y._14(1024,null,Sl.e,function(l){return[l]},[Hl.a]),y.Y(118,671744,null,0,Sl.h,[[8,null],[8,null],[8,null],[2,Sl.e]],{model:[0,"model"]},{update:"ngModelChange"}),y._14(2048,null,Sl.f,null,[Sl.h]),y.Y(120,16384,null,0,Sl.g,[Sl.f],null,null),(l()(),y._18(-1,null,["\n        "])),(l()(),y.Z(122,0,null,null,2,"ion-option",[["value","Afghanistan"]],null,null,null,null,null)),y.Y(123,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Afghanistan"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(126,0,null,null,2,"ion-option",[["value","Albania"]],null,null,null,null,null)),y.Y(127,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Albania"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(130,0,null,null,2,"ion-option",[["value","Algeria"]],null,null,null,null,null)),y.Y(131,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Algeria"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(134,0,null,null,2,"ion-option",[["value","Andorra"]],null,null,null,null,null)),y.Y(135,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Andorra"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(138,0,null,null,2,"ion-option",[["value","Angola"]],null,null,null,null,null)),y.Y(139,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Angola"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(142,0,null,null,2,"ion-option",[["value","Anguilla"]],null,null,null,null,null)),y.Y(143,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Anguilla"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(146,0,null,null,2,"ion-option",[["value","Antigua & Barbuda"]],null,null,null,null,null)),y.Y(147,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Antigua & Barbuda"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(150,0,null,null,2,"ion-option",[["value","Armenia"]],null,null,null,null,null)),y.Y(151,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Armenia"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(154,0,null,null,2,"ion-option",[["value","Australia"]],null,null,null,null,null)),y.Y(155,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Australia"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(158,0,null,null,2,"ion-option",[["value","Austria"]],null,null,null,null,null)),y.Y(159,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Austria"])),(l()(),y._18(-1,null,["\n"])),(l()(),y.Z(162,0,null,null,2,"ion-option",[["value","Azerbaijan"]],null,null,null,null,null)),y.Y(163,16384,[[20,4]],0,Xl.a,[y.j],{value:[0,"value"]},null),(l()(),y._18(-1,null,["Azerbaijan"])),(l()(),y._18(-1,null,["\n  "])),(l()(),y._18(-1,2,["\n"])),(l()(),y._18(-1,null,["\n\n   "])),(l()(),y.Z(168,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,q.b,q.a)),y.Y(169,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,21,{contentLabel:0}),y._16(603979776,22,{_buttons:1}),y._16(603979776,23,{_icons:1}),y.Y(173,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(175,0,null,1,2,"ion-label",[["floating",""]],null,null,null,null,null)),y.Y(176,16384,[[21,4]],0,Ml.a,[W.a,y.j,y.z,[8,""],[8,null],[8,null],[8,null]],null,null),(l()(),y._18(-1,null,["Cell Phone"])),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(179,0,null,3,1,"ion-input",[["type","text"]],null,null,null,Tl.b,Tl.a)),y.Y(180,5423104,null,0,Nl.a,[W.a,el.a,J.a,_l.a,y.j,y.z,[2,Yl.a],[2,G.a],[2,Sl.f],sl.a],{type:[0,"type"]},null),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n "])),(l()(),y.Z(183,0,null,null,10,"ion-item",[["align-items-center",""],["class","center item item-block"],["justify-content-center",""],["no-lines",""]],null,null,null,q.b,q.a)),y.Y(184,1097728,null,3,G.a,[J.a,W.a,y.j,y.z,[2,K.a]],null,null),y._16(335544320,24,{contentLabel:0}),y._16(603979776,25,{_buttons:1}),y._16(603979776,26,{_icons:1}),y.Y(188,16384,null,0,Q.a,[],null,null),(l()(),y._18(-1,2,["\n    "])),(l()(),y.Z(190,0,null,2,2,"button",[["class","summitbutton"],["color","secondary"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.update()&&a}return a},Pl.b,Pl.a)),y.Y(191,1097728,[[25,4]],0,Ll.a,[[8,""],W.a,y.j,y.z],{color:[0,"color"]},null),(l()(),y._18(-1,0,["Update"])),(l()(),y._18(-1,2,["\n  "])),(l()(),y._18(-1,null,["\n\n"])),(l()(),y._18(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,22,0,"text");l(n,37,0,"text");l(n,52,0,"date");l(n,70,0,u.gender);l(n,75,0,"f");l(n,79,0,"m");l(n,83,0,"o");l(n,100,0,"text");l(n,118,0,u.contry);l(n,123,0,"Afghanistan");l(n,127,0,"Albania");l(n,131,0,"Algeria");l(n,135,0,"Andorra");l(n,139,0,"Angola");l(n,143,0,"Anguilla");l(n,147,0,"Antigua & Barbuda");l(n,151,0,"Armenia");l(n,155,0,"Australia");l(n,159,0,"Austria");l(n,163,0,"Azerbaijan");l(n,180,0,"text");l(n,191,0,"secondary")},function(l,n){l(n,1,0,y._11(n,2).statusbarPadding,y._11(n,2)._hasRefresher);l(n,66,0,y._11(n,67)._disabled,y._11(n,72).ngClassUntouched,y._11(n,72).ngClassTouched,y._11(n,72).ngClassPristine,y._11(n,72).ngClassDirty,y._11(n,72).ngClassValid,y._11(n,72).ngClassInvalid,y._11(n,72).ngClassPending);l(n,114,0,y._11(n,115)._disabled,y._11(n,120).ngClassUntouched,y._11(n,120).ngClassTouched,y._11(n,120).ngClassPristine,y._11(n,120).ngClassDirty,y._11(n,120).ngClassValid,y._11(n,120).ngClassInvalid,y._11(n,120).ngClassPending)})}Object.defineProperty(n,"__esModule",{value:!0});var v=u(44),y=u(0),z=(u(4),u(26),u(83)),k=u(84),A=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad DashboardPage")},l.prototype.openUpload=function(){this.navCtrl.push(w)},l}(),w=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.imageFile="assets/imgs/aud1.jpg"}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad UploadeventPage")},l.prototype.upload=function(){this.navCtrl.setRoot(A)},l}(),C=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ProfilePage")},l.prototype.update=function(){this.navCtrl.setRoot(A)},l}(),P=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad AboutusPage")},l}(),L=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ContactusPage")},l.prototype.send=function(){this.navCtrl.setRoot(A)},l}(),x=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad SignupPage")},l.prototype.signup=function(){this.navCtrl.setRoot(I)},l}(),V=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ForgotpasswordPage")},l.prototype.changePassword=function(){this.navCtrl.setRoot(I)},l}(),I=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad LoginPage")},l.prototype.register=function(){this.navCtrl.push(x)},l.prototype.forgotPassword=function(){this.navCtrl.push(V)},l.prototype.login=function(){this.navCtrl.setRoot(A)},l}(),D=function(){function l(l,n,u){this.platform=l,this.statusBar=n,this.splashScreen=u,this.rootPage=I,this.initializeApp(),this.pages=[{title:"Home",component:A},{title:"Upload",component:w},{title:"My Profile",component:C},{title:"About US",component:P},{title:"Contact Us",component:L},{title:"Logout",component:I}]}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.styleDefault(),l.splashScreen.hide()})},l.prototype.openPage=function(l){"Home"==l.title?this.nav.setRoot(l.component):this.nav.push(l.component)},l}(),U=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.showNavBar=!1,setTimeout(this.showNav(this.navCtrl),1e5)}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad HomePage")},l.prototype.showNav=function(l){this.navCtrl.setRoot(I)},l}(),F=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.selectedItem=n.get("item"),this.icons=["flask","wifi","beer","football","basketball","paper-plane","american-football","boat","bluetooth","build"],this.items=[];for(var u=1;u<11;u++)this.items.push({title:"Item "+u,note:"This is item #"+u,icon:this.icons[Math.floor(Math.random()*this.icons.length)]})}return n=l,l.prototype.itemTapped=function(l,u){this.navCtrl.push(n,{item:u})},l;var n}(),B=function(){return function(){}}(),R=u(55),M=u(223),T=u(224),N=u(225),S=u(226),E=u(227),H=u(228),X=u(229),O=u(230),$=u(231),q=u(37),G=u(13),J=u(11),W=u(1),K=u(25),Q=u(29),ll=u(103),nl=u(24),ul=u(232),al=u(43),tl=u(76),el=u(3),ol=u(18),il=u(8),sl=u(7),_l=u(6),rl=u(51),cl=u(5),dl=u(233),pl=u(33),bl=u(125),gl=u(52),ml=u(30),fl=u(31),Yl=u(16),hl=u(15),Zl=u(27),jl=u(14),vl=u(234),yl=u(59),zl=u(40),kl=u(19),Al=y.X({encapsulation:2,styles:[],data:{}}),wl=y.V("ng-component",D,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"ng-component",[],null,null,null,t,Al)),y.Y(1,49152,null,0,D,[el.a,z.a,k.a],null,null)],null,null)},{},{},[]),Cl=u(126),Pl=u(20),Ll=u(12),xl=u(60),Vl=u(64),Il=u(35),Dl=u(10),Ul=y.X({encapsulation:2,styles:[],data:{}}),Fl=y.V("page-home",U,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-home",[],null,null,null,_,Ul)),y.Y(1,49152,null,0,U,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),Bl=y.X({encapsulation:2,styles:[],data:{}}),Rl=y.V("page-list",F,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-list",[],null,null,null,d,Bl)),y.Y(1,49152,null,0,F,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),Ml=u(28),Tl=u(53),Nl=u(36),Sl=u(17),El=u(188),Hl=u(63),Xl=u(61),Ol=y.X({encapsulation:2,styles:[],data:{}}),$l=y.V("page-signup",x,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-signup",[],null,null,null,p,Ol)),y.Y(1,49152,null,0,x,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),ql=y.X({encapsulation:2,styles:[],data:{}}),Gl=y.V("page-uploadevent",w,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-uploadevent",[],null,null,null,b,ql)),y.Y(1,49152,null,0,w,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),Jl=y.X({encapsulation:2,styles:[],data:{}}),Wl=y.V("page-aboutus",P,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-aboutus",[],null,null,null,g,Jl)),y.Y(1,49152,null,0,P,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),Kl=y.X({encapsulation:2,styles:[],data:{}}),Ql=y.V("page-contactus",L,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-contactus",[],null,null,null,m,Kl)),y.Y(1,49152,null,0,L,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),ln=u(73),nn=u(72),un=y.X({encapsulation:2,styles:[],data:{}}),an=y.V("page-login",I,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-login",[],null,null,null,Y,un)),y.Y(1,49152,null,0,I,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),tn=y.X({encapsulation:2,styles:[],data:{}}),en=y.V("page-forgotpassword",V,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-forgotpassword",[],null,null,null,h,tn)),y.Y(1,49152,null,0,V,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),on=u(98),sn=u(96),_n=y.X({encapsulation:2,styles:[],data:{}}),rn=y.V("page-dashboard",A,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-dashboard",[],null,null,null,Z,_n)),y.Y(1,49152,null,0,A,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),cn=y.X({encapsulation:2,styles:[],data:{}}),dn=y.V("page-profile",C,function(l){return y._19(0,[(l()(),y.Z(0,0,null,null,1,"page-profile",[],null,null,null,j,cn)),y.Y(1,49152,null,0,C,[hl.a,Dl.a],null,null)],null,null)},{},{},[]),pn=u(124),bn=u(93),gn=u(95),mn=u(121),fn=u(42),Yn=u(102),hn=u(185),Zn=u(57),jn=u(50),vn=u(105),yn=u(69),zn=u(109),kn=u(120),An=u(116),wn=u(184),Cn=u(122),Pn=u(104),Ln=u(123),xn=y.W(B,[R.b],function(l){return y._7([y._8(512,y.i,y.S,[[8,[M.a,T.a,N.a,S.a,E.a,H.a,X.a,O.a,$.a,wl,Fl,Rl,$l,Gl,Wl,Ql,an,en,rn,dn]],[3,y.i],y.s]),y._8(5120,y.r,y._15,[[3,y.r]]),y._8(4608,jl.k,jl.j,[y.r,[2,jl.s]]),y._8(5120,y.b,y._1,[]),y._8(5120,y.p,y._9,[]),y._8(5120,y.q,y._12,[]),y._8(4608,v.c,v.q,[jl.c]),y._8(6144,y.D,null,[v.c]),y._8(4608,v.f,pn.a,[]),y._8(5120,v.d,function(l,n,u,a,t){return[new v.k(l,n),new v.o(u),new v.n(a,t)]},[jl.c,y.u,jl.c,jl.c,v.f]),y._8(4608,v.e,v.e,[v.d,y.u]),y._8(135680,v.m,v.m,[jl.c]),y._8(4608,v.l,v.l,[v.e,v.m]),y._8(6144,y.B,null,[v.l]),y._8(6144,v.p,null,[v.m]),y._8(4608,y.G,y.G,[y.u]),y._8(4608,v.h,v.h,[jl.c]),y._8(4608,v.i,v.i,[jl.c]),y._8(4608,Sl.k,Sl.k,[]),y._8(4608,Sl.c,Sl.c,[]),y._8(4608,bn.a,bn.a,[_l.a,W.a]),y._8(4608,gn.a,gn.a,[_l.a,W.a]),y._8(4608,mn.a,mn.a,[]),y._8(4608,J.a,J.a,[]),y._8(4608,fn.a,fn.a,[el.a]),y._8(4608,ol.a,ol.a,[W.a,el.a,y.u,sl.a]),y._8(4608,Yn.a,Yn.a,[_l.a,W.a]),y._8(5120,jl.f,hn.b,[jl.q,[2,jl.a],W.a]),y._8(4608,jl.e,jl.e,[jl.f]),y._8(5120,Zn.b,Zn.d,[_l.a,Zn.a]),y._8(5120,kl.a,kl.b,[_l.a,Zn.b,jl.e,jn.b,y.i]),y._8(4608,vn.a,vn.a,[_l.a,W.a,kl.a]),y._8(4608,yn.a,yn.a,[_l.a,W.a]),y._8(4608,zn.a,zn.a,[_l.a,W.a,kl.a]),y._8(4608,kn.a,kn.a,[W.a,el.a,sl.a,_l.a,il.l]),y._8(4608,An.a,An.a,[_l.a,W.a]),y._8(4608,zl.a,zl.a,[el.a,W.a]),y._8(4608,z.a,z.a,[]),y._8(4608,k.a,k.a,[]),y._8(512,jl.b,jl.b,[]),y._8(512,y.k,wn.a,[]),y._8(256,W.b,{},[]),y._8(1024,Cn.a,Cn.b,[]),y._8(1024,el.a,el.b,[v.b,Cn.a,y.u]),y._8(1024,W.a,W.c,[W.b,el.a]),y._8(512,sl.a,sl.a,[el.a]),y._8(512,nl.a,nl.a,[]),y._8(512,_l.a,_l.a,[W.a,el.a,[2,nl.a]]),y._8(512,il.l,il.l,[_l.a]),y._8(256,Zn.a,{links:[]},[]),y._8(512,y.h,y.h,[]),y._8(512,Pn.a,Pn.a,[y.h]),y._8(1024,jn.b,jn.c,[Pn.a,y.o]),y._8(1024,y.c,function(l,n,u,a,t,e,o,i,s,_,r,c,d){return[v.s(l),Ln.a(n),mn.b(u,a),kn.b(t,e,o,i,s),jn.d(_,r,c,d)]},[[2,y.t],W.a,el.a,sl.a,W.a,el.a,sl.a,_l.a,il.l,W.a,Zn.a,jn.b,y.u]),y._8(512,y.d,y.d,[[2,y.c]]),y._8(131584,y.f,y.f,[y.u,y.T,y.o,y.k,y.i,y.d]),y._8(512,y.e,y.e,[y.f]),y._8(512,v.a,v.a,[[3,v.a]]),y._8(512,Sl.j,Sl.j,[]),y._8(512,Sl.d,Sl.d,[]),y._8(512,Sl.i,Sl.i,[]),y._8(512,hn.a,hn.a,[]),y._8(512,B,B,[]),y._8(256,R.a,D,[]),y._8(256,jl.a,"/",[])])});Object(y.M)(),Object(v.j)().bootstrapModuleFactory(xn)}},[189]);
+webpackJsonp([0],{
+
+/***/ 104:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UploadeventPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__ = __webpack_require__(203);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Generated class for the UploadeventPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var UploadeventPage = /** @class */ (function () {
+    function UploadeventPage(navCtrl, navParams, globalVariables, auditionProvider, fileChooser, platform) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.globalVariables = globalVariables;
+        this.auditionProvider = auditionProvider;
+        this.fileChooser = fileChooser;
+        this.platform = platform;
+        this.imageFile = "assets/imgs/aud1.jpg";
+        this.event = {
+            auditionName: "",
+            auditionUrl: "",
+            userId: null,
+            auditionDescription: ""
+        };
+        this.userId = this.globalVariables.getUserId();
+    }
+    UploadeventPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad UploadeventPage');
+    };
+    UploadeventPage.prototype.uploadPoster = function () {
+        if (this.platform.is('android')) {
+            this.fileChooser.open()
+                .then(function (uri) {
+                return console.log(uri);
+            })
+                .catch(function (e) { return console.log(e); });
+        }
+        else if (this.platform.is('ios')) {
+        }
+    };
+    UploadeventPage.prototype.upload = function (event) {
+        var _this = this;
+        event.userId = this.userId.userId;
+        this.auditionProvider.uploadEvent(event).subscribe(function (response) {
+            if (response.result == true) {
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__["a" /* DashboardPage */]);
+            }
+            else {
+            }
+        });
+    };
+    UploadeventPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-uploadevent',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\uploadevent\uploadevent.html"*/'<!--\n\n  Generated template for the UploadeventPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">Upload Event</h2>\n\n<ion-list>\n\n   <ion-item>\n\n    <ion-label floating>Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="event.auditionName"></ion-input>\n\n  </ion-item>\n\n  <ion-item>\n\n    <ion-label floating>URL</ion-label>\n\n    <ion-input type="text" [(ngModel)]="event.auditionUrl"></ion-input>\n\n  </ion-item>\n\n   <ion-item>\n\n      <ion-label floating>Description</ion-label>\n\n  <ion-textarea rows="6" [(ngModel)]="event.auditionDescription"></ion-textarea>\n\n  </ion-item>\n\n   <ion-item no-lines>\n\n     <ion-grid>\n\n        <ion-row>\n\n            <ion-col>\n\n                <h4 style="color: darkgray !important;margin-top:10px">Upload Photo</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n                <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Upload Poster</button>\n\n            </ion-col>\n\n        </ion-row>\n\n     </ion-grid>\n\n    <!--<img src="{{imageFile}}" alt="Ionic File" width="300" height="400"/> -->\n\n  </ion-item>\n\n   <ion-item class="center" no-lines>\n\n    <button ion-button class="summitbutton" color="secondary" (click)="upload(event)">Upload Event</button>\n\n  </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\uploadevent\uploadevent.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__["a" /* AuditionProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__["a" /* FileChooser */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */]])
+    ], UploadeventPage);
+    return UploadeventPage;
+}());
+
+//# sourceMappingURL=uploadevent.js.map
+
+/***/ }),
+
+/***/ 116:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 116;
+
+/***/ }),
+
+/***/ 158:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 158;
+
+/***/ }),
+
+/***/ 202:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuditionProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the AuditionProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var AuditionProvider = /** @class */ (function () {
+    function AuditionProvider(http) {
+        this.http = http;
+        console.log('Hello AuditionProvider Provider');
+    }
+    AuditionProvider.prototype.uploadEvent = function (audition) {
+        return this.http.post('http://localhost:7777/api/uploadAuditionEvent', audition);
+    };
+    AuditionProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
+    ], AuditionProvider);
+    return AuditionProvider;
+}());
+
+//# sourceMappingURL=audition.js.map
+
+/***/ }),
+
+/***/ 204:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_global_variables_global_variables__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_user_user__ = __webpack_require__(205);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Generated class for the ProfilePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ProfilePage = /** @class */ (function () {
+    function ProfilePage(navCtrl, navParams, globalVariables, userProvider) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.globalVariables = globalVariables;
+        this.userProvider = userProvider;
+        this.profile = {
+            firstName: "",
+            lastName: "",
+            emailAddress: "",
+            password: "",
+            country: "",
+            dateOfBirth: null,
+            gender: "",
+            career: "",
+            cellPhone: "",
+            id: null
+        };
+        this.userId = this.globalVariables.getUserId();
+        this.profile.id = this.userId;
+        var requestId = {
+            id: this.userId
+        };
+        this.userProvider.getUserById(requestId).subscribe(function (response) {
+            _this.profile = response;
+        });
+        //get countries
+        this.userProvider.getCountries().subscribe(function (response) {
+            _this.countries = response;
+        });
+    }
+    ProfilePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ProfilePage');
+    };
+    ProfilePage.prototype.update = function (profile) {
+        var _this = this;
+        //profile.id = this.userId;
+        this.userProvider.updateProfile(profile).subscribe(function (response) {
+            if (response.result == true) {
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__["a" /* DashboardPage */]);
+            }
+            else {
+                //display message
+            }
+        });
+    };
+    ProfilePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-profile',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n   <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">My Profile</h2>\n\n<ion-list>\n\n\n\n  <ion-item>\n\n    <ion-label floating>First Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.firstName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Last Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.lastName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label stacked>Date Of Birth</ion-label>\n\n    <ion-input type="date" [(ngModel)]="profile.dateOfBirth"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n  <ion-label floating>Gender</ion-label>\n\n  <ion-select [(ngModel)]="profile.gender">\n\n    <ion-option value="f">Female</ion-option>\n\n    <ion-option value="m">Male</ion-option>\n\n    <ion-option value="o">Other</ion-option>\n\n  </ion-select>\n\n</ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Career</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.career"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n  <ion-label floating>Country</ion-label>\n\n  <ion-select [(ngModel)]="profile.country">\n\n        <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>\n\n  </ion-select>\n\n</ion-item>\n\n\n\n   <ion-item>\n\n    <ion-label floating>Cell Phone</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.cellPhone"></ion-input>\n\n  </ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n    <button ion-button color="secondary" class="summitbutton" (click)="update(profile)">Update</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\profile\profile.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_user_user__["a" /* UserProvider */]])
+    ], ProfilePage);
+    return ProfilePage;
+}());
+
+//# sourceMappingURL=profile.js.map
+
+/***/ }),
+
+/***/ 205:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the UserProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var UserProvider = /** @class */ (function () {
+    function UserProvider(http) {
+        this.http = http;
+        console.log('Hello UserProvider Provider');
+    }
+    UserProvider.prototype.getUserById = function (parameters) {
+        return this.http.post("http://localhost:7777/api/getUserById", parameters);
+    };
+    UserProvider.prototype.getCountries = function () {
+        return this.http.get("http://localhost:7777/api/getCountries");
+    };
+    UserProvider.prototype.updateProfile = function (profile) {
+        return this.http.post("http://localhost:7777/api/updateUserById", profile);
+    };
+    UserProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
+    ], UserProvider);
+    return UserProvider;
+}());
+
+//# sourceMappingURL=user.js.map
+
+/***/ }),
+
+/***/ 206:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutusPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AboutusPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AboutusPage = /** @class */ (function () {
+    function AboutusPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AboutusPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutusPage');
+    };
+    AboutusPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-aboutus',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\aboutus\aboutus.html"*/'<!--\n\n  Generated template for the AboutusPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-content padding class="center">\n\n<h2 style="margin-top: 50%;color: darkgray !important;font-size: 40px !important;">About Us</h2>\n\n<br>\n\n<p style="color: darkgray;font-size: 15px;"> \n\n  Audition Alert helps to empower<br>\n\n  creative minds and serve as a<br>\n\n  tool in making dreams a reality\n\n</p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\aboutus\aboutus.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], AboutusPage);
+    return AboutusPage;
+}());
+
+//# sourceMappingURL=aboutus.js.map
+
+/***/ }),
+
+/***/ 207:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactusPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(33);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the ContactusPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ContactusPage = /** @class */ (function () {
+    function ContactusPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ContactusPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ContactusPage');
+    };
+    ContactusPage.prototype.send = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__["a" /* DashboardPage */]);
+    };
+    ContactusPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-contactus',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\contactus\contactus.html"*/'<!--\n\n  Generated template for the ContactusPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n  <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">Contact Us</h2>\n\n<ion-list>\n\n  <ion-item>\n\n    <ion-label floating>Full Name</ion-label>\n\n    <ion-input type="text"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Subject</ion-label>\n\n    <ion-input type="text"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Email Address</ion-label>\n\n    <ion-input type="email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n      <ion-label floating>Message</ion-label>\n\n  <ion-textarea rows="6"></ion-textarea>\n\n  </ion-item>\n\n\n\n   <ion-item class="center" no-lines>\n\n    <button class="summitbutton" ion-button color="secondary" (click)="send()">SEND</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\contactus\contactus.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], ContactusPage);
+    return ContactusPage;
+}());
+
+//# sourceMappingURL=contactus.js.map
+
+/***/ }),
+
+/***/ 208:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(34);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the SignupPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var SignupPage = /** @class */ (function () {
+    function SignupPage(navCtrl, navParams, http) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.http = http;
+        this.email = "";
+        this.country = "";
+        this.user = {
+            firstName: "",
+            lastName: "",
+            emailAddress: "",
+            password: "",
+            Country: ""
+        };
+        this.countries = [];
+        //get countries
+        this.http.get('http://192.168.42.47:7777/api/getCountries').subscribe(function (data) {
+            _this.countries = data;
+        }, function (err) {
+            var errorMessage = "";
+            console.log(errorMessage);
+        });
+    }
+    SignupPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SignupPage');
+    };
+    SignupPage.prototype.signup = function (user) {
+        var _this = this;
+        this.http.post('http://localhost:7777/api/createUser', this.user)
+            .subscribe(function (data) {
+            if (data) {
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* LoginPage */]);
+            }
+        });
+    };
+    SignupPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-signup',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\signup\signup.html"*/'<!--\n\n  Generated template for the SignupPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n   <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">Sign Up</h2>\n\n<ion-list>\n\n\n\n  <ion-item>\n\n    <ion-label floating>First Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="user.firstName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Last Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="user.lastName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Email Address</ion-label>\n\n    <ion-input type="email" [(ngModel)]="user.emailAddress"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Confirm Email Address</ion-label>\n\n    <ion-input type="email" [(ngModel)]="email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Password</ion-label>\n\n    <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Confirm Password</ion-label>\n\n    <ion-input type="password"></ion-input>\n\n  </ion-item>\n\n\n\n    <ion-item>\n\n  <ion-label floating>Country</ion-label>\n\n  <ion-select [(ngModel)]="user.country">\n\n        <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>\n\n  </ion-select> \n\n</ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n  <a class="item" href="#" onclick="window.open(\'http://www.starwars.com/\', \'_system\', \'location=yes\'); return false;">View participation agreement</a>\n\n </ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n    <button ion-button color="secondary" class="summitbutton" (click)="signup(user)">Sign Up</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\signup\signup.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */]])
+    ], SignupPage);
+    return SignupPage;
+}());
+
+//# sourceMappingURL=signup.js.map
+
+/***/ }),
+
+/***/ 209:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotpasswordPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(45);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the ForgotpasswordPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ForgotpasswordPage = /** @class */ (function () {
+    function ForgotpasswordPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ForgotpasswordPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ForgotpasswordPage');
+    };
+    ForgotpasswordPage.prototype.changePassword = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* LoginPage */]);
+    };
+    ForgotpasswordPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-forgotpassword',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\forgotpassword\forgotpassword.html"*/'<!--\n\n  Generated template for the ForgotpasswordPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n   <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">Forgot Password</h2>\n\n<ion-list>\n\n  <ion-item>\n\n    <ion-label floating>Email Address</ion-label>\n\n    <ion-input type="email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Confirm Email Address</ion-label>\n\n    <ion-input type="email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>New Password</ion-label>\n\n    <ion-input type="password"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Confirm Password</ion-label>\n\n    <ion-input type="password"></ion-input>\n\n  </ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n    <button ion-button color="secondary" class="summitbutton" (click)="changePassword()">Change Password</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\forgotpassword\forgotpassword.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], ForgotpasswordPage);
+    return ForgotpasswordPage;
+}());
+
+//# sourceMappingURL=forgotpassword.js.map
+
+/***/ }),
+
+/***/ 210:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(231);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 231:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_signup_signup__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_uploadevent_uploadevent__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_aboutus_aboutus__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_contactus_contactus__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_dashboard_dashboard__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_native_audio__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_file_chooser__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_http__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__angular_http__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__angular_common_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_global_variables_global_variables__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_user_user__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__providers_audition_audition__ = __webpack_require__(202);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_signup_signup__["a" /* SignupPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_uploadevent_uploadevent__["a" /* UploadeventPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_aboutus_aboutus__["a" /* AboutusPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_contactus_contactus__["a" /* ContactusPage */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_dashboard_dashboard__["a" /* DashboardPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__["a" /* ProfilePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_19__angular_http__["a" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_20__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                }),
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_signup_signup__["a" /* SignupPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_uploadevent_uploadevent__["a" /* UploadeventPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_aboutus_aboutus__["a" /* AboutusPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_contactus_contactus__["a" /* ContactusPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_dashboard_dashboard__["a" /* DashboardPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__["a" /* ProfilePage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] },
+                __WEBPACK_IMPORTED_MODULE_18__ionic_native_http__["a" /* HTTP */],
+                __WEBPACK_IMPORTED_MODULE_21__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
+                __WEBPACK_IMPORTED_MODULE_22__providers_user_user__["a" /* UserProvider */],
+                __WEBPACK_IMPORTED_MODULE_23__providers_audition_audition__["a" /* AuditionProvider */],
+                __WEBPACK_IMPORTED_MODULE_16__ionic_native_native_audio__["a" /* NativeAudio */],
+                __WEBPACK_IMPORTED_MODULE_17__ionic_native_file_chooser__["a" /* FileChooser */]
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 273:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_uploadevent_uploadevent__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_dashboard_dashboard__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_profile_profile__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_aboutus_aboutus__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contactus_contactus__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_login_login__ = __webpack_require__(45);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_9__pages_login_login__["a" /* LoginPage */];
+        this.initializeApp();
+        // used for an example of ngFor and navigation
+        this.pages = [
+            { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_5__pages_dashboard_dashboard__["a" /* DashboardPage */] },
+            { title: 'Upload', component: __WEBPACK_IMPORTED_MODULE_4__pages_uploadevent_uploadevent__["a" /* UploadeventPage */] },
+            { title: 'My Profile', component: __WEBPACK_IMPORTED_MODULE_6__pages_profile_profile__["a" /* ProfilePage */] },
+            { title: 'About US', component: __WEBPACK_IMPORTED_MODULE_7__pages_aboutus_aboutus__["a" /* AboutusPage */] },
+            { title: 'Contact Us', component: __WEBPACK_IMPORTED_MODULE_8__pages_contactus_contactus__["a" /* ContactusPage */] },
+            { title: 'Logout', component: __WEBPACK_IMPORTED_MODULE_9__pages_login_login__["a" /* LoginPage */] },
+        ];
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleDefault();
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // Reset the content nav to have just this page
+        // we wouldn't want the back button to show in this scenario
+        if (page.title == 'Home') {
+            this.nav.setRoot(page.component);
+        }
+        else {
+            this.nav.push(page.component);
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
+    ], MyApp.prototype, "nav", void 0);
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 287:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(45);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.showNavBar = false;
+        setTimeout(this.showNav(this.navCtrl), 100000);
+    }
+    HomePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad HomePage');
+    };
+    HomePage.prototype.showNav = function (navCtrl) {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* LoginPage */]);
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar *ngIf="showNavBar" transparent>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>   \n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content style="background-image: url(\'../assets/imgs/background.png\')" padding>\n\n    <div *ngIf="!showNavBar" style=\'text-align: center;margin-top: 90px\'>\n\n        <img src="../assets/imgs/auditionlogo.png">\n\n    </div>\n\n    <div *ngIf="!showNavBar" style="text-align: center">\n\n        <p style="font-family: \'Black Han Sans\', sans-serif;font-size:1.5rem">\n\n            Audition Alert\n\n        </p>\n\n    </div>\n\n    <div *ngIf="showNavBar">\n\n        \n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 288:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ListPage = /** @class */ (function () {
+    function ListPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        // If we navigated to this page, we will have an item available as a nav param
+        this.selectedItem = navParams.get('item');
+        // Let's populate this page with some filler content for funzies
+        this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
+            'american-football', 'boat', 'bluetooth', 'build'];
+        this.items = [];
+        for (var i = 1; i < 11; i++) {
+            this.items.push({
+                title: 'Item ' + i,
+                note: 'This is item #' + i,
+                icon: this.icons[Math.floor(Math.random() * this.icons.length)]
+            });
+        }
+    }
+    ListPage_1 = ListPage;
+    ListPage.prototype.itemTapped = function (event, item) {
+        // That's right, we're pushing to ourselves!
+        this.navCtrl.push(ListPage_1, {
+            item: item
+        });
+    };
+    ListPage = ListPage_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\list\list.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], ListPage);
+    return ListPage;
+    var ListPage_1;
+}());
+
+//# sourceMappingURL=list.js.map
+
+/***/ }),
+
+/***/ 33:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__uploadevent_uploadevent__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_native_audio__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__ = __webpack_require__(44);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Generated class for the DashboardPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DashboardPage = /** @class */ (function () {
+    function DashboardPage(navCtrl, navParams, audio, globalVariable) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.audio = audio;
+        this.globalVariable = globalVariable;
+        this.showSlides = false;
+        /* if first time login, play audio*/
+        //this.showSlides = this.globalVariable.getFirstTimeLogin();
+        if (this.globalVariable.getFirstTimeLogin() == true) {
+            this.audio.preloadSimple('welcome', '../assets/audio/welcome.m4a')
+                .then(function () {
+                _this.audio.play('welcome');
+            });
+        }
+    }
+    DashboardPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DashboardPage');
+    };
+    DashboardPage.prototype.openUpload = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__uploadevent_uploadevent__["a" /* UploadeventPage */]);
+    };
+    DashboardPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-dashboard',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/'<!--\n\n  Generated template for the DashboardPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar transparent>\n\n     <button ion-button menuToggle>\n\n      <ion-icon style="color: darkgray !important" name="menu"></ion-icon>\n\n    </button>\n\n       <h4 style="color: darkgray">Home</h4>\n\n        <ion-buttons end>\n\n       <button ion-button style="color: darkgray !important" (click)="openUpload()">\n\n           UPLOAD\n\n            </button>\n\n     \n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n    <div *ngIf="showSlides">\n\n        <ion-slides pager="true">\n\n            <ion-slide>\n\n                <img style="height: 88vh !important;width:88vh !important" src="../assets/imgs/img1.jpg">\n\n                <div style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%)">be a model</div>\n\n            </ion-slide>\n\n            \n\n            <ion-slide>\n\n                <img style="height: 88vh !important;width:88vh !important" src="../assets/imgs/img2.jpg">\n\n                <div style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%)">be a model</div>\n\n            </ion-slide>\n\n            \n\n            <ion-slide>\n\n                <img style="height: 88vh !important;width:88vh !important" src="../assets/imgs/img3.jpg">\n\n                <div style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%)">be a model</div>\n\n            </ion-slide> \n\n            \n\n        </ion-slides>\n\n    </div>\n\n    <div *ngIf="!showSlides" style="text-align:center">\n\n        <h4 style="font-family: \'Black Han Sans\', sans-serif;color:white">Auditions</h4>\n\n    </div>\n\n    <ion-grid *ngIf="!showSlides">\n\n        <ion-row>\n\n            <ion-col s6>\n\n                <ion-card>\n\n                    <img src="assets/imgs/aud1.jpg"/>\n\n                    <div class="card-title"></div>\n\n                    <div class="card-subtitle"></div>\n\n                </ion-card>\n\n            </ion-col>\n\n            <ion-col s6>\n\n                <ion-card>\n\n                    <img src="assets/imgs/aud2.jpg"/>\n\n                    <div class="card-title"></div>\n\n                    <div class="card-subtitle"></div>\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_native_audio__["a" /* NativeAudio */], __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */]])
+    ], DashboardPage);
+    return DashboardPage;
+}());
+
+//# sourceMappingURL=dashboard.js.map
+
+/***/ }),
+
+/***/ 44:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GlobalVariablesProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the GlobalVariablesProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var GlobalVariablesProvider = /** @class */ (function () {
+    function GlobalVariablesProvider(http) {
+        this.http = http;
+        this.userId = null;
+        this.firstTimeLogin = false;
+        console.log('Hello GlobalVariablesProvider Provider');
+    }
+    GlobalVariablesProvider.prototype.setUserId = function (id) {
+        this.userId = id;
+    };
+    GlobalVariablesProvider.prototype.getUserId = function () {
+        return this.userId;
+    };
+    GlobalVariablesProvider.prototype.setFirstTimeLogin = function (value) {
+        this.firstTimeLogin = value;
+    };
+    GlobalVariablesProvider.prototype.getFirstTimeLogin = function () {
+        return this.firstTimeLogin;
+    };
+    GlobalVariablesProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
+    ], GlobalVariablesProvider);
+    return GlobalVariablesProvider;
+}());
+
+//# sourceMappingURL=global-variables.js.map
+
+/***/ }),
+
+/***/ 45:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_signup__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_forgotpassword__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__ = __webpack_require__(44);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Generated class for the LoginPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var LoginPage = /** @class */ (function () {
+    function LoginPage(navCtrl, navParams, http, globalVariables) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.http = http;
+        this.globalVariables = globalVariables;
+        this.user = {
+            emailAddress: "",
+            password: ""
+        };
+        this.showError = false;
+    }
+    LoginPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LoginPage');
+    };
+    LoginPage.prototype.register = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__signup_signup__["a" /* SignupPage */]);
+    };
+    LoginPage.prototype.forgotPassword = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */]);
+    };
+    LoginPage.prototype.login = function (user) {
+        //this.navCtrl.setRoot(DashboardPage);
+        var _this = this;
+        this.http.post("http://192.168.42.47/api/loginUser", user).subscribe(function (response) {
+            if (response.result == true) {
+                _this.globalVariables.setUserId(response.data.userId);
+                _this.globalVariables.setFirstTimeLogin(response.data.firstLogin);
+                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard__["a" /* DashboardPage */]);
+            }
+            else if (response.result == false) {
+                _this.showError = true;
+            }
+        });
+    };
+    LoginPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n    <div style="text-align:center">\n\n        <h4 style="font-family: \'Black Han Sans\', sans-serif;color:white;margin-top: 30%">Audition Alert</h4>\n\n    </div>\n\n    <div>\n\n        <ion-list transparent>\n\n            <ion-item style="background: transparent !important">\n\n                <ion-label floating>Username</ion-label>\n\n                <ion-input style="color:#ffffff" placeholder="" [(ngModel)]="user.emailAddress"></ion-input>\n\n            </ion-item>\n\n            <ion-item style="background: transparent !important">\n\n                <ion-label floating>Password</ion-label>\n\n                <ion-input style="color:#ffffff" type="password" placeholder=""[(ngModel)]="user.password" ></ion-input>\n\n            </ion-item>\n\n        </ion-list>\n\n        <div padding>\n\n            <button ion-button block color="secondary" (click)="login(user)">Sign In</button>\n\n            <p *ngIf="showError" style="color: red;font-size: xx-small;text-align:center"> invalid email or password. </p>\n\n        </div>\n\n        <ion-row style="margin-top: -20px;">\n\n        <ion-col>\n\n          <button style="color:white !important" (click)="register()" ion-button icon-left clear small class="login-links">\n\n        <div>Register</div>\n\n      </button>\n\n        </ion-col>\n\n        <ion-col>\n\n          <button style="color:white !important" ion-button icon-left clear small class="login-links" (click)="forgotPassword()">\n\n        <div>Forgot Password?</div>\n\n      </button>\n\n        </ion-col>\n\n      </ion-row>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */]])
+    ], LoginPage);
+    return LoginPage;
+}());
+
+//# sourceMappingURL=login.js.map
+
+/***/ })
+
+},[210]);
+//# sourceMappingURL=main.js.map

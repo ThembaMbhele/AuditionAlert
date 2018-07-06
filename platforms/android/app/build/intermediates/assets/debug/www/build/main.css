@@ -22558,8 +22558,8 @@ ion-navbar.toolbar {
 }
 
 .toolbar-background-md {
-  border-color: none;
-  background: none;
+  border-color: #b2b2b2;
+  background: #f8f8f8;
 }
 
 .header-md::after,
@@ -22793,7 +22793,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-primary .toolbar-background-md {
-  background: none;
+  background: #488aff;
 }
 
 .toolbar-md-primary .bar-button-clear-md,
@@ -23036,7 +23036,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-secondary .toolbar-background-md {
-  background: none;
+  background: #32db64;
 }
 
 .toolbar-md-secondary .bar-button-clear-md,
@@ -23279,7 +23279,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-danger .toolbar-background-md {
-  background: none;
+  background: #f53d3d;
 }
 
 .toolbar-md-danger .bar-button-clear-md,
@@ -23522,7 +23522,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-light .toolbar-background-md {
-  background: none;
+  background: #f4f4f4;
 }
 
 .toolbar-md-light .bar-button-clear-md,
@@ -23765,7 +23765,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-dark .toolbar-background-md {
-  background: none;
+  background: #222;
 }
 
 .toolbar-md-dark .bar-button-clear-md,
@@ -25678,6 +25678,74 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-aboutus ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-aboutus .center {
+  text-align: center;
+}
+
+page-contactus .center {
+  text-align: center;
+}
+
+page-contactus ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-contactus .item-md {
+  background-color: transparent !important;
+}
+
+page-contactus ion-input {
+  color: white;
+}
+
+page-contactus ion-textarea {
+  color: white;
+}
+
+page-contactus .summitbutton {
+  width: 150px;
+  height: 30px !important;
+}
+
+page-contactus ion-title {
+  font-size: xx-large;
+  color: white;
+  font-weight: bold;
+}
+
+page-contactus toolbar-background-md {
+  background-color: transparent !important;
+}
+
+page-dashboard ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-forgotpassword .center {
+  text-align: center;
+}
+
+page-forgotpassword ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-forgotpassword .item-md {
+  background-color: transparent !important;
+}
+
+page-forgotpassword ion-input {
+  color: white;
+}
+
+page-forgotpassword .summitbutton {
+  width: 150px;
+  height: 30px !important;
+}
+
 page-home {
   /* ion-content {
     @include linear-gradient(left,$green-and-blue);
@@ -25685,4 +25753,79 @@ page-home {
     -moz-background-size: cover;
     background-size: cover;
   }*/
+}
+
+page-login ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-profile .center {
+  text-align: center;
+}
+
+page-profile ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-profile .item-md {
+  background-color: transparent !important;
+}
+
+page-profile ion-input {
+  color: white;
+}
+
+page-profile ion-select {
+  color: white;
+}
+
+page-profile .summitbutton {
+  width: 150px;
+  height: 30px !important;
+}
+
+page-signup .center {
+  text-align: center;
+}
+
+page-signup ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-signup .item-md {
+  background-color: transparent !important;
+}
+
+page-signup ion-input {
+  color: white;
+}
+
+page-signup .summitbutton {
+  width: 150px;
+  height: 30px !important;
+}
+
+page-signup ion-select {
+  color: white;
+}
+
+page-uploadevent .center {
+  text-align: center;
+}
+
+page-uploadevent ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
+page-uploadevent .item-md {
+  background-color: transparent !important;
+}
+
+page-uploadevent ion-input {
+  color: white;
+}
+
+page-uploadevent .summitbutton {
+  width: 150px;
+  height: 30px !important;
 }

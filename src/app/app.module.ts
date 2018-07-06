@@ -16,10 +16,15 @@ import { ProfilePage } from '../pages/profile/profile';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { NativeAudio } from '@ionic-native/native-audio';
+import { FileChooser } from '@ionic-native/file-chooser';
 
 import { HTTP } from '@ionic-native/http';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http'
+import { GlobalVariablesProvider } from '../providers/global-variables/global-variables';
+import { UserProvider } from '../providers/user/user';
+import { AuditionProvider } from '../providers/audition/audition';
 
 @NgModule({
   declarations: [ 
@@ -60,7 +65,12 @@ import { HttpClientModule } from '@angular/common/http'
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    HTTP
+    HTTP,
+    GlobalVariablesProvider,
+    UserProvider,
+    AuditionProvider,
+    NativeAudio,
+    FileChooser
   ]
 })
 export class AppModule {}
