@@ -33,10 +33,7 @@ export class SignupPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
               public http: HttpClient) 
-  {
-      let headers = new Headers({ 'Content-Type': 'application/json' });
-      let options = new RequestOptions({ headers: headers });
-    
+  { 
       //get countries
       this.http.get('http://localhost/api/getCountries').subscribe(data => 
       {

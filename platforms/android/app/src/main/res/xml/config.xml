@@ -61,4 +61,7 @@
     <feature name="CordovaHttpPlugin">
         <param name="android-package" value="com.synconset.cordovahttp.CordovaHttpPlugin" />
     </feature>
+    <feature name="NativeAudio">
+        <param name="android-package" value="com.rjfun.cordova.plugin.nativeaudio.NativeAudio" />
+    </feature>
 </widget>
