@@ -41,7 +41,7 @@ export class LoginPage {
 
    login(user)
    {
-       this.http.post("http://localhost/api/loginUser", user).subscribe(data => 
+       this.http.post("http://localhost:7777/api/loginUser", user).subscribe(data => 
        {
            if(data)
            {
