@@ -47,16 +47,9 @@
     </div>
     <ion-grid *ngIf="!showSlides">
         <ion-row>
-            <ion-col s6>
+            <ion-col col-6 *ngFor="let audition of auditions" >
                 <ion-card>
-                    <img src="assets/imgs/aud1.jpg"/>
-                    <div class="card-title"></div>
-                    <div class="card-subtitle"></div>
-                </ion-card>
-            </ion-col>
-            <ion-col s6>
-                <ion-card>
-                    <img src="assets/imgs/aud2.jpg"/>
+                    <img height=200 width=100 src="{{url + audition.auditionImage}}"/>
                     <div class="card-title"></div>
                     <div class="card-subtitle"></div>
                 </ion-card>

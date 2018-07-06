@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { UploadeventPage } from '../uploadevent/uploadevent';
 import { NativeAudio } from '@ionic-native/native-audio';
+import { AuditionProvider } from '../../providers/audition/audition';
 import { GlobalVariablesProvider } from '../../providers/global-variables/global-variables';
 
 /**
@@ -18,9 +19,12 @@ import { GlobalVariablesProvider } from '../../providers/global-variables/global
 export class DashboardPage {
     
     public showSlides: boolean = false;
+    public auditions: any[];
+    public url: string = "http://localhost/"
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
-              public audio: NativeAudio, public globalVariable: GlobalVariablesProvider) {
+              public audio: NativeAudio, public globalVariable: GlobalVariablesProvider,
+              public auditionProvider: AuditionProvider) {
               
     /* if first time login, play audio*/
     //this.showSlides = this.globalVariable.getFirstTimeLogin();
@@ -30,6 +34,14 @@ export class DashboardPage {
             .then(() => {
                 this.audio.play('welcome');
             })
+    }
+    else
+    {
+        //get audition events
+        this.auditionProvider.getAuditions().subscribe((response: any[])=>
+        {
+            this.auditions = response; 
+        });
     }
   }
 
