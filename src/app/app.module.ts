@@ -13,11 +13,13 @@ import { LoginPage } from '../pages/login/login';
 import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { ProfilePage } from '../pages/profile/profile';
+import { WelcomePage } from '../pages/welcome/welcome';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NativeAudio } from '@ionic-native/native-audio';
 import { FileChooser } from '@ionic-native/file-chooser';
+import { IonicStorageModule } from '@ionic/storage';
 
 import { HTTP } from '@ionic-native/http';
 import { HttpModule } from '@angular/http';
@@ -39,13 +41,15 @@ import { AuditionProvider } from '../providers/audition/audition';
     LoginPage,
     ForgotpasswordPage,
     DashboardPage,
-    ProfilePage
+    ProfilePage,
+    WelcomePage
   ],
   imports: [
     BrowserModule,
     HttpModule,
     HttpClientModule,
     IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -59,7 +63,8 @@ import { AuditionProvider } from '../providers/audition/audition';
     LoginPage,
     ForgotpasswordPage,
     DashboardPage,
-    ProfilePage
+    ProfilePage,
+    WelcomePage
   ],
   providers: [
     StatusBar,

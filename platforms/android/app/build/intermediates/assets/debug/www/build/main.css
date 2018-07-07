@@ -25829,3 +25829,33 @@ page-uploadevent .summitbutton {
   width: 150px;
   height: 30px !important;
 }
+
+page-welcome .first-slide {
+  background-image: url("../assets/imgs/img1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+page-welcome .second-slide {
+  background-image: url("../assets/imgs/img2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+page-welcome .third-slide {
+  background-image: url("../assets/imgs/img3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+page-welcome .slide-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+}
