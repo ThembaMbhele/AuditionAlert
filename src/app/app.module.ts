@@ -14,6 +14,7 @@ import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { ProfilePage } from '../pages/profile/profile';
 import { WelcomePage } from '../pages/welcome/welcome';
+import { TermsandconditionsPage } from '../pages/termsandconditions/termsandconditions';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -42,7 +43,8 @@ import { AuditionProvider } from '../providers/audition/audition';
     ForgotpasswordPage,
     DashboardPage,
     ProfilePage,
-    WelcomePage
+    WelcomePage,
+    TermsandconditionsPage
   ],
   imports: [
     BrowserModule,
@@ -64,7 +66,8 @@ import { AuditionProvider } from '../providers/audition/audition';
     ForgotpasswordPage,
     DashboardPage,
     ProfilePage,
-    WelcomePage
+    WelcomePage,
+    TermsandconditionsPage
   ],
   providers: [
     StatusBar,

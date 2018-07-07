@@ -25809,6 +25809,10 @@ page-signup ion-select {
   color: white;
 }
 
+page-termsandconditions ion-content {
+  background-image: url("../assets/imgs/background.png");
+}
+
 page-uploadevent .center {
   text-align: center;
 }
@@ -25822,6 +25826,10 @@ page-uploadevent .item-md {
 }
 
 page-uploadevent ion-input {
+  color: white;
+}
+
+page-uploadevent ion-textarea {
   color: white;
 }
 

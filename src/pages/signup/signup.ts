@@ -4,6 +4,7 @@ import { LoginPage } from '../login/login';
 import { HTTP } from '@ionic-native/http';
 import { Http, Headers, RequestOptions } from '@angular/http';
 import { HttpClient} from  '@angular/common/http';
+import { TermsandconditionsPage } from '../termsandconditions/termsandconditions';
 /**
  * Generated class for the SignupPage page.
  *
@@ -59,6 +60,10 @@ export class SignupPage {
                         this.navCtrl.setRoot(LoginPage);
                     }
                 });     
+   }
+
+   termsandconditions(){
+    this.navCtrl.push(TermsandconditionsPage);
    }
 
 }

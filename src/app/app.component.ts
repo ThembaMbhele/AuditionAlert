@@ -3,6 +3,7 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Storage } from '@ionic/storage';
+import { GlobalVariablesProvider } from '../providers/global-variables/global-variables';
 
 import { UploadeventPage } from '../pages/uploadevent/uploadevent';
 import { DashboardPage } from '../pages/dashboard/dashboard';
@@ -22,7 +23,7 @@ export class MyApp {
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public storage: Storage) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public storage: Storage, public globalVariables: GlobalVariablesProvider) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
@@ -49,6 +50,9 @@ export class MyApp {
       this.storage.get('loggedin').then((val) => {
         if(val){
            this.rootPage = DashboardPage;
+            this.storage.get('userId').then((val) => {
+               this.globalVariables.setUserId(val);
+            });
         }else{
            this.rootPage = WelcomePage;
         }

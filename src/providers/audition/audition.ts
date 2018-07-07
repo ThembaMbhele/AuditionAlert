@@ -14,9 +14,22 @@ export class AuditionProvider {
     console.log('Hello AuditionProvider Provider');
   }
   
+  uploadAuditionImage(file)
+  {
+      const formData: FormData = new FormData();
+      formData.append('file', file);
+      
+      return this.http.post("http://localhost/api/uploadImage", formData);
+  }
+  
   uploadEvent(audition)
   {
-      return this.http.post('http://localhost:7777/api/uploadAuditionEvent', audition);
+      return this.http.post('http://localhost/api/uploadAuditionEvent', audition);
+  }
+  
+  getAuditions()
+  {
+      return this.http.get('http://localhost/api/getAuditionEvents');
   }
 
 }
