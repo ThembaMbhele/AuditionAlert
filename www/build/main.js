@@ -1,16 +1,16 @@
 webpackJsonp([0],{
 
-/***/ 106:
+/***/ 134:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UploadeventPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__ = __webpack_require__(252);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -92,11 +92,11 @@ var UploadeventPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-uploadevent',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\uploadevent\uploadevent.html"*/'<!--\n\n  Generated template for the UploadeventPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header transparent>\n\n    <ion-navbar transparent>\n\n        <ion-title style="margin-left: 30%;">\n\n            <h1 style="color: #ffffff !important">Upload Event</h1>\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n<ion-list style="margin-top: -25px;">\n\n   <ion-item>\n\n    <ion-label floating>Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="event.auditionName"></ion-input>\n\n  </ion-item>\n\n  <ion-item>\n\n    <ion-label floating>URL</ion-label>\n\n    <ion-input type="text" [(ngModel)]="event.auditionUrl"></ion-input>\n\n  </ion-item>\n\n   <ion-item>\n\n      <ion-label floating>Description</ion-label>\n\n  <ion-textarea rows="6" [(ngModel)]="event.auditionDescription"></ion-textarea>\n\n  </ion-item>\n\n   <ion-item no-lines>\n\n     <ion-grid>\n\n        <ion-row>\n\n            <ion-col>\n\n                <h4 style="color: darkgray !important;margin-top:10px">Upload Photo</h4>\n\n            </ion-col>\n\n            <ion-col>\n\n                <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Upload Poster</button>\n\n            </ion-col>\n\n        </ion-row>\n\n     </ion-grid>\n\n    <!--<img src="{{imageFile}}" alt="Ionic File" width="300" height="400"/> -->\n\n  </ion-item>\n\n   <ion-item class="center" no-lines>\n\n    <button ion-button class="summitbutton" color="secondary" (click)="upload(event)">Upload Event</button>\n\n  </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\uploadevent\uploadevent.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
             __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__["a" /* AuditionProvider */],
             __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__["a" /* FileChooser */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* Platform */]])
     ], UploadeventPage);
     return UploadeventPage;
 }());
@@ -105,12 +105,12 @@ var UploadeventPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuditionProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -137,13 +137,13 @@ var AuditionProvider = /** @class */ (function () {
     AuditionProvider.prototype.uploadAuditionImage = function (file) {
         var formData = new FormData();
         formData.append('file', file);
-        return this.http.post("http://localhost/api/uploadImage", formData);
+        return this.http.post("http://197.242.149.23/api/uploadImage", formData);
     };
     AuditionProvider.prototype.uploadEvent = function (audition) {
-        return this.http.post('http://localhost/api/uploadAuditionEvent', audition);
+        return this.http.post('http://197.242.149.23/api/uploadAuditionEvent', audition);
     };
     AuditionProvider.prototype.getAuditions = function () {
-        return this.http.get('http://localhost/api/getAuditionEvents');
+        return this.http.get('http://197.242.149.23/api/getAuditionEvents');
     };
     AuditionProvider = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
@@ -156,16 +156,17 @@ var AuditionProvider = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 109:
+/***/ 136:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__termsandconditions_termsandconditions__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__termsandconditions_termsandconditions__ = __webpack_require__(257);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -180,6 +181,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Generated class for the SignupPage page.
  *
@@ -187,13 +189,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var SignupPage = /** @class */ (function () {
-    function SignupPage(navCtrl, navParams, http) {
+    function SignupPage(navCtrl, navParams, http, toastCtrl, loadingCtrl, formBuilder) {
         var _this = this;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.http = http;
+        this.toastCtrl = toastCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.formBuilder = formBuilder;
         this.email = "";
         this.country = "";
+        this.showError = false;
         this.user = {
             firstName: "",
             lastName: "",
@@ -201,13 +207,22 @@ var SignupPage = /** @class */ (function () {
             password: "",
             Country: ""
         };
+        this.confirmPassword = "";
         this.countries = [];
+        this.submitAttempt = false;
         //get countries
-        this.http.get('http://localhost:7777/api/getCountries').subscribe(function (data) {
+        this.http.get('http://197.242.149.23/api/getCountries').subscribe(function (data) {
             _this.countries = data;
         }, function (err) {
             var errorMessage = "";
-            console.log(errorMessage);
+        });
+        this.signUpForm = formBuilder.group({
+            emailAddress: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required])],
+            password: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required])],
+            firstName: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required])],
+            lastName: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required])],
+            country: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required])],
+            confirmPassword: ['', __WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_4__angular_forms__["f" /* Validators */].required])],
         });
     }
     SignupPage.prototype.ionViewDidLoad = function () {
@@ -215,22 +230,42 @@ var SignupPage = /** @class */ (function () {
     };
     SignupPage.prototype.signup = function (user) {
         var _this = this;
-        this.http.post('http://localhost:7777/api/createUser', this.user)
-            .subscribe(function (data) {
-            if (data) {
-                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* LoginPage */]);
-            }
-        });
+        this.showError = false;
+        this.submitAttempt = true;
+        if (this.user.password != this.confirmPassword) {
+            return false;
+        }
+        if (this.signUpForm.valid) {
+            var loader = this.loadingCtrl.create({
+                content: "Please wait..."
+            });
+            loader.present();
+            this.http.post('http://197.242.149.23/api/createUser', this.user).subscribe(function (data) {
+                if (data) {
+                    loader.dismiss();
+                    var toast = _this.toastCtrl.create({
+                        message: 'You have signed up successful.',
+                        duration: 2000,
+                        position: 'bottom'
+                    });
+                    toast.present(toast);
+                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__login_login__["a" /* LoginPage */]);
+                }
+                else {
+                    loader.dismiss();
+                    _this.showError = true;
+                }
+            });
+        }
     };
     SignupPage.prototype.termsandconditions = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__termsandconditions_termsandconditions__["a" /* TermsandconditionsPage */]);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__termsandconditions_termsandconditions__["a" /* TermsandconditionsPage */]);
     };
     SignupPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-signup',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\signup\signup.html"*/'<!--\n\n  Generated template for the SignupPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header transparent>\n\n    <ion-navbar transparent>\n\n        <ion-title style="margin-left: 30%;">\n\n            <h1 style="color: #ffffff !important">Sign Up</h1>\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n<ion-list style="margin-top: -25px;">\n\n  <ion-item>\n\n    <ion-label floating>First Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="user.firstName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Last Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="user.lastName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Email Address</ion-label>\n\n    <ion-input type="email" [(ngModel)]="user.emailAddress"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Confirm Email Address</ion-label>\n\n    <ion-input type="email" [(ngModel)]="email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Password</ion-label>\n\n    <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Confirm Password</ion-label>\n\n    <ion-input type="password"></ion-input>\n\n  </ion-item>\n\n\n\n    <ion-item>\n\n  <ion-label floating>Country</ion-label>\n\n  <ion-select [(ngModel)]="user.country">\n\n        <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>\n\n  </ion-select> \n\n</ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n   <small style="color: #fff;">By signing up, I agree to <span style="color: mediumblue;" (click)="termsandconditions()">terms and conditions</span></small>\n\n </ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n    <button ion-button color="secondary" class="summitbutton" (click)="signup(user)">Sign Up</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\signup\signup.html"*/,
+            selector: 'page-signup',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\signup\signup.html"*/'<!--\n\n  Generated template for the SignupPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header transparent>\n\n  <ion-navbar transparent>\n\n    <ion-title style="margin-left: 20%;">\n\n      <h1 style="color: #ffffff !important">Sign Up</h1>\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n  <form [formGroup]="signUpForm">\n\n    <ion-list style="margin-top: -25px;">\n\n      <ion-item>\n\n        <ion-label floating>First Name</ion-label>\n\n        <ion-input type="text" [(ngModel)]="user.firstName" formControlName="firstName" [class.invalid]="!signUpForm.controls.firstName.valid && (signUpForm.controls.firstName.dirty || submitAttempt)"></ion-input>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n        <ion-label floating>Last Name</ion-label>\n\n        <ion-input type="text" [(ngModel)]="user.lastName" formControlName="lastName" [class.invalid]="!signUpForm.controls.lastName.valid && (signUpForm.controls.lastName.dirty || submitAttempt)"></ion-input>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n        <ion-label floating>Email Address</ion-label>\n\n        <ion-input type="email" [(ngModel)]="user.emailAddress" formControlName="emailAddress" [class.invalid]="!signUpForm.controls.emailAddress.valid && (signUpForm.controls.emailAddress.dirty || submitAttempt)"></ion-input>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n        <ion-label floating>Password</ion-label>\n\n        <ion-input type="password" [(ngModel)]="user.password" formControlName="password" [class.invalid]="!signUpForm.controls.password.valid && (signUpForm.controls.password.dirty || submitAttempt)"></ion-input>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n        <ion-label floating>Confirm Password</ion-label>\n\n        <ion-input type="password" [(ngModel)]="confirmPassword" formControlName="confirmPassword" [class.invalid]="!signUpForm.controls.confirmPassword.valid && (signUpForm.controls.confirmPassword.dirty || submitAttempt)"></ion-input>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n        <ion-label floating>Country</ion-label>\n\n        <ion-select [(ngModel)]="user.country" formControlName="country" [class.invalid]="!signUpForm.controls.country.valid && (signUpForm.controls.country.dirty || submitAttempt)">\n\n          <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>\n\n        </ion-select>\n\n      </ion-item>\n\n\n\n      <ion-item class="center" no-lines justify-content-center align-items-center>\n\n        <small style="color: #fff;">By signing up, I agree to <span style="color: mediumblue;" (click)="termsandconditions()">terms and conditions</span></small>\n\n      </ion-item>\n\n\n\n      <ion-item class="center" no-lines justify-content-center align-items-center>\n\n        <button ion-button color="secondary" class="summitbutton" (click)="signup(user)">Sign Up</button>\n\n        <p *ngIf="confirmPassword != user.password" style="color: red;font-size: xx-small;text-align:center"> Passwords do not match. </p>\n\n        <p *ngIf="showError" style="color: red;font-size: xx-small;text-align:center"> We are unable to sign up at the moment please try again later.</p>\n\n      </ion-item>\n\n    </ion-list>\n\n  </form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\signup\signup.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormBuilder */]])
     ], SignupPage);
     return SignupPage;
 }());
@@ -239,7 +274,7 @@ var SignupPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 146:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -252,11 +287,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 120;
+webpackEmptyAsyncContext.id = 146;
 
 /***/ }),
 
-/***/ 162:
+/***/ 189:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -269,20 +304,20 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 162;
+webpackEmptyAsyncContext.id = 189;
 
 /***/ }),
 
-/***/ 206:
+/***/ 253:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_global_variables_global_variables__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_user_user__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_global_variables_global_variables__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_user_user__ = __webpack_require__(254);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -354,8 +389,8 @@ var ProfilePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-profile',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n   <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">My Profile</h2>\n\n<ion-list>\n\n\n\n  <ion-item>\n\n    <ion-label floating>First Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.firstName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Last Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.lastName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label stacked>Date Of Birth</ion-label>\n\n    <ion-input type="date" [(ngModel)]="profile.dateOfBirth"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n  <ion-label floating>Gender</ion-label>\n\n  <ion-select [(ngModel)]="profile.gender">\n\n    <ion-option value="f">Female</ion-option>\n\n    <ion-option value="m">Male</ion-option>\n\n    <ion-option value="o">Other</ion-option>\n\n  </ion-select>\n\n</ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Career</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.career"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n  <ion-label floating>Country</ion-label>\n\n  <ion-select [(ngModel)]="profile.country">\n\n        <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>\n\n  </ion-select>\n\n</ion-item>\n\n\n\n   <ion-item>\n\n    <ion-label floating>Cell Phone</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.cellPhone"></ion-input>\n\n  </ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n    <button ion-button color="secondary" class="summitbutton" (click)="update(profile)">Update</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\profile\profile.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_3__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
             __WEBPACK_IMPORTED_MODULE_4__providers_user_user__["a" /* UserProvider */]])
     ], ProfilePage);
@@ -366,12 +401,12 @@ var ProfilePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 207:
+/***/ 254:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -415,13 +450,13 @@ var UserProvider = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 208:
+/***/ 255:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutusPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -451,7 +486,7 @@ var AboutusPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-aboutus',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\aboutus\aboutus.html"*/'<!--\n\n  Generated template for the AboutusPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-content padding class="center">\n\n<h2 style="margin-top: 50%;color: darkgray !important;font-size: 40px !important;">About Us</h2>\n\n<br>\n\n<p style="color: darkgray;font-size: 15px;"> \n\n  Audition Alert helps to empower<br>\n\n  creative minds and serve as a<br>\n\n  tool in making dreams a reality\n\n</p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\aboutus\aboutus.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], AboutusPage);
     return AboutusPage;
 }());
@@ -460,14 +495,14 @@ var AboutusPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 209:
+/***/ 256:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactusPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(45);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -501,7 +536,7 @@ var ContactusPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-contactus',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\contactus\contactus.html"*/'<!--\n\n  Generated template for the ContactusPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n  <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">Contact Us</h2>\n\n<ion-list>\n\n  <ion-item>\n\n    <ion-label floating>Full Name</ion-label>\n\n    <ion-input type="text"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Subject</ion-label>\n\n    <ion-input type="text"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Email Address</ion-label>\n\n    <ion-input type="email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n      <ion-label floating>Message</ion-label>\n\n  <ion-textarea rows="6"></ion-textarea>\n\n  </ion-item>\n\n\n\n   <ion-item class="center" no-lines>\n\n    <button class="summitbutton" ion-button color="secondary" (click)="send()">SEND</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\contactus\contactus.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], ContactusPage);
     return ContactusPage;
 }());
@@ -510,13 +545,13 @@ var ContactusPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 210:
+/***/ 257:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TermsandconditionsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -546,7 +581,7 @@ var TermsandconditionsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-termsandconditions',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\termsandconditions\termsandconditions.html"*/'<!--\n\n  Generated template for the TermsandconditionsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header transparent>\n\n  <ion-navbar transparent>\n\n    <ion-title><h1 style="color: #FFFFFF">Terms And Conditions</h1></ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n<p style="color: lightgray;">\n\n  These Terms are a legal agreement between AuditionsAlert. (“Auditions Alert,” “us,” “our” and “we”) and you (also referred to as “your”) that governs the Auditions Alert mobile application and related services, including all Updates (defined in Section 3 below), related documentation, and information and Content (defined in Section 7(a) below) provided through the application (collectively, the “App”).\n\nBy using the App, you authorize the collection of information about you, your use of the App, the device on which the App is installed, and the use, transmission, processing, and storing of information as described in Auditions Alert’s Privacy Policy (located at [Insert Link to Privacy Policy]).\n\n\n\n<br><br>1.	<b>Account Registration</b><br>\n\nIn order to use the App you will need to login to the App with a user account that you register for through the App (“Account”). You agree to provide current, complete, and accurate Account information when you register for an Account. You agree to keep your login information confidential and not authorize any third party to use it or your Account. You agree that we may attribute all use of your Account to you, and that you are responsible for all activities that occur under your Account. You agree to notify us immediately at info@auditionsalert.com if you suspect any unauthorized use of your Account, the App, or any other breach of security. Depending on your Account type or other criteria, your Account may not have full access to all features or functionality available through the App. You agree not to attempt to access any (if any) restricted features or functionality.\n\n \n\n<br><br>2.	<b>Eligibility</b><br>\n\nIn order to use the App, you must be (a) the Minimum Age or older. “Minimum Age” means 15 years old, or if law requires that you must be older in order for Auditions Alert to lawfully provide the App to you without parental consent (including use of your personal information), then the Minimum Age is such older age. By registering for an Account, you certify that you are the Minimum Age or older and you agree to form a binding contract with Auditions Alert.\n\n \n\n<br><br>3.	If Auditions Alert provides updates, supplements, or add-on components to the App after you download it (collectively, “Updates”), these Terms will apply to the Updates unless Auditions Alert provides additional terms along with the Update (“Additional Terms”), in which case those Additional Terms will apply to the Update. You agree that Auditions Alert may automatically check your version of the App and send Updates to the App and may release subsequent versions of the App and require you to use the most current version. Auditions Alert reserves the right to discontinue your access to the App or to any Content.\n\n \n\n<br><br>4.	Third Party Websites; Additional Products and App. Within the App you may encounter links or references to third party websites (“Linked Sites”). Auditions Alert does not endorse or sponsor any Linked Sites or the information, products, or services contained on any Linked Sites. Linked Sites are governed by their own terms of use and privacy policies. You may need to use or obtain additional products or services in order to use the App, such as a mobile device, Internet access, and a data connection. You must obtain or use these products or services separately and pay all associated charges (including for internet access or other data transmission).\n\n \n\n<br><br>5.	License to Use of the App. Conditioned on your compliance with these Terms, Auditions Alert grants you a limited, personal, non-exclusive and nontransferable license to download, install, and use the App for your use on a mobile device owned or otherwise controlled by you.\n\n \n\n<br><br>6.	<b>License Restrictions. The license granted in Section 5 is conditioned on your compliance with the following:</b><br>\n\n \n\na.	You must not attempt to work around, disable, bypass, modify, or defeat any technical limitations in the App or to use the App in an attempt to, or in conjunction with any device, program or service designed to circumvent any security features or any technical measures employed to control access to, or the rights in, a content, file or other work;\n\n<br>b.	You must not reverse engineer, decompile, decipher, disassemble or otherwise attempt to access source code of the App, except and only to the extent that applicable law expressly permits, despite this limitation;\n\n<br>c.	You must not download or copy the App (including any Content), except as expressly permitted in Section 5;\n\n<br>d.	You must not rent, lease, lend, sell, sublicense, assign, distribute, publish, perform, display, broadcast, transfer, exploit, or otherwise make available the App or any features or functionality of the App to any third party for any reason, including by making the App available on a network where it is capable of being accessed by more than one device at any time;\n\n<br>e.	You must not modify or make any derivative works of the App, in whole or in part;\n\n<br>f.	You must not remove any proprietary notices or labels on the App or any copy thereof;\n\n<br>h.	You must not to interfere, with the proper functioning of the App or use it, as a platform for external applications; to develop applications, services, websites; or any other functionalities that leverage the App or any portion thereof;\n\n<br>i.	You must not make any use of the App in any manner not permitted by these Terms or the documentation; and\n\n<br>j.	You must use the App in compliance with all applicable laws.\n\n \n\n<br>•	Content Generally. The App and all content, information, graphics, text, videos, images, and other materials accessible through the App (collectively, “Content”), including any Content uploaded or posted by users or third parties, is solely for your use in connection with the App. Auditions Alert may link to or provide access to Content provided by third parties, including other users of the App (“Third Party Content”). Any opinions and other statements expressed by those third party authors of the Third Party Content are the opinions of those authors, not opinions of Auditions Alert. Content appearing on the App is the sole responsibility of the party responsible for such Content and its accuracy and completeness are not endorsed or guaranteed by Auditions Alert. Third Party Content may be subject to additional or different license terms and restrictions.\n\n<br>•	Your Content. You are solely responsible for all Content that is uploaded, posted, emailed, transmitted, shared, or otherwise disseminated using, or in connection with, the App and your Account (“Your Content”). Auditions Alert does not claim ownership of Your Content. You grant to Auditions Alert and its service providers a worldwide, royalty-free, transferrable, non-exclusive, perpetual, irrevocable license under all of your intellectual property rights to make, use, copy, modify, adapt, create derivative works of, publicly perform or display, import, broadcast, transmit, distribute, license, publish, and translate Your Content (and derivative works thereof) in connection with the operation of the App. Auditions Alert is under no obligation to enable the transmission of Your Content through the App and may, in its discretion, edit, block, refuse to post, or remove Your Content at any time. You represent and warrant that you have the rights necessary to grant the rights in this Section and that Your Content does not infringe the rights of Auditions Alert or any third party or violate any agreement with or policy of Auditions Alert or any applicable law. If Auditions Alert suspects violations of the foregoing, Auditions Alert may institute legal action and cooperate with law enforcement authorities in bringing legal proceedings against violators.\n\n<br>•	Auditions Alert reserves the right, but has no obligation, to monitor the Content posted in the App. Auditions Alert has the right to remove any such Content that in its sole opinion violates, or is alleged to violate, any applicable law or either the letter or spirit of these Terms. Notwithstanding this right of Auditions Alert, YOU REMAIN SOLELY RESPONSIBLE FOR THE CONTENT YOU POST IN THE PUBLIC AREAS OF THE APP.\n\n \n\n<br><br>8.	<b>Reservation of Rights</b> \n\n<br>You acknowledge and agree that the App is provided under license, and not sold, to you. You do not acquire any ownership interest or other rights to the App other than the right to use the App in accordance with the license in Section 5. As between you and Auditions Alert, Auditions Alert reserves and retains its entire right, title and interest in and to the App, including all copyrights, trademarks and other intellectual property and proprietary rights therein or relating thereto.\n\n\n\n\n\n\n\n \n\n<br><br>9.	<b>In-App Purchases</b>\n\n \n\n<br>•	Certain features and functionality within the App are available to you for purchase from within the App (“In App Purchases”). All In App Purchases are handled through the Apple App Store and Play Store. If you choose to make an In App Purchase, you will be prompted to enter your Apple ID, and your Apple account likewise on Play Store, will be charged for the In App Purchase in accordance with the terms disclosed to you at the time of purchase as well as the terms for In App Purchases that apply to your Apple account or Play Store account.\n\n<br>•	Certain features and functionality within the App may require a monthly, recurring paid subscription. For such subscriptions, your Apple or Play Store account will be automatically billed monthly for the subscription until you cancel. Should you wish to end your subscription, you will need to log in to your Apple or Play Store account and follow the instructions to cancel your subscription (you may also click the “Manage Subscription” option from within the App settings, which will take you to the appropriate page within Both Store). Deleting your Account on the App or deleting the App from your device does not cancel your subscription, and you will continue to be charged until you cancel the subscription from within your Apple account.\n\n<br>•	Refunds are handled by Apple, not us. To request a refund, go to iTunes, click on your Apple ID, select “Purchase History,” find the transaction and hit “Report Problem”. You can also submit a request at https://getsupport.apple.com.\n\n \n\n<br><br>10.	<b>Availability and Support</b>\n\n<br> Auditions Alert has no obligation to and may not provide support in relation to the App or your Account. Auditions Alert does not guarantee availability of the App or your Account and your access is permitted only if and when they are available. Your use of the App and access to your Account may occasionally be restricted for service, upgrades, maintenance, or other reasons. To the maximum extent authorized under applicable law, Auditions Alert reserves the right to suspend your Account, your use of the App, and discontinue your access to Your Content provided or made available to you through the App at any time without notice.\n\n \n\n<br><br>11.	You may terminate your Account or your use of the App at any time. Auditions Alert reserves the right to terminate your Account and these Terms and to suspend or terminate the App or your access thereto at any time with or without prior notice. Sections 6-18 and 21-22 of these Terms will survive termination.\n\n \n\n<br><br>12.	<b>Disclaimer of warranties</b>. \n\n<br>To the maximum extent permitted by applicable law, AUDITIONS ALERT DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE SERVICES, INCLUDING ALL EXPRESS, IMPLIED, AND STATUTORY WARRANTIES AND CONDITIONS. IN PARTICULAR, AUDITIONS ALERT HEREBY DISCLAIMS ANY IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY, DURABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, OR NON-INFRINGEMENT AND DOES NOT MAKE ANY WARRANTY OR CLAIM THAT THE SERVICES WILL BE AVAILABLE OR PROVIDED ON AN UNINTERRUPTED, TIMELY, OR SECURE BASIS; WILL BE ACCURATE, COMPLETE, RELIABLE, OR FUNCTION PROPERLY; MEET YOUR REQUIREMENTS; BE ERROR FREE OR FREE FROM VIRUSES, WORMS, OR OTHER HARMFUL OR MALICIOUS COMPONENTS.\n\n \n\n<br><br>13.	<b>Disclaimer of Certain Damages</b> \n\n<br>To the maximum extent permitted by applicable law, IN NO EVENT WILL AUDITIONS ALERT BE LIABLE FOR (A) ANY CONSEQUENTIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, OR SPECIAL DAMAGES, (B) ANY DAMAGES TO OR FOR LOSS OF DATA or privacy, REVENUE, PROFITS, OR PROPERTY (INCLUDING BUILDINGS, WIRING, FIXTURES, DEVICES, COMPUTERS, PERIPHERALS, AND ANIMALS) OR FOR INJURY OR DEATH, ARISING FROM OR RELATING TO THESE TERMS, Your account, OR THE SERVICES, AND/OR (C) ANY OTHER DAMAGES RESULTING FROM COMMUNICATIONS OR MEETINGS WITH OTHER REGISTERED USERS OF THE APP OR PERSONS INTRODUCED TO YOU BY THIS APP. YOU AGREE TO ASSUME THE RISK OF YOUR INTERACTIONS WITH ANY THIRD PARTIES, INCLUDING REGISTERED USERS, THROUGH THE APP.\n\n \n\nYOU UNDERSTAND AND ACKNOWLEDGE THAT AUDITIONS ALERT DOES NOT PROACTIVELY CONDUCT ANY BACKGROUND SCREENING ON USERS OF THE APP OR OPPORTUNITIES THAT ARE POSTED, AND AUDITIONS ALERT DOES NOT HAVE ANY OBLIGATION TO MONITOR OR POLICE THE ACTIVITY OF USERS ON THE APP. YOU UNDERSTAND AND AGREE THAT YOU ARE SOLELY RESPONSIBLE FOR YOUR INTERACTIONS WITH OTHER USERS WITHIN AND OUTSIDE OF THE APP.\n\n \n\n<br><br>14.	<b>Limitation of Liability and Exclusive Remedies</b>\n\n<br> To the maximum extent permitted by applicable law and to the extent they are not excluded or disclaimed under Section 13, AUDITIONS ALERT’s maximum, aggregate liability to you, and your exclusive remedy under these Terms for any and all damages, injuries, and losses arising from any and all claims and causes of action arising out of, based on, resulting from or in any way related to these Terms, your account, or The App will not exceed TOTAL AMOUNT PAID BY YOU TO US IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.\n\n \n\n<br><br>15.	<b>IMPORTANT CONSUMER NOTICE</b>\n\n<br> Some jurisdictions do not allow certain damage limitations such as the limitation of loss or liability from intentional acts (INCLUDING FRAUD, FRAUDULENT MISREPRESENTATION, AND FAILURE TO DISCLOSE DEFECTS), PRODUCT LIABILITY, or for DEATH OR personal injury. Nothing in sections 12, 13, or 14 will be interpreted as excluding liability, which cannot be excluded under Applicable law. IF YOU LIVE IN or are otherwise subject to the laws IN ONE OF THOSE JURISDICTIONS, ANY DAMAGES LIMITATIONS will be deemed limited to the extent (if at all) permissible under that LAW AND, IF ANY LIMITATION IS NOT PERMITTED, THE EXCLUSIONS IN SECTION 12, 13, OR 14 MAY NOT APPLY TO YOU.\n\n \n\n<br><br>16.	<b>Independent Remedies</b>\n\n<br> The disclaimer and limitation of warranties and the exclusion of damages under Sections 12, 13 and 14 are independent of your exclusive remedies in these Terms and the disclaimer and limitations of warranties and exclusion of damages survive even if the exclusive remedies fails of their essential purpose or otherwise are deemed unenforceable. Each of the limitations in Sections 12, 13 and 14 apply without regard to whether loss, liability, or damage arise from (a) breach of contract, (b) breach of warranty, (c) fault or tort, including negligence and misrepresentation, (d) strict liability, or (e) any other cause of action, to the extent the exclusions and limitations are not prohibited by applicable law.\n\n \n\n<br><br>17.	You agree to defend, indemnify, and hold Auditions Alert, its directors, officers, employees, agents, partners, suppliers, and licensors harmless and will keep them indemnified from any claim or demand, including reasonable attorneys’ fees, relating to, arising from, or allegedly arising from (a) Your Content, your use of the App, and activities occurring under your Account; (b) any violation of these Terms; or (c) your violation of any other party’s rights or applicable law. Auditions Alert reserves the right to assume, at its sole expense, the exclusive defense and control of any matter subject to indemnification by you, in which event you will fully cooperate with Auditions Alert in asserting any available defenses.\n\n \n\n<br><br>18.	Auditions Alert may give you all required notices (including legal process) by any lawful method, including by posting notices on the App or by sending it to any email address that you provide to Auditions Alert. You agree to send Auditions Alert notices by email to info@auditionsalert.com.\n\n \n\n \n\n<br><br>19.	Copyright Notice and Takedown Procedures.\n\nAuditions Alert respects the intellectual property rights of others. If you believe that any Content or other material available on the App infringes your copyright or the copyright of any third party, please send written notice in accordance with the provisions of the Copyright Act to our Designated Copyright Agent, who can be reached as follows:\n\n<br>Please direct all copyright inquiries to:\n\n<br>Auditions Alert\n\n<br>AuditionsAlert.inc\n\n<br>Email: info@auditionsalert.com\n\n \n\n<br><br>To be effective, notice must include the following in compliance with Section 512(c) of the Copyright Act:\n\n<br>•	A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;\n\n<br>•	Identification of the copyrighted work claimed to have been infringed, or, if multiple copyrighted works at a single online site are covered by a single notification, a representative list of such works at that site;\n\n<br>•	Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and specific information sufficient to permit us to locate the material;\n\n<br>•	Information sufficient to permit us to contact you, such as an address, telephone number, and, if available, an email address;\n\n<br>•	A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and\n\n<br>•	A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nThis process only relates to reporting a claim of copyright infringement. Messages related to other matters will not receive a response through this process. Please note that under Section 512(f) of the copyright act, any person who knowingly materially misrepresents that material is infringing may be subject to liability. If you are unsure whether material on the App is infringing, you should contact an attorney prior to sending notice. After receiving notice, Auditions Alert may remove or disable access to infringing material.\n\n\n\n<br><br>20.	<b>Modifications to these Terms</b><br>\n\nThe Effective Date of these Terms is set forth at the top of this webpage. If Auditions Alert needs to make a material change to these Terms, we will provide advance notice to you by email or by posting a message on the App. Your continued use of the App after the effective date indicates your acceptance of the updated Terms, even if you have not reviewed them. If you do not agree to the proposed changes, you may (as your sole remedy) delete your Account and discontinue your use of the App.\n\n \n\n<br><br>21.	<b>Governing Law</b>\n\n<br>These Terms are governed by the laws of South Africa, without reference to its conflict of laws provisions, and any dispute arising out of or relating to these Terms or your use of the App will be subject to the exclusive jurisdiction of the federal and state courts, other than for actions to enforce any order or judgment entered by such courts. YOU AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE SITE OR SERVICES MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES; OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.\n\n \n\n<br><br>22.	If any provision of these Terms is determined by a court of competent jurisdiction to be illegal, invalid, or unenforceable, the remaining provisions of these Terms will remain in full force and effect. You and Auditions Alert intend that the provisions of these Terms be enforced to the fullest extent permitted by applicable law. Accordingly, you and Auditions Alert agree that if any provision is deemed unenforceable, where possible, it will be modified to the extent necessary to make it enforceable, which may include its deletion. Section titles are only for convenience and have no legal or contractual significance. Any list of examples following “including” or “e.g.,” is illustrative and not exhaustive, unless qualified by terms like “only” or “solely. Auditions Alert may assign these Terms, in whole or in part, at any time, with or without notice to you. You may not assign, transfer, or sublicense your rights, if any, in your Account, to the App, or under these Terms. If, at any time, Auditions Alert fails to respond to a breach of these Terms by you or others, that failure will not waive Auditions Alert’s right to act with respect to subsequent or similar breaches. A waiver will only be binding on Auditions Alert if it is in writing and signed by Auditions Alert. These Terms (including Additional Terms and any incorporated terms or policies) constitute the entire agreement between you and Auditions Alert with respect to your Account and the App. Both you and Auditions Alert warrant to each other that, in entering these Terms, neither Auditions Alert nor you have relied on or will have any right or remedy based upon any statement, representation, warranty, or assurance other than those expressly stated in these Terms. The preceding sentence will not limit or exclude any liability that cannot be limited or excluded under applicable law. No one other than you and Auditions Alert, or Auditions Alert’s successors and permitted assigns, will have any right to enforce any of these Terms.\n\n</p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\termsandconditions\termsandconditions.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], TermsandconditionsPage);
     return TermsandconditionsPage;
 }());
@@ -555,14 +590,14 @@ var TermsandconditionsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 211:
+/***/ 258:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotpasswordPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(46);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -596,7 +631,7 @@ var ForgotpasswordPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-forgotpassword',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\forgotpassword\forgotpassword.html"*/'<!--\n\n  Generated template for the ForgotpasswordPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n   <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">Forgot Password</h2>\n\n<ion-list>\n\n  <ion-item>\n\n    <ion-label floating>Email Address</ion-label>\n\n    <ion-input type="email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Confirm Email Address</ion-label>\n\n    <ion-input type="email"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>New Password</ion-label>\n\n    <ion-input type="password"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Confirm Password</ion-label>\n\n    <ion-input type="password"></ion-input>\n\n  </ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n    <button ion-button color="secondary" class="summitbutton" (click)="changePassword()">Change Password</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\forgotpassword\forgotpassword.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], ForgotpasswordPage);
     return ForgotpasswordPage;
 }());
@@ -605,16 +640,16 @@ var ForgotpasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 212:
+/***/ 259:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WelcomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_signup__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_native_audio__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_signup__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_native_audio__ = __webpack_require__(260);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -658,7 +693,7 @@ var WelcomePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-welcome',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\welcome\welcome.html"*/'<!--\n\n  Generated template for the WelcomePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content>\n\n  <ion-slides pager autoplay="2000" loop="true" speed="3000">\n\n    <ion-slide class="first-slide">\n\n      <div class="lide-text"><b style="color:#FFFFFF">BE FREE</b></div>\n\n    </ion-slide>\n\n\n\n    <ion-slide class="second-slide">\n\n      <div class="lide-text"><b style="color:#FFFFFF">BE YOU</b></div>\n\n    </ion-slide>\n\n\n\n    <ion-slide class="third-slide">\n\n      <div class="lide-text"><b style="color:#FFFFFF">BE BOLD</b></div>\n\n    </ion-slide>\n\n\n\n  </ion-slides>\n\n</ion-content>\n\n\n\n<ion-footer>\n\n<ion-row style="height: 40px;">\n\n  <ion-col s6 style="text-align: center;margin-top: 5px; color: #32db64;" (click)="register()">\n\n      Register\n\n    </ion-col>\n\n     <ion-col (click)="login()" s6 color="secondary" style="text-align: center; background-color: #32db64;color: #FFFFFF;padding-top: 10px !important;">\n\n      <label> <b>Log In</b> </label>\n\n           \n\n    </ion-col>\n\n  </ion-row>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\welcome\welcome.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_native_audio__["a" /* NativeAudio */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_native_audio__["a" /* NativeAudio */]])
     ], WelcomePage);
     return WelcomePage;
 }());
@@ -667,13 +702,13 @@ var WelcomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 213:
+/***/ 261:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(269);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -681,44 +716,46 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 234:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(294);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(295);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_signup_signup__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_uploadevent_uploadevent__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_aboutus_aboutus__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_contactus_contactus__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_dashboard_dashboard__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_welcome_welcome__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_termsandconditions_termsandconditions__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_native_audio__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_file_chooser__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_storage__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_http__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__angular_http__ = __webpack_require__(297);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__angular_common_http__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_global_variables_global_variables__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__providers_user_user__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__providers_audition_audition__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_img_viewer__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(412);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(427);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_signup_signup__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_uploadevent_uploadevent__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_forgotpassword_forgotpassword__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_dashboard_dashboard__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_profile_profile__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_welcome_welcome__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_termsandconditions_termsandconditions__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_status_bar__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_splash_screen__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_native_audio__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_file_chooser__ = __webpack_require__(252);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_storage__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_http__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__angular_http__ = __webpack_require__(429);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__angular_common_http__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__providers_global_variables_global_variables__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__providers_user_user__ = __webpack_require__(254);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__providers_audition_audition__ = __webpack_require__(135);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -752,56 +789,57 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_signup_signup__["a" /* SignupPage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_uploadevent_uploadevent__["a" /* UploadeventPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_aboutus_aboutus__["a" /* AboutusPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_contactus_contactus__["a" /* ContactusPage */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_dashboard_dashboard__["a" /* DashboardPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__["a" /* ProfilePage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_welcome_welcome__["a" /* WelcomePage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_termsandconditions_termsandconditions__["a" /* TermsandconditionsPage */]
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_signup_signup__["a" /* SignupPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_uploadevent_uploadevent__["a" /* UploadeventPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__["a" /* AboutusPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__["a" /* ContactusPage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_dashboard_dashboard__["a" /* DashboardPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_profile_profile__["a" /* ProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_welcome_welcome__["a" /* WelcomePage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_termsandconditions_termsandconditions__["a" /* TermsandconditionsPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_22__angular_http__["a" /* HttpModule */],
-                __WEBPACK_IMPORTED_MODULE_23__angular_common_http__["b" /* HttpClientModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_23__angular_http__["a" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_24__angular_common_http__["b" /* HttpClientModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
                     links: []
                 }),
-                __WEBPACK_IMPORTED_MODULE_20__ionic_storage__["a" /* IonicStorageModule */].forRoot()
+                __WEBPACK_IMPORTED_MODULE_21__ionic_storage__["a" /* IonicStorageModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_3_ionic_img_viewer__["a" /* IonicImageViewerModule */]
             ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* IonicApp */]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_signup_signup__["a" /* SignupPage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_uploadevent_uploadevent__["a" /* UploadeventPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_aboutus_aboutus__["a" /* AboutusPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_contactus_contactus__["a" /* ContactusPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_dashboard_dashboard__["a" /* DashboardPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__["a" /* ProfilePage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_welcome_welcome__["a" /* WelcomePage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_termsandconditions_termsandconditions__["a" /* TermsandconditionsPage */]
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_signup_signup__["a" /* SignupPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_uploadevent_uploadevent__["a" /* UploadeventPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__["a" /* AboutusPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__["a" /* ContactusPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_login_login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_dashboard_dashboard__["a" /* DashboardPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_profile_profile__["a" /* ProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_welcome_welcome__["a" /* WelcomePage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_termsandconditions_termsandconditions__["a" /* TermsandconditionsPage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__["a" /* SplashScreen */],
-                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] },
-                __WEBPACK_IMPORTED_MODULE_21__ionic_native_http__["a" /* HTTP */],
-                __WEBPACK_IMPORTED_MODULE_24__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
-                __WEBPACK_IMPORTED_MODULE_25__providers_user_user__["a" /* UserProvider */],
-                __WEBPACK_IMPORTED_MODULE_26__providers_audition_audition__["a" /* AuditionProvider */],
-                __WEBPACK_IMPORTED_MODULE_18__ionic_native_native_audio__["a" /* NativeAudio */],
-                __WEBPACK_IMPORTED_MODULE_19__ionic_native_file_chooser__["a" /* FileChooser */]
+                __WEBPACK_IMPORTED_MODULE_17__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_18__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* IonicErrorHandler */] },
+                __WEBPACK_IMPORTED_MODULE_22__ionic_native_http__["a" /* HTTP */],
+                __WEBPACK_IMPORTED_MODULE_25__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
+                __WEBPACK_IMPORTED_MODULE_26__providers_user_user__["a" /* UserProvider */],
+                __WEBPACK_IMPORTED_MODULE_27__providers_audition_audition__["a" /* AuditionProvider */],
+                __WEBPACK_IMPORTED_MODULE_19__ionic_native_native_audio__["a" /* NativeAudio */],
+                __WEBPACK_IMPORTED_MODULE_20__ionic_native_file_chooser__["a" /* FileChooser */]
             ]
         })
     ], AppModule);
@@ -812,24 +850,24 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 276:
+/***/ 412:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_global_variables_global_variables__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_uploadevent_uploadevent__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_dashboard_dashboard__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_profile_profile__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_welcome_welcome__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_global_variables_global_variables__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_uploadevent_uploadevent__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_dashboard_dashboard__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_profile_profile__ = __webpack_require__(253);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_welcome_welcome__ = __webpack_require__(259);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -859,7 +897,7 @@ var MyApp = /** @class */ (function () {
         this.splashScreen = splashScreen;
         this.storage = storage;
         this.globalVariables = globalVariables;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_12__pages_welcome_welcome__["a" /* WelcomePage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_11__pages_login_login__["a" /* LoginPage */];
         this.initializeApp();
         // used for an example of ngFor and navigation
         this.pages = [
@@ -869,7 +907,6 @@ var MyApp = /** @class */ (function () {
             { title: 'About US', component: __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__["a" /* AboutusPage */] },
             { title: 'Contact Us', component: __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__["a" /* ContactusPage */] },
             { title: 'Logout', component: __WEBPACK_IMPORTED_MODULE_11__pages_login_login__["a" /* LoginPage */] },
-            { title: 'WelcomePage', component: __WEBPACK_IMPORTED_MODULE_12__pages_welcome_welcome__["a" /* WelcomePage */] },
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -895,21 +932,27 @@ var MyApp = /** @class */ (function () {
     MyApp.prototype.openPage = function (page) {
         // Reset the content nav to have just this page
         // we wouldn't want the back button to show in this scenario
-        if (page.title == 'Home') {
+        if (page.title == 'Logout') {
+            //this.storage.set('loggedin', false);
             this.nav.setRoot(page.component);
         }
         else {
-            this.nav.push(page.component);
+            if (page.title == 'Home') {
+                this.nav.setRoot(page.component);
+            }
+            else {
+                this.nav.push(page.component);
+            }
         }
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_5__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_5__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */]])
     ], MyApp);
     return MyApp;
 }());
@@ -918,14 +961,14 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 294:
+/***/ 426:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(46);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -955,7 +998,7 @@ var HomePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar *ngIf="showNavBar" transparent>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Home</ion-title>   \n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content style="background-image: url(\'../assets/imgs/background.png\')" padding>\n\n    <div *ngIf="!showNavBar" style=\'text-align: center;margin-top: 90px\'>\n\n        <img src="../assets/imgs/auditionlogo.png">\n\n    </div>\n\n    <div *ngIf="!showNavBar" style="text-align: center">\n\n        <p style="font-family: \'Black Han Sans\', sans-serif;font-size:1.5rem">\n\n            Audition Alert\n\n        </p>\n\n    </div>\n\n    <div *ngIf="showNavBar">\n\n        \n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], HomePage);
     return HomePage;
 }());
@@ -964,13 +1007,13 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 295:
+/***/ 427:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1011,7 +1054,7 @@ var ListPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-list',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\list\list.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
     ], ListPage);
     return ListPage;
     var ListPage_1;
@@ -1021,17 +1064,15 @@ var ListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 35:
+/***/ 45:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DashboardPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__uploadevent_uploadevent__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_native_audio__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_audition_audition__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_photo_viewer__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__uploadevent_uploadevent__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__ = __webpack_require__(135);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1041,8 +1082,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-
-
 
 
 
@@ -1054,19 +1093,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var DashboardPage = /** @class */ (function () {
-    function DashboardPage(navCtrl, navParams, audio, auditionProvider, photoViewer) {
+    function DashboardPage(navCtrl, navParams, auditionProvider) {
         var _this = this;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.audio = audio;
         this.auditionProvider = auditionProvider;
-        this.photoViewer = photoViewer;
         this.showSlides = false;
         this.url = "http://localhost/";
-        this.photoViewer.show('https://mysite.com/path/to/image.jpg');
+        //this.photoViewer.show('../assets/imgs/background.png');
         //get audition events
-        this.auditionProvider.getAuditions().subscribe(function (response) {
+        this.auditionProvider.getAuditions().
+            subscribe(function (response) {
             _this.auditions = response;
+            _this.auditions.push({ name: 'First Audition', description: ' sf  efef efsfds fsdfsd fsdfsdfsdf' });
+            _this.auditions.push({ name: 'Second Audition', description: ' sf  efef efsfds fsdfsd fsdfsdfsdf' });
         });
     }
     DashboardPage.prototype.ionViewDidLoad = function () {
@@ -1077,10 +1117,9 @@ var DashboardPage = /** @class */ (function () {
     };
     DashboardPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-dashboard',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/'<!--\n\n  Generated template for the DashboardPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar transparent>\n\n        <button ion-button menuToggle>\n\n      <ion-icon style="color: darkgray !important" name="menu"></ion-icon>\n\n    </button>\n\n        <h4 style="color: darkgray">Home</h4>\n\n        <ion-buttons end>\n\n            <button ion-button style="color: darkgray !important" (click)="openUpload()">\n\n           UPLOAD\n\n            </button>\n\n\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n    <div style="text-align:center">\n\n        <h4 style="font-family: \'Black Han Sans\', sans-serif;color:white">Auditions</h4>\n\n    </div>\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-6 *ngFor="let audition of auditions">\n\n                <ion-card>\n\n                    <ion-item>\n\n                        <h2>{{audition.name}}</h2>\n\n                        <p>{{audition.name}}</p>\n\n                    </ion-item>\n\n                    <img src="../assets/imgs/img2.jpg">\n\n                    <ion-card-content>\n\n                        <p>{{audition.description}}</p>\n\n                    </ion-card-content>\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/,
+            selector: 'page-dashboard',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/'<!--\n\n  Generated template for the DashboardPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar transparent>\n\n        <button ion-button menuToggle>\n\n      <ion-icon style="color: darkgray !important" name="menu"></ion-icon>\n\n    </button>\n\n        <h4 style="color: darkgray">Home</h4>\n\n        <ion-buttons end>\n\n            <button ion-button style="color: darkgray !important" (click)="openUpload()">\n\n           UPLOAD\n\n            </button>\n\n\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n    <div style="text-align:center">\n\n        <h4 style="font-family: \'Black Han Sans\', sans-serif;color:white">Auditions</h4>\n\n    </div>\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-6 *ngFor="let audition of auditions">\n\n                <ion-card>\n\n                    <ion-item style="text-align: center;">\n\n                        <h2>{{audition.auditionName}}</h2>\n\n                        <p>{{audition.auditionDate}}</p>                        \n\n                    </ion-item>\n\n                    <img src="../assets/imgs/img2.jpg" imageViewer >\n\n                    <ion-card-content>\n\n                        <p><a class="item" href="#{{audition.auditionUrl}}">{{audition.auditionUrl}}</a></p>                        \n\n                        <p>{{audition.auditionDescription}}</p>\n\n                    </ion-card-content>\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_native_audio__["a" /* NativeAudio */], __WEBPACK_IMPORTED_MODULE_4__providers_audition_audition__["a" /* AuditionProvider */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_photo_viewer__["a" /* PhotoViewer */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__["a" /* AuditionProvider */]])
     ], DashboardPage);
     return DashboardPage;
 }());
@@ -1089,19 +1128,20 @@ var DashboardPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 36:
+/***/ 46:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_signup__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_forgotpassword__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_signup__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_forgotpassword__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_forms__ = __webpack_require__(20);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1111,6 +1151,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1126,17 +1167,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var LoginPage = /** @class */ (function () {
-    function LoginPage(navCtrl, navParams, http, globalVariables, storage) {
+    function LoginPage(navCtrl, navParams, http, globalVariables, storage, loadingCtrl, formBuilder) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.http = http;
         this.globalVariables = globalVariables;
         this.storage = storage;
+        this.loadingCtrl = loadingCtrl;
+        this.formBuilder = formBuilder;
         this.user = {
             emailAddress: "",
             password: ""
         };
         this.showError = false;
+        this.submitAttempt = false;
+        this.loginForm = formBuilder.group({
+            emailAddress: ['', __WEBPACK_IMPORTED_MODULE_8__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_8__angular_forms__["f" /* Validators */].required])],
+            password: ['', __WEBPACK_IMPORTED_MODULE_8__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_8__angular_forms__["f" /* Validators */].required])],
+        });
     }
     LoginPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad LoginPage');
@@ -1149,26 +1197,33 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage.prototype.login = function (user) {
         var _this = this;
-        //this.navCtrl.setRoot(DashboardPage);
-        this.storage.set('loggedin', true);
-        this.http.post("http://192.168.42.47/api/loginUser", user).subscribe(function (response) {
-            if (response.result == true) {
-                _this.storage.set('loggedin', true);
-                _this.globalVariables.setUserId(response.data.userId);
-                _this.storage.set('userId', response.data.userId);
-                _this.globalVariables.setFirstTimeLogin(response.data.firstLogin);
-                _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard__["a" /* DashboardPage */]);
-            }
-            else if (response.result == false) {
-                _this.showError = true;
-            }
-        });
+        this.submitAttempt = true;
+        this.showError = false;
+        if (this.loginForm.valid) {
+            var loader = this.loadingCtrl.create({
+                content: "Please wait..."
+            });
+            loader.present();
+            this.http.post("http://197.242.149.23/api/loginUser", user).subscribe(function (response) {
+                if (response.result == true) {
+                    _this.storage.set('loggedin', true);
+                    _this.globalVariables.setUserId(response.data.userId);
+                    _this.globalVariables.setFirstTimeLogin(response.data.firstLogin);
+                    loader.dismiss();
+                    _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard__["a" /* DashboardPage */]);
+                }
+                else if (response.result == false) {
+                    loader.dismiss();
+                    _this.showError = true;
+                }
+            });
+        }
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n    <div style="text-align:center">\n\n        <h4 style="font-family: \'Black Han Sans\', sans-serif;color:white;margin-top: 30%">Audition Alert</h4>\n\n    </div>\n\n    <div>\n\n        <ion-list transparent>\n\n            <ion-item style="background: transparent !important">\n\n                <ion-label floating>Username</ion-label>\n\n                <ion-input style="color:#ffffff" placeholder="" [(ngModel)]="user.emailAddress"></ion-input>\n\n            </ion-item>\n\n            <ion-item style="background: transparent !important">\n\n                <ion-label floating>Password</ion-label>\n\n                <ion-input style="color:#ffffff" type="password" placeholder=""[(ngModel)]="user.password" ></ion-input>\n\n            </ion-item>\n\n        </ion-list>\n\n        <div padding>\n\n            <button ion-button block color="secondary" (click)="login(user)">Sign In</button>\n\n            <p *ngIf="showError" style="color: red;font-size: xx-small;text-align:center"> invalid email or password. </p>\n\n        </div>\n\n        <ion-row style="margin-top: -20px;">\n\n        <ion-col>\n\n          <button style="color:white !important" (click)="register()" ion-button icon-left clear small class="login-links">\n\n        <div>Register</div>\n\n      </button>\n\n        </ion-col>\n\n        <ion-col>\n\n          <button style="color:white !important" ion-button icon-left clear small class="login-links" (click)="forgotPassword()">\n\n        <div>Forgot Password?</div>\n\n      </button>\n\n        </ion-col>\n\n      </ion-row>\n\n    </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n    <form [formGroup]="loginForm">\n\n        <div style="text-align:center">\n\n            <h4 style="font-family: \'Black Han Sans\', sans-serif;color:white;margin-top: 30%">Audition Alert</h4>\n\n        </div>\n\n        <div>\n\n            <ion-list transparent>\n\n                <ion-item style="background: transparent !important">\n\n                    <ion-label floating>Username</ion-label>\n\n                    <ion-input style="color:#ffffff" placeholder="" [(ngModel)]="user.emailAddress" formControlName="emailAddress" [class.invalid]="!loginForm.controls.emailAddress.valid && (loginForm.controls.emailAddress.dirty || submitAttempt)"></ion-input>\n\n                </ion-item>\n\n                <ion-item style="background: transparent !important">\n\n                    <ion-label floating>Password</ion-label>\n\n                    <ion-input style="color:#ffffff" type="password" placeholder="" [(ngModel)]="user.password" formControlName="password" [class.invalid]="!loginForm.controls.password.valid && (loginForm.controls.password.dirty || submitAttempt)"></ion-input>\n\n                </ion-item>\n\n            </ion-list>\n\n            <div padding>\n\n                <button ion-button block color="secondary" (click)="login(user)">Sign In</button>\n\n                <p *ngIf="showError" style="color: red;font-size: xx-small;text-align:center"> invalid email or password. </p>\n\n            </div>\n\n            <ion-row style="margin-top: -20px;">\n\n                <ion-col>\n\n                    <button style="color:white !important" (click)="register()" ion-button icon-left clear small class="login-links">\n\n        <div>Register</div>\n\n      </button>\n\n                </ion-col>\n\n                <ion-col>\n\n                    <button style="color:white !important" ion-button icon-left clear small class="login-links" (click)="forgotPassword()">\n\n        <div>Forgot Password?</div>\n\n      </button>\n\n                </ion-col>\n\n            </ion-row>\n\n        </div>\n\n    </form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */], __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["b" /* Storage */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */], __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_8__angular_forms__["a" /* FormBuilder */]])
     ], LoginPage);
     return LoginPage;
 }());
@@ -1177,12 +1232,12 @@ var LoginPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 45:
+/***/ 55:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GlobalVariablesProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1231,5 +1286,5 @@ var GlobalVariablesProvider = /** @class */ (function () {
 
 /***/ })
 
-},[213]);
+},[261]);
 //# sourceMappingURL=main.js.map

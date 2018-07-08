@@ -19,24 +19,21 @@ import { WelcomePage } from '../pages/welcome/welcome';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = WelcomePage;
+  rootPage: any = LoginPage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{ title: string, component: any }>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,public storage: Storage, public globalVariables: GlobalVariablesProvider) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public storage: Storage, public globalVariables: GlobalVariablesProvider) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: DashboardPage }, 
-      { title: 'Upload', component: UploadeventPage },          
+      { title: 'Home', component: DashboardPage },
+      { title: 'Upload', component: UploadeventPage },
       { title: 'My Profile', component: ProfilePage },
       { title: 'About US', component: AboutusPage },
       { title: 'Contact Us', component: ContactusPage },
-      { title: 'Logout', component: LoginPage }, 
-       { title: 'WelcomePage', component: WelcomePage },      
-      
-      
+      { title: 'Logout', component: LoginPage },
     ];
 
   }
@@ -48,13 +45,13 @@ export class MyApp {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
       this.storage.get('loggedin').then((val) => {
-        if(val){
-           this.rootPage = DashboardPage;
-            this.storage.get('userId').then((val) => {
-               this.globalVariables.setUserId(val);
-            });
-        }else{
-           this.rootPage = WelcomePage;
+        if (val) {
+          this.rootPage = DashboardPage;
+          this.storage.get('userId').then((val) => {
+            this.globalVariables.setUserId(val);
+          });
+        } else {
+          this.rootPage = WelcomePage;
         }
       });
     });
@@ -63,11 +60,15 @@ export class MyApp {
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-    if(page.title == 'Home'){
+    if (page.title == 'Logout') {
+      this.storage.set('loggedin', false);
       this.nav.setRoot(page.component);
-    }else{
+    } else {
+      if (page.title == 'Home') {
+        this.nav.setRoot(page.component);
+      } else {
         this.nav.push(page.component);
+      }
     }
-    
   }
 }

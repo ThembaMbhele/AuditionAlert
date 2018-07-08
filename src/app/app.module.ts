@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { IonicImageViewerModule } from 'ionic-img-viewer';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -51,7 +52,8 @@ import { AuditionProvider } from '../providers/audition/audition';
     HttpModule,
     HttpClientModule,
     IonicModule.forRoot(MyApp),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    IonicImageViewerModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -3,7 +3,6 @@ import { NavController, NavParams } from 'ionic-angular';
 import { UploadeventPage } from '../uploadevent/uploadevent';
 import { NativeAudio } from '@ionic-native/native-audio';
 import { AuditionProvider } from '../../providers/audition/audition';
-import { PhotoViewer } from '@ionic-native/photo-viewer';
 
 /**
  * Generated class for the DashboardPage page.
@@ -21,9 +20,7 @@ export class DashboardPage {
   public auditions: any[];
   public url: string = "http://localhost/"
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,
-   public audio: NativeAudio, public auditionProvider: AuditionProvider) {
-     // this.photoViewer.show('../assets/imgs/background.png');
+  constructor(public navCtrl: NavController, public navParams: NavParams, public auditionProvider: AuditionProvider) {
     //get audition events
     this.auditionProvider.getAuditions().
     subscribe((response: any[]) => {

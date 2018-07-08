@@ -30,13 +30,14 @@
         <ion-row>
             <ion-col col-6 *ngFor="let audition of auditions">
                 <ion-card>
-                    <ion-item>
-                        <h2>{{audition.name}}</h2>
-                        <p>{{audition.name}}</p>
+                    <ion-item style="text-align: center;">
+                        <h2>{{audition.auditionName}}</h2>
+                        <p>{{audition.auditionDate}}</p>                        
                     </ion-item>
-                    <img src="../assets/imgs/img2.jpg">
+                    <img src="../assets/imgs/img2.jpg" imageViewer >
                     <ion-card-content>
-                        <p>{{audition.description}}</p>
+                        <p><a class="item" href="#{{audition.auditionUrl}}">{{audition.auditionUrl}}</a></p>                        
+                        <p>{{audition.auditionDescription}}</p>
                     </ion-card-content>
                 </ion-card>
             </ion-col>

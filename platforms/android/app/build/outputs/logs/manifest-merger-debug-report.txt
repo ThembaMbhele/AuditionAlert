@@ -1,13 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+MERGED from [com.commit451:PhotoView:1.2.4] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\PhotoView-1.2.4.aar\b6605cc11124a29ffaeef304576bf4f7\AndroidManifest.xml:2:1-12:12
 MERGED from [:CordovaLib] C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
-INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
-INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\f8ebcf51b4eda45e152eab24dc38fef8\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-19:12
 	package
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
 		INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml
@@ -43,7 +45,9 @@ ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAle
 	android:name
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:5:5-12:19
+ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:5:5-13:19
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\f8ebcf51b4eda45e152eab24dc38fef8\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\f8ebcf51b4eda45e152eab24dc38fef8\AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
 	android:label
@@ -78,23 +82,37 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
 	android:name
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+activity#com.sarriaroman.PhotoViewer.PhotoActivity
+ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:12:9-143
+	android:theme
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:12:76-140
+	android:name
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:12:19-75
 uses-sdk
-ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:13:5-74
+ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:14:5-74
+MERGED from [com.commit451:PhotoView:1.2.4] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\PhotoView-1.2.4.aar\b6605cc11124a29ffaeef304576bf4f7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.commit451:PhotoView:1.2.4] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\PhotoView-1.2.4.aar\b6605cc11124a29ffaeef304576bf4f7\AndroidManifest.xml:8:5-10:41
 MERGED from [:CordovaLib] C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\f8ebcf51b4eda45e152eab24dc38fef8\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\support-v4-23.0.1.aar\f8ebcf51b4eda45e152eab24dc38fef8\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:13:42-71
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:14:42-71
 	android:minSdkVersion
-		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:13:15-41
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:14:15-41
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:14:5-81
+ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:15:5-80
+ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:16:5-80
 	android:name
-		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:15:22-77
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:16:5-75
+ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:16:22-72
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:18:22-77

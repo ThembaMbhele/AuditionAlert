@@ -19,17 +19,17 @@ export class AuditionProvider {
       const formData: FormData = new FormData();
       formData.append('file', file);
       
-      return this.http.post("http://localhost:7777/api/uploadImage", formData);
+      return this.http.post("http://197.242.149.23/api/uploadImage", formData);
   }
   
   uploadEvent(audition)
   {
-      return this.http.post('http://localhost:7777/api/uploadAuditionEvent', audition);
+      return this.http.post('http://197.242.149.23/api/uploadAuditionEvent', audition);
   }
   
   getAuditions()
   {
-      return this.http.get('http://localhost:7777/api/getAuditionEvents');
+      return this.http.get('http://197.242.149.23/api/getAuditionEvents');
   }
 
 }
