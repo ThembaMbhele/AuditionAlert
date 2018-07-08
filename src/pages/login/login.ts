@@ -45,14 +45,14 @@ export class LoginPage {
    login(user)
    {   
      //this.navCtrl.setRoot(DashboardPage);
-this.storage.set('loggedin', true);
-       this.http.post("http://192.168.42.47/api/loginUser", user).subscribe((response: any) => 
+//this.storage.set('loggedin', true);
+       this.http.post("http://localhost:7777/api/loginUser", user).subscribe((response: any) => 
        {
            if(response.result == true)
            {
                this.storage.set('loggedin', true);
                this.globalVariables.setUserId(response.data.userId);
-               this.storage.set('userId', response.data.userId);
+               //this.storage.set('userId', response.data.userId);
                this.globalVariables.setFirstTimeLogin(response.data.firstLogin);
                this.navCtrl.setRoot(DashboardPage);
            }

@@ -263,6 +263,14 @@ module.exports = [
     "clobbers": [
       "SQLitePlugin"
     ]
+  },
+  {
+    "id": "com-sarriaroman-photoviewer.PhotoViewer",
+    "file": "plugins/com-sarriaroman-photoviewer/www/PhotoViewer.js",
+    "pluginId": "com-sarriaroman-photoviewer",
+    "clobbers": [
+      "PhotoViewer"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -277,7 +285,8 @@ module.exports.metadata =
   "cordova-plugin-advanced-http": "1.11.1",
   "cordova-plugin-nativeaudio": "3.0.9",
   "cordova-plugin-filechooser": "1.0.1",
-  "cordova-sqlite-storage": "2.3.3"
+  "cordova-sqlite-storage": "2.3.3",
+  "com-sarriaroman-photoviewer": "1.1.18"
 };
 // BOTTOM OF METADATA
 });
