@@ -11,6 +11,7 @@ import { Injectable } from '@angular/core';
 export class GlobalVariablesProvider {
     
  public userId: any = null;
+ public userType: any = null;
  public firstTimeLogin: boolean = false;
  public selectedAudition: any;
 
@@ -26,6 +27,16 @@ export class GlobalVariablesProvider {
   getAudition()
   {
       return this.selectedAudition;
+  }
+
+  setUserType(userType)
+  {
+      this.userType = userType;
+  }
+  
+  getUserType()
+  {
+      return this.userType;
   }
   
   setUserId(id)

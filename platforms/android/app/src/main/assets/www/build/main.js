@@ -9,7 +9,7 @@ webpackJsonp([0],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_file_picker__ = __webpack_require__(253);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__ = __webpack_require__(254);
@@ -95,7 +95,7 @@ var UploadeventPage = /** @class */ (function () {
         this.camera = camera;
         this.actionSheetCtrl = actionSheetCtrl;
         this.formBuilder = formBuilder;
-        this.min = new Date();
+        this.min = new Date().toJSON().split('T')[0];
         this.imageFile = "assets/imgs/newalert.jpg";
         this.submitAttempt = false;
         this.event = {
@@ -115,6 +115,7 @@ var UploadeventPage = /** @class */ (function () {
             auditionUrl: [''],
         });
     }
+    ;
     UploadeventPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad UploadeventPage');
     };
@@ -181,7 +182,7 @@ var UploadeventPage = /** @class */ (function () {
             this.auditionProvider.uploadAuditionImage(this.base64Image).subscribe(function (response) {
                 _this.event.auditionImage = response;
                 _this.event.userId = _this.userId;
-                _this.event.auditionDate = new Date().getFullYear() + '-' + Number(new Date().getMonth() + 1) + '-' + new Date().getDate();
+                _this.event.auditionDate = _this.event.auditionDate + ' ' + new Date().getHours() + ':' + Number(new Date().getMinutes() + 1) + ':' + new Date().getSeconds();
                 _this.auditionProvider.uploadEvent(_this.event).subscribe(function (response) {
                     loader.dismiss();
                     if (response.result == true) {
@@ -197,7 +198,7 @@ var UploadeventPage = /** @class */ (function () {
     };
     UploadeventPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-uploadevent',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\uploadevent\uploadevent.html"*/'<!--\n\n  Generated template for the UploadeventPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header transparent>\n\n    <ion-navbar transparent>\n\n        <ion-title style="margin-left: 10%;">\n\n            <h1 style="color: darkgray !important">Upload Event</h1>\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n    <form [formGroup]="auditionForm">\n\n        <ion-list style="margin-top: -25px;">\n\n            <ion-item>\n\n                <ion-label floating>Name</ion-label>\n\n                <ion-input type="text" [(ngModel)]="event.auditionName" formControlName="auditionName" [class.invalid]="!auditionForm.controls.auditionName.valid && (auditionForm.controls.auditionName.dirty || submitAttempt)"></ion-input>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label stacked>Event Date</ion-label>\n\n                <ion-input type="date" min="min" [(ngModel)]="event.auditionDate" formControlName="auditionDate" [class.invalid]="!auditionForm.controls.auditionDate.valid && (auditionForm.controls.auditionDate.dirty || submitAttempt)"></ion-input>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label floating>URL</ion-label>\n\n                <ion-input type="text" [(ngModel)]="event.auditionUrl" formControlName="auditionDate" ></ion-input>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label floating>Description</ion-label>\n\n                <ion-textarea rows="6" [(ngModel)]="event.auditionDescription" formControlName="auditionDescription" [class.invalid]="!auditionForm.controls.auditionDescription.valid && (auditionForm.controls.auditionDescription.dirty || submitAttempt)"></ion-textarea>\n\n            </ion-item>\n\n            <ion-item no-lines>\n\n                <ion-grid>\n\n                    <ion-row>\n\n                        <ion-col>\n\n                            <h4 style="color: darkgray !important;margin-top:10px">Upload Photo</h4>\n\n                        </ion-col>\n\n                        <ion-col>\n\n                            <button ion-button class="summitbutton" color="secondary" (click)="openeditprofile()">Upload Poster</button>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n                <img src="{{base64Image}}" alt="Ionic File" width="300" height="400" />\n\n            </ion-item>\n\n            <ion-item class="center" no-lines>\n\n                <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Share</button>\n\n            </ion-item>\n\n        </ion-list>\n\n    </form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\uploadevent\uploadevent.html"*/,
+            selector: 'page-uploadevent',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\uploadevent\uploadevent.html"*/'<!--\n\n  Generated template for the UploadeventPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header transparent>\n\n    <ion-navbar transparent>\n\n        <ion-title style="margin-left: 10%;">\n\n            <h1 style="color: darkgray !important">Upload Event</h1>\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n    <form [formGroup]="auditionForm">\n\n        <ion-list style="margin-top: -25px;">\n\n            <ion-item>\n\n                <ion-label floating>Name</ion-label>\n\n                <ion-input type="text" [(ngModel)]="event.auditionName" formControlName="auditionName" [class.invalid]="!auditionForm.controls.auditionName.valid && (auditionForm.controls.auditionName.dirty || submitAttempt)"></ion-input>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label stacked>Event Date</ion-label>\n\n                <ion-input type="date" [min]="min" [(ngModel)]="event.auditionDate" formControlName="auditionDate" [class.invalid]="!auditionForm.controls.auditionDate.valid && (auditionForm.controls.auditionDate.dirty || submitAttempt)"></ion-input>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label floating>URL</ion-label>\n\n                <ion-input type="text" [(ngModel)]="event.auditionUrl" formControlName="auditionDate" ></ion-input>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-label floating>Description</ion-label>\n\n                <ion-textarea rows="6" [(ngModel)]="event.auditionDescription" formControlName="auditionDescription" [class.invalid]="!auditionForm.controls.auditionDescription.valid && (auditionForm.controls.auditionDescription.dirty || submitAttempt)"></ion-textarea>\n\n            </ion-item>\n\n            <ion-item no-lines>\n\n                <ion-grid>\n\n                    <ion-row>\n\n                        <ion-col>\n\n                            <h4 style="color: darkgray !important;margin-top:10px">Upload Photo</h4>\n\n                        </ion-col>\n\n                        <ion-col>\n\n                            <button ion-button class="summitbutton" color="secondary" (click)="openeditprofile()">Upload</button>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n                <img src="{{base64Image}}" alt="Ionic File" width="300" height="400" />\n\n            </ion-item>\n\n            <ion-item class="center" no-lines>\n\n                <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Share</button>\n\n            </ion-item>\n\n        </ion-list>\n\n    </form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\uploadevent\uploadevent.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* ToastController */], __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__["a" /* AuditionProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_file_chooser__["a" /* FileChooser */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_file_picker__["a" /* IOSFilePicker */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */], __WEBPACK_IMPORTED_MODULE_8__angular_forms__["a" /* FormBuilder */]])
     ], UploadeventPage);
@@ -213,7 +214,7 @@ var UploadeventPage = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuditionProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -268,10 +269,10 @@ var AuditionProvider = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__termsandconditions_termsandconditions__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__termsandconditions_termsandconditions__ = __webpack_require__(257);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -422,160 +423,6 @@ webpackEmptyAsyncContext.id = 189;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_global_variables_global_variables__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_user__ = __webpack_require__(256);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the ProfilePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ProfilePage = /** @class */ (function () {
-    function ProfilePage(navCtrl, loadingCtrl, toast, navParams, globalVariables, userProvider) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.loadingCtrl = loadingCtrl;
-        this.toast = toast;
-        this.navParams = navParams;
-        this.globalVariables = globalVariables;
-        this.userProvider = userProvider;
-        this.profile = {
-            firstName: "",
-            lastName: "",
-            emailAddress: "",
-            password: "",
-            country: "",
-            dateOfBirth: null,
-            gender: "",
-            career: "",
-            cellPhone: "",
-            id: null
-        };
-        this.userId = this.globalVariables.getUserId();
-        this.profile.id = this.userId;
-        var requestId = {
-            id: this.userId
-        };
-        this.userProvider.getUserById(requestId).subscribe(function (response) {
-            _this.profile = response;
-        });
-        //get countries
-        this.userProvider.getCountries().subscribe(function (response) {
-            _this.countries = response;
-        });
-    }
-    ProfilePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProfilePage');
-    };
-    ProfilePage.prototype.showError = function (str) {
-        var toast = this.toast.create({
-            message: str,
-            duration: 10000,
-            position: 'top'
-        });
-        toast.present();
-    };
-    ProfilePage.prototype.update = function (profile) {
-        var _this = this;
-        var loader = this.loadingCtrl.create({
-            content: "Please wait..."
-        });
-        loader.present();
-        this.userProvider.updateProfile(profile).subscribe(function (response) {
-            if (response.result == true)
-                _this.showError("Your profile has been updated successful.");
-            else
-                _this.showError("We are unable to update your profile at the moment please try again later.");
-            loader.dismiss();
-        });
-    };
-    ProfilePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-profile',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header transparent>\n\n    <ion-navbar transparent>\n\n        <ion-title style="margin-left: 10%;">\n\n            <h1 style="color: darkgray !important">My Profile</h1>\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n<ion-list style="margin-top: -25px;">\n\n\n\n  <ion-item>\n\n    <ion-label floating>First Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.firstName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Last Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.lastName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label stacked>Date Of Birth</ion-label>\n\n    <ion-input type="date" [(ngModel)]="profile.dateOfBirth"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n  <ion-label floating>Gender</ion-label>\n\n  <ion-select [(ngModel)]="profile.gender">\n\n    <ion-option value="f">Female</ion-option>\n\n    <ion-option value="m">Male</ion-option>\n\n    <ion-option value="o">Other</ion-option>\n\n  </ion-select>\n\n</ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Career</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.career"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n  <ion-label floating>Country</ion-label>\n\n  <ion-select [(ngModel)]="profile.country">\n\n        <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>\n\n  </ion-select>\n\n</ion-item>\n\n\n\n   <ion-item>\n\n    <ion-label floating>Cell Phone</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.cellPhone"></ion-input>\n\n  </ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n    <button ion-button color="secondary" class="summitbutton" (click)="update(profile)">Update</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\profile\profile.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_user_user__["a" /* UserProvider */]])
-    ], ProfilePage);
-    return ProfilePage;
-}());
-
-//# sourceMappingURL=profile.js.map
-
-/***/ }),
-
-/***/ 256:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/*
-  Generated class for the UserProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
-var UserProvider = /** @class */ (function () {
-    function UserProvider(http) {
-        this.http = http;
-        //public url: string = "http://localhost/api";
-        this.url = "http://auditionsalertsa.dedicated.co.za/api";
-        console.log('Hello UserProvider Provider');
-    }
-    UserProvider.prototype.getUserById = function (parameters) {
-        return this.http.post(this.url + "/getUserById", parameters);
-    };
-    UserProvider.prototype.getCountries = function () {
-        return this.http.get(this.url + "/getCountries");
-    };
-    UserProvider.prototype.updateProfile = function (profile) {
-        return this.http.post(this.url + "/updateUserById", profile);
-    };
-    UserProvider = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
-    ], UserProvider);
-    return UserProvider;
-}());
-
-//# sourceMappingURL=user.js.map
-
-/***/ }),
-
-/***/ 257:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutusPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
@@ -617,7 +464,7 @@ var AboutusPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 258:
+/***/ 256:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -625,7 +472,7 @@ var AboutusPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dashboard_dashboard__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_forms__ = __webpack_require__(16);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -712,7 +559,7 @@ var ContactusPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 259:
+/***/ 257:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -757,16 +604,16 @@ var TermsandconditionsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 260:
+/***/ 258:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotpasswordPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -852,7 +699,7 @@ var ForgotpasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 261:
+/***/ 259:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -860,7 +707,7 @@ var ForgotpasswordPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_signup__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_login__ = __webpack_require__(47);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -903,7 +750,7 @@ var WelcomePage = /** @class */ (function () {
     };
     WelcomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-welcome',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\welcome\welcome.html"*/'<!--\n\n  Generated template for the WelcomePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content>\n\n  <ion-slides pager autoplay="2000" loop="true" speed="3000">\n\n    <ion-slide class="first-slide">\n\n      <div class="lide-text"><b style="color:#FFFFFF">BE FREE</b></div>\n\n    </ion-slide>\n\n\n\n    <ion-slide class="second-slide">\n\n      <div class="lide-text"><b style="color:#FFFFFF">BE YOU</b></div>\n\n    </ion-slide>\n\n\n\n    <ion-slide class="third-slide">\n\n      <div class="lide-text"><b style="color:#FFFFFF">BE BOLD</b></div>\n\n    </ion-slide>\n\n\n\n  </ion-slides>\n\n</ion-content>\n\n\n\n<ion-footer>\n\n<ion-row style="height: 40px;">\n\n  <ion-col s6 style="text-align: center;margin-top: 5px; color: #32db64;" (click)="register()">\n\n      Register\n\n    </ion-col>\n\n     <ion-col (click)="login()" s6 color="secondary" style="text-align: center; background-color: #32db64;color: #FFFFFF;padding-top: 10px !important;">\n\n      <label> <b>Log In</b> </label>\n\n           \n\n    </ion-col>\n\n  </ion-row>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\welcome\welcome.html"*/,
+            selector: 'page-welcome',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\welcome\welcome.html"*/'<!--\n\n  Generated template for the WelcomePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content>\n\n  <ion-slides pager autoplay="2000" loop="true" speed="3000">\n\n    <ion-slide class="first-slide">\n\n      <div class="slide-text">BE FREE</div>\n\n    </ion-slide>\n\n\n\n    <ion-slide class="second-slide">\n\n      <div class="slide-text">BE YOU</div>\n\n    </ion-slide>\n\n\n\n    <ion-slide class="third-slide">\n\n      <div class="slide-text">BE BOLD</div>\n\n    </ion-slide>\n\n\n\n  </ion-slides>\n\n</ion-content>\n\n\n\n<ion-footer>\n\n<ion-row style="height: 40px;">\n\n  <ion-col s6 style="text-align: center;margin-top: 5px; color: #32db64;" (click)="register()">\n\n      Register\n\n    </ion-col>\n\n     <ion-col (click)="login()" s6 color="secondary" style="text-align: center; background-color: #32db64;color: #FFFFFF;padding-top: 10px !important;">\n\n      <label> <b>Log In</b> </label>\n\n           \n\n    </ion-col>\n\n  </ion-row>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\welcome\welcome.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* NavParams */]])
     ], WelcomePage);
@@ -914,13 +761,64 @@ var WelcomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 262:
+/***/ 260:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the UserProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var UserProvider = /** @class */ (function () {
+    function UserProvider(http) {
+        this.http = http;
+        //public url: string = "http://localhost/api";
+        this.url = "http://auditionsalertsa.dedicated.co.za/api";
+        console.log('Hello UserProvider Provider');
+    }
+    UserProvider.prototype.getUserById = function (parameters) {
+        return this.http.post(this.url + "/getUserById", parameters);
+    };
+    UserProvider.prototype.getCountries = function () {
+        return this.http.get(this.url + "/getCountries");
+    };
+    UserProvider.prototype.updateProfile = function (profile) {
+        return this.http.post(this.url + "/updateUserById", profile);
+    };
+    UserProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
+    ], UserProvider);
+    return UserProvider;
+}());
+
+//# sourceMappingURL=user.js.map
+
+/***/ }),
+
+/***/ 261:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(270);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(262);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(269);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -928,40 +826,40 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 270:
+/***/ 269:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_img_viewer__ = __webpack_require__(308);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(413);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(427);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_img_viewer__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(412);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(427);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_signup_signup__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_uploadevent_uploadevent__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__ = __webpack_require__(258);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_forgotpassword_forgotpassword__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_forgotpassword_forgotpassword__ = __webpack_require__(258);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_dashboard_dashboard__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_profile_profile__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_welcome_welcome__ = __webpack_require__(261);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_termsandconditions_termsandconditions__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_profile_profile__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_welcome_welcome__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_termsandconditions_termsandconditions__ = __webpack_require__(257);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_status_bar__ = __webpack_require__(249);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_splash_screen__ = __webpack_require__(251);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_storage__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_storage__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_file__ = __webpack_require__(429);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_camera__ = __webpack_require__(254);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_file_chooser__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_file_picker__ = __webpack_require__(253);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_http__ = __webpack_require__(430);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__angular_http__ = __webpack_require__(431);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__angular_common_http__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__providers_global_variables_global_variables__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__providers_user_user__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__angular_common_http__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__providers_global_variables_global_variables__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__providers_user_user__ = __webpack_require__(260);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__providers_audition_audition__ = __webpack_require__(135);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1068,7 +966,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 413:
+/***/ 412:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1077,15 +975,14 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(249);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(251);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_global_variables_global_variables__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_global_variables_global_variables__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_uploadevent_uploadevent__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_dashboard_dashboard__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_profile_profile__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__ = __webpack_require__(258);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_welcome_welcome__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_aboutus_aboutus__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_contactus_contactus__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_login_login__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_welcome_welcome__ = __webpack_require__(259);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1107,7 +1004,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var MyApp = /** @class */ (function () {
     function MyApp(platform, statusBar, splashScreen, storage, globalVariables) {
         this.platform = platform;
@@ -1115,15 +1011,14 @@ var MyApp = /** @class */ (function () {
         this.splashScreen = splashScreen;
         this.storage = storage;
         this.globalVariables = globalVariables;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_11__pages_login_login__["a" /* LoginPage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */];
         this.initializeApp();
         // used for an example of ngFor and navigation
         this.pages = [
             { title: 'Upload', component: __WEBPACK_IMPORTED_MODULE_6__pages_uploadevent_uploadevent__["a" /* UploadeventPage */] },
-            { title: 'My Profile', component: __WEBPACK_IMPORTED_MODULE_8__pages_profile_profile__["a" /* ProfilePage */] },
-            { title: 'About US', component: __WEBPACK_IMPORTED_MODULE_9__pages_aboutus_aboutus__["a" /* AboutusPage */] },
-            { title: 'Contact Us', component: __WEBPACK_IMPORTED_MODULE_10__pages_contactus_contactus__["a" /* ContactusPage */] },
-            { title: 'Logout', component: __WEBPACK_IMPORTED_MODULE_11__pages_login_login__["a" /* LoginPage */] },
+            { title: 'About US', component: __WEBPACK_IMPORTED_MODULE_8__pages_aboutus_aboutus__["a" /* AboutusPage */] },
+            { title: 'Contact Us', component: __WEBPACK_IMPORTED_MODULE_9__pages_contactus_contactus__["a" /* ContactusPage */] },
+            { title: 'Logout', component: __WEBPACK_IMPORTED_MODULE_10__pages_login_login__["a" /* LoginPage */] },
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -1141,7 +1036,7 @@ var MyApp = /** @class */ (function () {
                     });
                 }
                 else {
-                    _this.rootPage = __WEBPACK_IMPORTED_MODULE_12__pages_welcome_welcome__["a" /* WelcomePage */];
+                    _this.rootPage = __WEBPACK_IMPORTED_MODULE_11__pages_welcome_welcome__["a" /* WelcomePage */];
                 }
             });
         });
@@ -1178,14 +1073,14 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 427:
+/***/ 426:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(47);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1223,7 +1118,7 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 428:
+/***/ 427:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1280,7 +1175,177 @@ var ListPage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 428:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_global_variables_global_variables__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_user_user__ = __webpack_require__(260);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the ProfilePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ProfilePage = /** @class */ (function () {
+    function ProfilePage(navCtrl, loadingCtrl, toast, navParams, globalVariables, userProvider) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.toast = toast;
+        this.navParams = navParams;
+        this.globalVariables = globalVariables;
+        this.userProvider = userProvider;
+        this.profile = {
+            firstName: "",
+            lastName: "",
+            emailAddress: "",
+            password: "",
+            country: "",
+            dateOfBirth: null,
+            gender: "",
+            career: "",
+            cellPhone: "",
+            id: null
+        };
+        this.userId = this.globalVariables.getUserId();
+        this.profile.id = this.userId;
+        var requestId = {
+            id: this.userId
+        };
+        this.userProvider.getUserById(requestId).subscribe(function (response) {
+            _this.profile = response;
+        });
+        //get countries
+        this.userProvider.getCountries().subscribe(function (response) {
+            _this.countries = response;
+        });
+    }
+    ProfilePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ProfilePage');
+    };
+    ProfilePage.prototype.showError = function (str) {
+        var toast = this.toast.create({
+            message: str,
+            duration: 10000,
+            position: 'top'
+        });
+        toast.present();
+    };
+    ProfilePage.prototype.update = function (profile) {
+        var _this = this;
+        var loader = this.loadingCtrl.create({
+            content: "Please wait..."
+        });
+        loader.present();
+        this.userProvider.updateProfile(profile).subscribe(function (response) {
+            if (response.result == true)
+                _this.showError("Your profile has been updated successful.");
+            else
+                _this.showError("We are unable to update your profile at the moment please try again later.");
+            loader.dismiss();
+        });
+    };
+    ProfilePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-profile',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header transparent>\n\n    <ion-navbar transparent>\n\n        <ion-title style="margin-left: 10%;">\n\n            <h1 style="color: darkgray !important">My Profile</h1>\n\n        </ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n\n<ion-list style="margin-top: -25px;">\n\n\n\n  <ion-item>\n\n    <ion-label floating>First Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.firstName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Last Name</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.lastName"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label stacked>Date Of Birth</ion-label>\n\n    <ion-input type="date" [(ngModel)]="profile.dateOfBirth"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n  <ion-label floating>Gender</ion-label>\n\n  <ion-select [(ngModel)]="profile.gender">\n\n    <ion-option value="f">Female</ion-option>\n\n    <ion-option value="m">Male</ion-option>\n\n    <ion-option value="o">Other</ion-option>\n\n  </ion-select>\n\n</ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Career</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.career"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n  <ion-label floating>Country</ion-label>\n\n  <ion-select [(ngModel)]="profile.country">\n\n        <ion-option *ngFor="let country of countries" value="{{country.Name}}">{{country.Name}}</ion-option>\n\n  </ion-select>\n\n</ion-item>\n\n\n\n   <ion-item>\n\n    <ion-label floating>Cell Phone</ion-label>\n\n    <ion-input type="text" [(ngModel)]="profile.cellPhone"></ion-input>\n\n  </ion-item>\n\n\n\n <ion-item class="center" no-lines justify-content-center align-items-center>\n\n    <button ion-button color="secondary" class="summitbutton" (click)="update(profile)">Update</button>\n\n  </ion-item>\n\n\n\n</ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\profile\profile.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* ToastController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_user_user__["a" /* UserProvider */]])
+    ], ProfilePage);
+    return ProfilePage;
+}());
+
+//# sourceMappingURL=profile.js.map
+
+/***/ }),
+
 /***/ 46:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GlobalVariablesProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the GlobalVariablesProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var GlobalVariablesProvider = /** @class */ (function () {
+    function GlobalVariablesProvider(http) {
+        this.http = http;
+        this.userId = null;
+        this.userType = null;
+        this.firstTimeLogin = false;
+        console.log('Hello GlobalVariablesProvider Provider');
+    }
+    GlobalVariablesProvider.prototype.setAudition = function (audition) {
+        this.selectedAudition = audition;
+    };
+    GlobalVariablesProvider.prototype.getAudition = function () {
+        return this.selectedAudition;
+    };
+    GlobalVariablesProvider.prototype.setUserType = function (userType) {
+        this.userType = userType;
+    };
+    GlobalVariablesProvider.prototype.getUserType = function () {
+        return this.userType;
+    };
+    GlobalVariablesProvider.prototype.setUserId = function (id) {
+        this.userId = id;
+    };
+    GlobalVariablesProvider.prototype.getUserId = function () {
+        return this.userId;
+    };
+    GlobalVariablesProvider.prototype.setFirstTimeLogin = function (value) {
+        this.firstTimeLogin = value;
+    };
+    GlobalVariablesProvider.prototype.getFirstTimeLogin = function () {
+        return this.firstTimeLogin;
+    };
+    GlobalVariablesProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
+    ], GlobalVariablesProvider);
+    return GlobalVariablesProvider;
+}());
+
+//# sourceMappingURL=global-variables.js.map
+
+/***/ }),
+
+/***/ 47:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1288,11 +1353,11 @@ var ListPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup_signup__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_forgotpassword__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_forgotpassword__ = __webpack_require__(258);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__dashboard_dashboard__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_forms__ = __webpack_require__(16);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1360,6 +1425,7 @@ var LoginPage = /** @class */ (function () {
                 if (response.result == true) {
                     _this.storage.set('loggedin', true);
                     _this.globalVariables.setUserId(response.data.userId);
+                    _this.storage.set('userType', response.data.userType);
                     _this.storage.set('userId', response.data.userId);
                     _this.globalVariables.setFirstTimeLogin(response.data.firstLogin);
                     loader.dismiss();
@@ -1384,7 +1450,7 @@ var LoginPage = /** @class */ (function () {
     };
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n    <form [formGroup]="loginForm">\n\n        <div style="text-align:center">\n\n            <h4 style="font-family: \'Black Han Sans\', sans-serif;color:darkgray;margin-top: 30%">Audition Alert</h4>\n\n        </div>\n\n        <div>\n\n            <ion-list transparent>\n\n                <ion-item style="background: transparent !important">\n\n                    <ion-label floating>Username</ion-label>\n\n                    <ion-input style="color:#ffffff" placeholder="" [(ngModel)]="user.emailAddress" formControlName="emailAddress" [class.invalid]="!loginForm.controls.emailAddress.valid && (loginForm.controls.emailAddress.dirty || submitAttempt)"></ion-input>\n\n                </ion-item>\n\n                <ion-item style="background: transparent !important">\n\n                    <ion-label floating>Password</ion-label>\n\n                    <ion-input style="color:#ffffff" type="password" placeholder="" [(ngModel)]="user.password" formControlName="password" [class.invalid]="!loginForm.controls.password.valid && (loginForm.controls.password.dirty || submitAttempt)"></ion-input>\n\n                </ion-item>\n\n            </ion-list>\n\n            <div padding>\n\n                <button ion-button block color="secondary" (click)="login(user)">Sign In</button>\n\n                <p *ngIf="showError" style="color: red;font-size: small;text-align:center"> invalid email or password. </p>\n\n            </div>\n\n            <ion-row style="margin-top: -20px;">\n\n                <ion-col>\n\n                    <button style="color:white !important" (click)="register()" ion-button icon-left clear small class="login-links">\n\n        <div>Register</div>\n\n      </button>\n\n                </ion-col>\n\n                <ion-col>\n\n                    <button style="color:white !important" ion-button icon-left clear small class="login-links" (click)="forgotPassword()">\n\n        <div>Forgot Password?</div>\n\n      </button>\n\n                </ion-col>\n\n            </ion-row>\n\n        </div>\n\n    </form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-content padding>\n\n    <form [formGroup]="loginForm">\n\n        <div style="text-align:center">\n\n            <h4 style="font-family: \'Black Han Sans\', sans-serif;color:darkgray;margin-top: 30%">Auditions Alert</h4>\n\n        </div>\n\n        <div>\n\n            <ion-list transparent>\n\n                <ion-item style="background: transparent !important">\n\n                    <ion-label floating>Email Address</ion-label>\n\n                    <ion-input style="color:#ffffff" placeholder="" [(ngModel)]="user.emailAddress" formControlName="emailAddress" [class.invalid]="!loginForm.controls.emailAddress.valid && (loginForm.controls.emailAddress.dirty || submitAttempt)"></ion-input>\n\n                </ion-item>\n\n                <ion-item style="background: transparent !important">\n\n                    <ion-label floating>Password</ion-label>\n\n                    <ion-input style="color:#ffffff" type="password" placeholder="" [(ngModel)]="user.password" formControlName="password" [class.invalid]="!loginForm.controls.password.valid && (loginForm.controls.password.dirty || submitAttempt)"></ion-input>\n\n                </ion-item>\n\n            </ion-list>\n\n            <div padding>\n\n                <button ion-button block color="secondary" (click)="login(user)">Sign In</button>\n\n                <p *ngIf="showError" style="color: red;font-size: small;text-align:center"> invalid email or password. </p>\n\n            </div>\n\n            <ion-row style="margin-top: -20px;">\n\n                <ion-col>\n\n                    <button style="color:white !important" (click)="register()" ion-button icon-left clear small class="login-links">\n\n        <div>Register</div>\n\n      </button>\n\n                </ion-col>\n\n                <ion-col>\n\n                    <button style="color:white !important" ion-button icon-left clear small class="login-links" (click)="forgotPassword()">\n\n        <div>Forgot Password?</div>\n\n      </button>\n\n                </ion-col>\n\n            </ion-row>\n\n        </div>\n\n    </form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_6__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */], __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_8__angular_forms__["a" /* FormBuilder */]])
     ], LoginPage);
@@ -1392,66 +1458,6 @@ var LoginPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=login.js.map
-
-/***/ }),
-
-/***/ 54:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GlobalVariablesProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/*
-  Generated class for the GlobalVariablesProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
-var GlobalVariablesProvider = /** @class */ (function () {
-    function GlobalVariablesProvider(http) {
-        this.http = http;
-        this.userId = null;
-        this.firstTimeLogin = false;
-        console.log('Hello GlobalVariablesProvider Provider');
-    }
-    GlobalVariablesProvider.prototype.setAudition = function (audition) {
-        this.selectedAudition = audition;
-    };
-    GlobalVariablesProvider.prototype.getAudition = function () {
-        return this.selectedAudition;
-    };
-    GlobalVariablesProvider.prototype.setUserId = function (id) {
-        this.userId = id;
-    };
-    GlobalVariablesProvider.prototype.getUserId = function () {
-        return this.userId;
-    };
-    GlobalVariablesProvider.prototype.setFirstTimeLogin = function (value) {
-        this.firstTimeLogin = value;
-    };
-    GlobalVariablesProvider.prototype.getFirstTimeLogin = function () {
-        return this.firstTimeLogin;
-    };
-    GlobalVariablesProvider = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_common_http__["a" /* HttpClient */]])
-    ], GlobalVariablesProvider);
-    return GlobalVariablesProvider;
-}());
-
-//# sourceMappingURL=global-variables.js.map
 
 /***/ }),
 
@@ -1464,6 +1470,9 @@ var GlobalVariablesProvider = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__uploadevent_uploadevent__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(71);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1477,6 +1486,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
+
 /**
  * Generated class for the DashboardPage page.
  *
@@ -1484,18 +1496,42 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var DashboardPage = /** @class */ (function () {
-    function DashboardPage(navCtrl, navParams, auditionProvider) {
+    function DashboardPage(navCtrl, navParams, http, storage, auditionProvider, toastCtrl, globalVariables) {
         var _this = this;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.http = http;
+        this.storage = storage;
         this.auditionProvider = auditionProvider;
+        this.toastCtrl = toastCtrl;
+        this.globalVariables = globalVariables;
         this.showSlides = false;
         //get audition events
+        this.storage.get('userType').then(function (val) {
+            if (val) {
+                _this.userType = val;
+            }
+        });
+        this.getAuditions();
+    }
+    DashboardPage.prototype.getAuditions = function () {
+        var _this = this;
         this.auditionProvider.getAuditions().
             subscribe(function (response) {
             _this.auditions = response;
+            _this.auditions.sort(function (a, b) {
+                var f = Date.parse(b.auditionDate);
+                var s = Date.parse(a.auditionDate);
+                f = f / 1000;
+                s = s / 1000;
+                return s - f;
+            });
         });
-    }
+    };
+    DashboardPage.prototype.toTimestamp = function (strDate) {
+        var datum = Date.parse(strDate);
+        return datum / 1000;
+    };
     DashboardPage.prototype.timeConverter = function (datetime) {
         var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         var year = datetime.getFullYear();
@@ -1513,11 +1549,31 @@ var DashboardPage = /** @class */ (function () {
     DashboardPage.prototype.openURL = function (URL) {
         window.open(URL, '_system', 'location=yes');
     };
+    DashboardPage.prototype.deleteAuditions = function (audition) {
+        var _this = this;
+        this.http.post("http://197.242.149.23/api/deleteAudition", { auditionId: audition.auditionId }).subscribe(function (response) {
+            if (response) {
+                _this.showMessage('Event has been deleted successfull');
+                _this.getAuditions();
+            }
+            else {
+                _this.showMessage('We are unable to deleted event please try again later.');
+            }
+        });
+    };
+    DashboardPage.prototype.showMessage = function (message) {
+        var toast = this.toastCtrl.create({
+            message: message,
+            duration: 2000,
+            position: 'bottom'
+        });
+        toast.present(toast);
+    };
     DashboardPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-dashboard',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/'<!--\n\n  Generated template for the DashboardPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar transparent>\n\n        <button ion-button menuToggle>\n\n      <ion-icon style="color: darkgray !important" name="menu"></ion-icon>\n\n    </button>\n\n        <h4 style="color: darkgray">Home</h4>\n\n        <ion-buttons end>\n\n            <button ion-button style="color: darkgray !important" (click)="openUpload()">\n\n           UPLOAD\n\n            </button>\n\n\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n    <div style="text-align:center; margin-top: -10px; margin-bottom: -20px;">\n\n        <h4 style="font-family: \'Black Han Sans\', sans-serif;color:darkgray">Auditions</h4>\n\n    </div>\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-6 *ngFor="let audition of auditions" style="padding: 0px !important;">\n\n                <ion-card>\n\n                    <img height="200" width="100" src="http://auditionsalertsa.dedicated.co.za/{{audition.auditionImage}}" imageViewer >\n\n                    <ion-card-content style="overflow-x: hidden; overflow-y: auto;height: 100px;">\n\n                        <p>{{audition.auditionName}}</p>  \n\n                        <p><a class="item" (click)="openURL(audition.auditionUrl)" href="#">{{audition.auditionUrl}}</a></p>                        \n\n                        <p>{{audition.auditionDescription}}</p>\n\n                    </ion-card-content>\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/,
+            selector: 'page-dashboard',template:/*ion-inline-start:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/'<!--\n\n  Generated template for the DashboardPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar transparent>\n\n        <button ion-button menuToggle>\n\n      <ion-icon style="color: darkgray !important" name="menu"></ion-icon>\n\n    </button>\n\n        <h4 style="color: darkgray">Home</h4>\n\n        <ion-buttons end>\n\n            <button ion-button style="color: darkgray !important" (click)="openUpload()">\n\n           UPLOAD\n\n            </button>\n\n\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n    <div style="text-align:center; margin-top: -10px; margin-bottom: -20px;">\n\n        <h4 style="font-family: \'Black Han Sans\', sans-serif;color:darkgray">Auditions</h4>\n\n    </div>\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-6 *ngFor="let audition of auditions" style="padding: 0px !important;">\n\n                <ion-card>\n\n                    <img height="200" width="100" src="http://auditionsalertsa.dedicated.co.za/{{audition.auditionImage}}" imageViewer >\n\n                    <ion-card-content style="overflow-x: hidden; overflow-y: auto;height: 100px;">\n\n                        <p>{{audition.auditionName}}</p>  \n\n                        <p><a class="item" (click)="openURL(audition.auditionUrl)" href="#">{{audition.auditionUrl}}</a></p>                        \n\n                        <p>{{audition.auditionDescription}}</p>\n\n                    </ion-card-content>\n\n                    <button *ngIf="userType == \'admin\'" ion-button  color="secondary" block class="delete-btn" (click)="deleteAuditions(audition)">Delete</button>\n\n                </ion-card>\n\n               \n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\src\pages\dashboard\dashboard.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__["a" /* AuditionProvider */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_3__providers_audition_audition__["a" /* AuditionProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* ToastController */], __WEBPACK_IMPORTED_MODULE_4__providers_global_variables_global_variables__["a" /* GlobalVariablesProvider */]])
     ], DashboardPage);
     return DashboardPage;
 }());
@@ -1526,5 +1582,5 @@ var DashboardPage = /** @class */ (function () {
 
 /***/ })
 
-},[262]);
+},[261]);
 //# sourceMappingURL=main.js.map

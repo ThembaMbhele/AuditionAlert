@@ -61,6 +61,7 @@ export class LoginPage {
         if (response.result == true) {
           this.storage.set('loggedin', true);
           this.globalVariables.setUserId(response.data.userId);
+          this.storage.set('userType', response.data.userType);
           this.storage.set('userId', response.data.userId);
           this.globalVariables.setFirstTimeLogin(response.data.firstLogin);
           loader.dismiss();

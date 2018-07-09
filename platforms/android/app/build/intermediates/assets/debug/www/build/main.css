@@ -25799,6 +25799,13 @@ page-dashboard ion-content {
   background-image: url("../assets/imgs/background.png");
 }
 
+page-dashboard .delete-btn {
+  margin-bottom: -1px;
+  height: 20px;
+  color: #fff;
+  background-color: red;
+}
+
 page-forgotpassword .center {
   text-align: center;
 }
@@ -25955,5 +25962,6 @@ page-welcome .slide-text {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-weight: bolder;
+  color: #FFFFFF;
+  font-size: 45px;
 }

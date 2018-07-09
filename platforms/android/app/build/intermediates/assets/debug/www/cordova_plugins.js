@@ -328,7 +328,8 @@ module.exports.metadata =
   "cordova-sqlite-storage": "2.3.3",
   "com-sarriaroman-photoviewer": "1.1.18",
   "cordova-plugin-filepicker": "1.1.5",
-  "cordova-plugin-camera": "4.0.3"
+  "cordova-plugin-camera": "4.0.3",
+  "cordova-plugin-crosswalk-webview": "2.4.0"
 };
 // BOTTOM OF METADATA
 });

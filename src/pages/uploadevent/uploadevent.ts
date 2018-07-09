@@ -21,7 +21,7 @@ import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/fo
     templateUrl: 'uploadevent.html',
 })
 export class UploadeventPage {
-    public min = new Date();
+    public min = new Date().toJSON().split('T')[0];;
     imageFile: String = "assets/imgs/newalert.jpg";
     public submitAttempt: boolean = false;
     public event =
@@ -116,12 +116,12 @@ export class UploadeventPage {
             content: "Please wait..."
         });
 
-        loader.present();
+       loader.present();
         this.auditionProvider.uploadAuditionImage(this.base64Image).subscribe((response: any) => {
             this.event.auditionImage = response;
             this.event.userId = this.userId;
-            this.event.auditionDate = new Date().getFullYear() +'-'+ Number(new Date().getMonth() + 1) + '-' + new Date().getDate();
-            this.auditionProvider.uploadEvent(this.event).subscribe((response: any) => {
+            this.event.auditionDate = this.event.auditionDate +' '+ new Date().getHours() +':'+ Number(new Date().getMinutes() + 1) + ':' + new Date().getSeconds();
+           this.auditionProvider.uploadEvent(this.event).subscribe((response: any) => {
                 loader.dismiss();
                 if (response.result == true) {
                     this.showError("Your event has been shared successful.");

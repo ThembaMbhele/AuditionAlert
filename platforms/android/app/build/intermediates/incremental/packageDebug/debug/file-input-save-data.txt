@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jul 09 18:04:45 CAT 2018
+#Mon Jul 09 23:31:03 CAT 2018
 122.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\assets\\fonts\\roboto-bold.woff2
 60.set=ASSET
 52.set=ANDROID_RESOURCE
@@ -92,7 +92,7 @@
 82.base=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 79.set=ASSET
 89.base=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug
-111.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\mipmap-xxxhdpi-v4\\icon.png
+111.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-land-mdpi-v4\\screen.png
 121.base=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 20.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\cordova_plugins.js
 118.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\plugins\\cordova-plugin-file\\www\\File.js
@@ -148,7 +148,7 @@
 81.base=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 69.set=ASSET
 88.base=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug
-110.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-land-mdpi-v4\\screen.png
+110.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\mipmap-xxxhdpi-v4\\icon.png
 120.base=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 117.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\plugins\\cordova-plugin-device\\www\\device.js
 26.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\plugins\\cordova-plugin-ionic-keyboard\\www\\android\\keyboard.js

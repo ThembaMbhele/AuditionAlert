@@ -36,7 +36,9 @@
                         <p><a class="item" (click)="openURL(audition.auditionUrl)" href="#">{{audition.auditionUrl}}</a></p>                        
                         <p>{{audition.auditionDescription}}</p>
                     </ion-card-content>
+                    <button *ngIf="userType == 'admin'" ion-button  color="secondary" block class="delete-btn" (click)="deleteAuditions(audition)">Delete</button>
                 </ion-card>
+               
             </ion-col>
         </ion-row>
     </ion-grid>

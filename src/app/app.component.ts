@@ -7,7 +7,6 @@ import { GlobalVariablesProvider } from '../providers/global-variables/global-va
 
 import { UploadeventPage } from '../pages/uploadevent/uploadevent';
 import { DashboardPage } from '../pages/dashboard/dashboard';
-import { ProfilePage } from '../pages/profile/profile';
 import { AboutusPage } from '../pages/aboutus/aboutus';
 import { ContactusPage } from '../pages/contactus/contactus';
 import { LoginPage } from '../pages/login/login';
@@ -29,7 +28,6 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Upload', component: UploadeventPage },
-      { title: 'My Profile', component: ProfilePage },
       { title: 'About US', component: AboutusPage },
       { title: 'Contact Us', component: ContactusPage },
       { title: 'Logout', component: LoginPage },
