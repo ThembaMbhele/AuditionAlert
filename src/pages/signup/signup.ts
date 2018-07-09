@@ -35,7 +35,7 @@ export class SignupPage {
               public http: HttpClient) 
   { 
       //get countries
-      this.http.get('http://192.168.42.47:7777/api/getCountries').subscribe(data => 
+      this.http.get('http://localhost/api/getCountries').subscribe(data => 
       {
           this.countries = data;
       }, err => 
@@ -51,7 +51,7 @@ export class SignupPage {
 
    signup(user)
    {
-       this.http.post('http://localhost:7777/api/createUser', this.user)
+       this.http.post('http://localhost/api/createUser', this.user)
                 .subscribe(data=>
                 {
                     if(data)

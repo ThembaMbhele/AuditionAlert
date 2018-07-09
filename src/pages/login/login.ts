@@ -46,7 +46,7 @@ export class LoginPage {
    {   
      //this.navCtrl.setRoot(DashboardPage);
 
-       this.http.post("http://192.168.42.47/api/loginUser", user).subscribe((response: any) => 
+       this.http.post("http://auditionsalertsa.dedicated.co.za/api/loginUser", user).subscribe((response: any) => 
        {
            if(response.result == true)
            {

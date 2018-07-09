@@ -20,7 +20,7 @@ export class DashboardPage {
     
     public showSlides: boolean = false;
     public auditions: any[];
-    public url: string = "http://localhost/"
+    public url: string = "http://localhost/";
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
               public audio: NativeAudio, public globalVariable: GlobalVariablesProvider,

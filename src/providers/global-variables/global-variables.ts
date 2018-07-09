@@ -12,9 +12,20 @@ export class GlobalVariablesProvider {
     
  public userId: any = null;
  public firstTimeLogin: boolean = false;
+ public selectedAudition: any;
 
   constructor(public http: HttpClient) {
     console.log('Hello GlobalVariablesProvider Provider');
+  }
+  
+  setAudition(audition)
+  {
+      this.selectedAudition = audition;
+  }
+  
+  getAudition()
+  {
+      return this.selectedAudition;
   }
   
   setUserId(id)
