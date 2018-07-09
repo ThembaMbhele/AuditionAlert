@@ -44,7 +44,7 @@ export class DashboardPage {
   }
 
   openURL(URL){
-    window.open(URL, '_system');
+    window.open(URL, '_system', 'location=yes');
   }
 
 }

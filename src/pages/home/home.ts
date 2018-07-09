@@ -10,7 +10,7 @@ export class HomePage {
   public showNavBar = false;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {   
-      setTimeout(this.showNav(this.navCtrl), 100000);       
+      
   }
   
   ionViewDidLoad() {

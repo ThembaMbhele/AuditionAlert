@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jul 09 13:55:51 CAT 2018
+#Mon Jul 09 15:50:19 CAT 2018
 122.file=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\assets\\debug\\www\\assets\\fonts\\roboto-bold.woff2
 60.set=ASSET
 52.set=ANDROID_RESOURCE

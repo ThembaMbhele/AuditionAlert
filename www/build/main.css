@@ -25924,6 +25924,10 @@ page-uploadevent .summitbutton {
   height: 30px !important;
 }
 
+page-uploadevent .invalid {
+  border-bottom: 1px solid #ea6153;
+}
+
 page-welcome .first-slide {
   background-image: url("../assets/imgs/img1.jpg");
   background-position: center;

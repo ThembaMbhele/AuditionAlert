@@ -32,7 +32,7 @@ export class MyApp {
       { title: 'My Profile', component: ProfilePage },
       { title: 'About US', component: AboutusPage },
       { title: 'Contact Us', component: ContactusPage },
-      { title: 'Logout', component: WelcomePage },
+      { title: 'Logout', component: LoginPage },
     ];
 
   }

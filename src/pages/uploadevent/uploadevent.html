@@ -12,34 +12,40 @@
     </ion-navbar>
 </ion-header>
 <ion-content padding>
-<ion-list style="margin-top: -25px;">
-   <ion-item>
-    <ion-label floating>Name</ion-label>
-    <ion-input type="text" [(ngModel)]="event.auditionName"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-label floating>URL</ion-label>
-    <ion-input type="text" [(ngModel)]="event.auditionUrl"></ion-input>
-  </ion-item>
-   <ion-item>
-      <ion-label floating>Description</ion-label>
-  <ion-textarea rows="6" [(ngModel)]="event.auditionDescription"></ion-textarea>
-  </ion-item>
-   <ion-item no-lines>
-     <ion-grid>
-        <ion-row>
-            <ion-col>
-                <h4 style="color: darkgray !important;margin-top:10px">Upload Photo</h4>
-            </ion-col>
-            <ion-col>
-                <button ion-button class="summitbutton" color="secondary" (click)="openeditprofile()">Upload Poster</button>
-            </ion-col>
-        </ion-row>
-     </ion-grid>
-    <img src="{{base64Image}}" alt="Ionic File" width="300" height="400"/> 
-  </ion-item>
-   <ion-item class="center" no-lines>
-    <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Share</button>
-  </ion-item>
-  </ion-list>
+    <form [formGroup]="auditionForm">
+        <ion-list style="margin-top: -25px;">
+            <ion-item>
+                <ion-label floating>Name</ion-label>
+                <ion-input type="text" [(ngModel)]="event.auditionName" formControlName="auditionName" [class.invalid]="!auditionForm.controls.auditionName.valid && (auditionForm.controls.auditionName.dirty || submitAttempt)"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label stacked>Event Date</ion-label>
+                <ion-input type="date" min="min" [(ngModel)]="event.auditionDate" formControlName="auditionDate" [class.invalid]="!auditionForm.controls.auditionDate.valid && (auditionForm.controls.auditionDate.dirty || submitAttempt)"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label floating>URL</ion-label>
+                <ion-input type="text" [(ngModel)]="event.auditionUrl" formControlName="auditionDate" ></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label floating>Description</ion-label>
+                <ion-textarea rows="6" [(ngModel)]="event.auditionDescription" formControlName="auditionDescription" [class.invalid]="!auditionForm.controls.auditionDescription.valid && (auditionForm.controls.auditionDescription.dirty || submitAttempt)"></ion-textarea>
+            </ion-item>
+            <ion-item no-lines>
+                <ion-grid>
+                    <ion-row>
+                        <ion-col>
+                            <h4 style="color: darkgray !important;margin-top:10px">Upload Photo</h4>
+                        </ion-col>
+                        <ion-col>
+                            <button ion-button class="summitbutton" color="secondary" (click)="openeditprofile()">Upload Poster</button>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+                <img src="{{base64Image}}" alt="Ionic File" width="300" height="400" />
+            </ion-item>
+            <ion-item class="center" no-lines>
+                <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Share</button>
+            </ion-item>
+        </ion-list>
+    </form>
 </ion-content>
