@@ -73,8 +73,6 @@ export class LoginPage {
       });
     }
 
-
-<<<<<<< HEAD
        this.http.post("http://auditionsalertsa.dedicated.co.za/api/loginUser", user).subscribe((response: any) => 
        {
            if(response.result == true)
@@ -88,9 +86,6 @@ export class LoginPage {
                this.showError = true;
            }  
        });
-       
-=======
->>>>>>> 5bf8eb4bf42b09713afedf047c33f76ad58e228a
   }
 
 }

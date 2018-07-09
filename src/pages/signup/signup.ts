@@ -68,21 +68,6 @@ export class SignupPage {
                 content: "Please wait..."
             });
 
-<<<<<<< HEAD
-  constructor(public navCtrl: NavController, public navParams: NavParams,
-              public http: HttpClient) 
-  { 
-      //get countries
-      this.http.get('http://localhost/api/getCountries').subscribe(data => 
-      {
-          this.countries = data;
-      }, err => 
-      {
-          var errorMessage = "";
-          console.log(errorMessage);
-      });
-  }
-=======
             loader.present();
             this.http.post('http://197.242.149.23/api/createUser', this.user).subscribe(data => {
                 if (data) {
@@ -100,26 +85,11 @@ export class SignupPage {
                 }
             });
         }
->>>>>>> 5bf8eb4bf42b09713afedf047c33f76ad58e228a
 
     }
 
-<<<<<<< HEAD
-   signup(user)
-   {
-       this.http.post('http://localhost/api/createUser', this.user)
-                .subscribe(data=>
-                {
-                    if(data)
-                    {
-                        this.navCtrl.setRoot(LoginPage);
-                    }
-                });     
-   }
-=======
     termsandconditions() {
         this.navCtrl.push(TermsandconditionsPage);
     }
->>>>>>> 5bf8eb4bf42b09713afedf047c33f76ad58e228a
 
 }

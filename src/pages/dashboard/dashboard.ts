@@ -16,16 +16,10 @@ import { AuditionProvider } from '../../providers/audition/audition';
   templateUrl: 'dashboard.html',
 })
 export class DashboardPage {
-<<<<<<< HEAD
     
     public showSlides: boolean = false;
     public auditions: any[];
     public url: string = "http://localhost/";
-=======
-  public showSlides: boolean = false;
-  public auditions: any[];
-  public url: string = "http://localhost/"
->>>>>>> 5bf8eb4bf42b09713afedf047c33f76ad58e228a
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public auditionProvider: AuditionProvider) {
     //get audition events
