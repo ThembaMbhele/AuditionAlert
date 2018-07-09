@@ -18,7 +18,7 @@ import { TermsandconditionsPage } from '../termsandconditions/termsandconditions
     templateUrl: 'signup.html',
 })
 export class SignupPage {
-
+    public errorMessage = '';
     public email = "";
     public country = "";
     public showError: boolean = false;
@@ -60,6 +60,7 @@ export class SignupPage {
     signup(user) {
         this.showError = false;
         this.submitAttempt = true;
+        this.errorMessage = '';
         if (this.user.password != this.confirmPassword) {
             return false;
         }
@@ -69,8 +70,8 @@ export class SignupPage {
             });
 
             loader.present();
-            this.http.post('http://197.242.149.23/api/createUser', this.user).subscribe(data => {
-                if (data) {
+            this.http.post('http://197.242.149.23/api/createUser', this.user).subscribe((data: any) => {
+                if (data.result) {
                     loader.dismiss();
                     let toast = this.toastCtrl.create({
                         message: 'You have signed up successful.',
@@ -82,6 +83,10 @@ export class SignupPage {
                 } else {
                     loader.dismiss();
                     this.showError = true;
+                    if (data.errorMessage != null){
+                        this.errorMessage = data.errorMessage;
+                    }
+                    
                 }
             });
         }
