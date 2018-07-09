@@ -1198,7 +1198,6 @@ var HomePage = /** @class */ (function () {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.showNavBar = false;
-        setTimeout(this.showNav(this.navCtrl), 100000);
     }
     HomePage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad HomePage');
