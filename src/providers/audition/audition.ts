@@ -10,6 +10,8 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class AuditionProvider {
 
+  //public url: string = "http://localhost/api";
+  public url: string = "http://auditionsalertsa.dedicated.co.za/api"
   constructor(public http: HttpClient) {
     console.log('Hello AuditionProvider Provider');
   }
@@ -19,17 +21,17 @@ export class AuditionProvider {
       const formData: FormData = new FormData();
       formData.append('file', file);
       
-      return this.http.post("http://197.242.149.23/api/uploadImage", formData);
+      return this.http.post(this.url + "/uploadImage", formData);
   }
   
   uploadEvent(audition)
   {
-      return this.http.post('http://197.242.149.23/api/uploadAuditionEvent', audition);
+      return this.http.post(this.url + "/uploadAuditionEvent", audition);
   }
   
   getAuditions()
   {
-      return this.http.get('http://197.242.149.23/api/getAuditionEvents');
+      return this.http.get(this.url + "/getAuditionEvents");
   }
 
 }

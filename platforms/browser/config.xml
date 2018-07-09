@@ -1,8 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
+<<<<<<< HEAD
 <widget id="io.ionic.auditionsalertsa" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Auditions Alert</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="mogztec@gmail.com" href="http://mogztec.co.za/">Mogztec</author>
+=======
+<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Auditions Alert</name>
+    <description>An awesome Ionic/Cordova app.</description>
+    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+>>>>>>> f82b28f2f810f36f91829b671c47ca4e5e8d44fa
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />

@@ -14,10 +14,9 @@ import { AuditionProvider } from '../../providers/audition/audition';
   selector: 'page-dashboard',
   templateUrl: 'dashboard.html',
 })
-export class DashboardPage {
-  public showSlides: boolean = false;
-  public auditions = [];
-  public url: string = "http://localhost/"
+export class DashboardPage {    
+    public showSlides: boolean = false;
+    public auditions: any[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public auditionProvider: AuditionProvider) {
     //get audition events

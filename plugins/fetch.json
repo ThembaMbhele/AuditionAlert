@@ -66,7 +66,7 @@
   "cordova-plugin-filechooser": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-filechooser"
+      "id": "cordova-plugin-filechooser@^1.0.1"
     },
     "is_top_level": true,
     "variables": {}
@@ -90,7 +90,7 @@
   "cordova-plugin-filepicker": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-filepicker"
+      "id": "cordova-plugin-filepicker@^1.1.5"
     },
     "is_top_level": true,
     "variables": {}

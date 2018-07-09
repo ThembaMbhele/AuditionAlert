@@ -73,7 +73,19 @@ export class LoginPage {
       });
     }
 
-
+       this.http.post("http://auditionsalertsa.dedicated.co.za/api/loginUser", user).subscribe((response: any) => 
+       {
+           if(response.result == true)
+           {
+               this.globalVariables.setUserId(response.data.userId);
+               this.globalVariables.setFirstTimeLogin(response.data.firstLogin);
+               this.navCtrl.setRoot(DashboardPage);
+           }
+           else if(response.result == false)
+           {
+               this.showError = true;
+           }  
+       });
   }
 
 }

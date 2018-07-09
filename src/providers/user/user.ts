@@ -9,6 +9,9 @@ import { Injectable } from '@angular/core';
 */
 @Injectable()
 export class UserProvider {
+    
+    public url: string = "http://localhost/api";
+  //public url: string = "http://auditionsalertsa.dedicated.co.za/api"
 
   constructor(public http: HttpClient) {
     console.log('Hello UserProvider Provider');
@@ -16,17 +19,17 @@ export class UserProvider {
   
   getUserById(parameters)
   {
-      return this.http.post("http://197.242.149.23/api/getUserById", parameters);
+      return this.http.post(this.url + "/getUserById", parameters);
   }
   
   getCountries()
   {
-      return this.http.get("http://197.242.149.23/api/getCountries");
+      return this.http.get(this.url + "/getCountries");
   }
   
   updateProfile(profile)
   {
-      return this.http.post("http://197.242.149.23/api/updateUserById", profile);
+      return this.http.post(this.url + "/updateUserById", profile);
   }
 
 }
