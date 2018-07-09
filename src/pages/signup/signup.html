@@ -52,9 +52,9 @@
 
       <ion-item class="center" no-lines justify-content-center align-items-center>
         <button ion-button color="secondary" class="summitbutton" (click)="signup(user)">Sign Up</button>
-        <p *ngIf="confirmPassword != user.password" style="color: red;font-size: xx-small;text-align:center"> Passwords do not match. </p>
-        <p *ngIf="showError && errorMessage == ''" style="color: red;font-size: xx-small;text-align:center"> We are unable to sign up at the moment please try again later.</p>
-        <p *ngIf="errorMessage != ''" style="color: red;font-size: xx-small;text-align:center">{{errorMessage}}.</p>
+        <p *ngIf="confirmPassword != user.password" style="color: red;font-size: small;text-align:center"> Passwords do not match. </p>
+        <p *ngIf="showError && errorMessage == ''" style="color: red;font-size:small;text-align:center"> We are unable to sign up at the moment please try again later.</p>
+        <p *ngIf="errorMessage != ''" style="color: red;font-size: small;text-align:center">{{errorMessage}}.</p>
         
       </ion-item>
     </ion-list>
