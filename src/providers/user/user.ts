@@ -10,8 +10,8 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserProvider {
     
-    public url: string = "http://localhost/api";
-  //public url: string = "http://auditionsalertsa.dedicated.co.za/api"
+    //public url: string = "http://localhost/api";
+    public url: string = "http://auditionsalertsa.dedicated.co.za/api"
 
   constructor(public http: HttpClient) {
     console.log('Hello UserProvider Provider');
