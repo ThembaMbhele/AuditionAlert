@@ -22,7 +22,7 @@ INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\Audition
 INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
 INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
-		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:98-133
 		INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -32,7 +32,7 @@ INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\Audition
 	android:hardwareAccelerated
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:125-183
+		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:134-192
 	android:versionCode
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
 		INJECTED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml
@@ -67,7 +67,7 @@ MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Admin\.gradle\cache
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
 	android:icon
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
-activity#io.ionic.starter.MainActivity
+activity#io.ionic.auditionsalertsa.MainActivity
 ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
 	android:label
 		ADDED from C:\Users\Admin\Downloads\Visual Studio Code\AuditionAlert\AuditionAlert\platforms\android\app\src\main\AndroidManifest.xml:6:97-134

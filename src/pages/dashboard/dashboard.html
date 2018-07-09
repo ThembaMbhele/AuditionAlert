@@ -23,21 +23,17 @@
 
 
 <ion-content>
-    <div style="text-align:center">
-        <h4 style="font-family: 'Black Han Sans', sans-serif;color:white">Auditions</h4>
+    <div style="text-align:center; margin-top: -10px; margin-bottom: -20px;">
+        <h4 style="font-family: 'Black Han Sans', sans-serif;color:darkgray">Auditions</h4>
     </div>
     <ion-grid>
         <ion-row>
-            <ion-col col-6 *ngFor="let audition of auditions">
-                <ion-card>
-                    <ion-item style="text-align: center;">
-                        <h2>{{audition.auditionName}}</h2>
-                        <p>{{audition.auditionDate}}</p>                        
-                    </ion-item>
+            <ion-col col-6 *ngFor="let audition of auditions" style="padding: 0px !important;">
+                <ion-card style="max-height: 350px !important;">
                     <img src="http://auditionsalertsa.dedicated.co.za/{{audition.auditionImage}}" imageViewer >
                     <ion-card-content>
-                        <p><a class="item" href="#{{audition.auditionUrl}}">{{audition.auditionUrl}}</a></p>                        
-                        <p>{{audition.auditionDescription}}</p>
+                        <p><a class="item" (click)="openURL(audition.auditionUrl)">{{audition.auditionUrl}}</a></p>                        
+                        <p style="max-height: 124px; overflow-x: hidden; overflow-y: auto;">{{audition.auditionDescription}}</p>
                     </ion-card-content>
                 </ion-card>
             </ion-col>

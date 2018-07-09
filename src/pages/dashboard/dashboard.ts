@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { UploadeventPage } from '../uploadevent/uploadevent';
-import { NativeAudio } from '@ionic-native/native-audio';
 import { AuditionProvider } from '../../providers/audition/audition';
 
 /**
@@ -17,7 +16,7 @@ import { AuditionProvider } from '../../providers/audition/audition';
 })
 export class DashboardPage {
   public showSlides: boolean = false;
-  public auditions: any[];
+  public auditions = [];
   public url: string = "http://localhost/"
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public auditionProvider: AuditionProvider) {
@@ -28,12 +27,25 @@ export class DashboardPage {
     });
   }
 
+  timeConverter(datetime) {
+        var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        var year = datetime.getFullYear();
+        var month = months[datetime.getMonth()];
+        var date = datetime.getDate();
+        var time = date + ' ' + month + ' ' + year;
+        return time;
+    }
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad DashboardPage');
   }
 
   openUpload() {
     this.navCtrl.push(UploadeventPage);
+  }
+
+  openURL(URL){
+    window.open(URL, '_system');
   }
 
 }

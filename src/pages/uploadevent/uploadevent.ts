@@ -26,7 +26,7 @@ export class UploadeventPage {
     public event =
     {
         auditionName: "",
-        auditionDate: new Date(),
+        auditionDate: "",
         auditionUrl: "",
         userId: null,
         auditionDescription: "",
@@ -109,7 +109,7 @@ export class UploadeventPage {
         this.auditionProvider.uploadAuditionImage(this.base64Image).subscribe((response: any) => {
             this.event.auditionImage = response;
             this.event.userId = this.userId;
-            this.event.auditionDate = new Date();
+            this.event.auditionDate = new Date().getFullYear() +'-'+ Number(new Date().getMonth() + 1) + '-' + new Date().getDate();
             this.auditionProvider.uploadEvent(this.event).subscribe((response: any) => {
                 loader.dismiss();
                 if (response.result == true) {

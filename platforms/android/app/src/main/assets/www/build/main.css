@@ -25781,6 +25781,10 @@ page-contactus .summitbutton {
   height: 30px !important;
 }
 
+page-contactus .invalid {
+  border-bottom: 1px solid #ea6153;
+}
+
 page-contactus ion-title {
   font-size: xx-large;
   color: white;

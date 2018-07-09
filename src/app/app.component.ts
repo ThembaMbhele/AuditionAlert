@@ -28,12 +28,11 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: DashboardPage },
       { title: 'Upload', component: UploadeventPage },
       { title: 'My Profile', component: ProfilePage },
       { title: 'About US', component: AboutusPage },
       { title: 'Contact Us', component: ContactusPage },
-      { title: 'Logout', component: LoginPage },
+      { title: 'Logout', component: WelcomePage },
     ];
 
   }

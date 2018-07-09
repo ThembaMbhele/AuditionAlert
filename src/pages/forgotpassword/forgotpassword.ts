@@ -47,7 +47,7 @@ export class ForgotpasswordPage {
       });
 
       loader.present();
-      this.http.post('http://197.242.149.23/api/forgotpassword', this.user).subscribe(data => {
+      this.http.post('http://197.242.149.23/api/sendPassword', {emailAddress: this.user.email}).subscribe(data => {
         if (data) {
           loader.dismiss();
           let toast = this.toastCtrl.create({

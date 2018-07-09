@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { SignupPage } from '../signup/signup';
 import { LoginPage } from '../login/login';
-import { NativeAudio } from '@ionic-native/native-audio';
 /**
  * Generated class for the WelcomePage page.
  *
@@ -16,21 +15,26 @@ import { NativeAudio } from '@ionic-native/native-audio';
 })
 export class WelcomePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,public audio: NativeAudio) {
-    this.audio.preloadComplex('welcome', '../assets/audio/welcome.mp3', 1, 1, 0).then(() => {
-      this.audio.play('welcome');
-    })
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.playAudio();
+  }
+
+  playAudio() {
+    let audio = new Audio();
+    audio.src = "./assets/audio/welcome.mp3";
+    audio.load();
+    audio.play();
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad WelcomePage');
   }
 
-  register(){
+  register() {
     this.navCtrl.push(SignupPage);
   }
 
-  login(){
+  login() {
     this.navCtrl.push(LoginPage);
   }
 

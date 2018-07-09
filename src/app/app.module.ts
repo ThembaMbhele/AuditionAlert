@@ -19,7 +19,6 @@ import { TermsandconditionsPage } from '../pages/termsandconditions/termsandcond
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { NativeAudio } from '@ionic-native/native-audio';
 import { IonicStorageModule } from '@ionic/storage';
 
 import { File } from '@ionic-native/file';
@@ -83,7 +82,6 @@ import { AuditionProvider } from '../providers/audition/audition';
     GlobalVariablesProvider,
     UserProvider,
     AuditionProvider,
-    NativeAudio,
     FileChooser,
     IOSFilePicker,
     Camera,

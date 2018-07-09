@@ -1,4 +1,4 @@
-io.ionic.starter
+io.ionic.auditionsalertsa
 int drawable screen 0x7f010000
 int id closeBtn 0x7f020000
 int id fullscreen_content_controls 0x7f020001
