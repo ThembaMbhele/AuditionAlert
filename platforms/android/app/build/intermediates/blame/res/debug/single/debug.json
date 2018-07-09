@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_photo.xml.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\layout\\activity_photo.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
         "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
     },
@@ -66,6 +70,10 @@
     {
         "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_screen.png.flat",
         "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_camera_provider_paths.xml.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\xml\\camera_provider_paths.xml"
     },
     {
         "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_icon.png.flat",

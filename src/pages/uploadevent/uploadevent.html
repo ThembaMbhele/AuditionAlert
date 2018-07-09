@@ -4,9 +4,15 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
+<ion-header transparent>
+    <ion-navbar transparent>
+        <ion-title style="margin-left: 10%;">
+            <h1 style="color: darkgray !important">Upload Event</h1>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
 <ion-content padding>
- <h2 style="margin-top: 10%;color: darkgray !important;text-align: center;">Upload Event</h2>
-<ion-list>
+<ion-list style="margin-top: -25px;">
    <ion-item>
     <ion-label floating>Name</ion-label>
     <ion-input type="text" [(ngModel)]="event.auditionName"></ion-input>
@@ -26,14 +32,14 @@
                 <h4 style="color: darkgray !important;margin-top:10px">Upload Photo</h4>
             </ion-col>
             <ion-col>
-                <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Upload Poster</button>
+                <button ion-button class="summitbutton" color="secondary" (click)="openeditprofile()">Upload Poster</button>
             </ion-col>
         </ion-row>
      </ion-grid>
-    <!--<img src="{{imageFile}}" alt="Ionic File" width="300" height="400"/> -->
+    <img src="{{base64Image}}" alt="Ionic File" width="300" height="400"/> 
   </ion-item>
    <ion-item class="center" no-lines>
-    <button ion-button class="summitbutton" color="secondary" (click)="upload(event)">Upload Event</button>
+    <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Share</button>
   </ion-item>
   </ion-list>
 </ion-content>

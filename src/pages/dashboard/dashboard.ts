@@ -3,7 +3,6 @@ import { NavController, NavParams } from 'ionic-angular';
 import { UploadeventPage } from '../uploadevent/uploadevent';
 import { NativeAudio } from '@ionic-native/native-audio';
 import { AuditionProvider } from '../../providers/audition/audition';
-import { GlobalVariablesProvider } from '../../providers/global-variables/global-variables';
 
 /**
  * Generated class for the DashboardPage page.
@@ -17,39 +16,30 @@ import { GlobalVariablesProvider } from '../../providers/global-variables/global
   templateUrl: 'dashboard.html',
 })
 export class DashboardPage {
+<<<<<<< HEAD
     
     public showSlides: boolean = false;
     public auditions: any[];
     public url: string = "http://localhost/";
+=======
+  public showSlides: boolean = false;
+  public auditions: any[];
+  public url: string = "http://localhost/"
+>>>>>>> 5bf8eb4bf42b09713afedf047c33f76ad58e228a
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,
-              public audio: NativeAudio, public globalVariable: GlobalVariablesProvider,
-              public auditionProvider: AuditionProvider) {
-              
-    /* if first time login, play audio*/
-    //this.showSlides = this.globalVariable.getFirstTimeLogin();
-    if (this.globalVariable.getFirstTimeLogin() == true)
-    {
-        this.audio.preloadSimple('welcome', '../assets/audio/welcome.m4a')
-            .then(() => {
-                this.audio.play('welcome');
-            })
-    }
-    else
-    {
-        //get audition events
-        this.auditionProvider.getAuditions().subscribe((response: any[])=>
-        {
-            this.auditions = response; 
-        });
-    }
+  constructor(public navCtrl: NavController, public navParams: NavParams, public auditionProvider: AuditionProvider) {
+    //get audition events
+    this.auditionProvider.getAuditions().
+    subscribe((response: any[]) => {
+      this.auditions = response;
+    });
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DashboardPage');
   }
 
-  openUpload(){
+  openUpload() {
     this.navCtrl.push(UploadeventPage);
   }
 

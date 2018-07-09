@@ -30,11 +30,22 @@
     },
     "cordova-plugin-filechooser": {
       "PACKAGE_NAME": "io.ionic.starter"
-    }
-  },
-  "dependent_plugins": {
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "com-sarriaroman-photoviewer": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-filepicker": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "io.ionic.starter"
     }
-  }
+  },
+  "dependent_plugins": {}
 }

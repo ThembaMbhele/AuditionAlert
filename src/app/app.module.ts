@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { IonicImageViewerModule } from 'ionic-img-viewer';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -13,11 +14,18 @@ import { LoginPage } from '../pages/login/login';
 import { ForgotpasswordPage } from '../pages/forgotpassword/forgotpassword';
 import { DashboardPage } from '../pages/dashboard/dashboard';
 import { ProfilePage } from '../pages/profile/profile';
+import { WelcomePage } from '../pages/welcome/welcome';
+import { TermsandconditionsPage } from '../pages/termsandconditions/termsandconditions';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NativeAudio } from '@ionic-native/native-audio';
+import { IonicStorageModule } from '@ionic/storage';
+
+import { File } from '@ionic-native/file';
+import { Camera } from '@ionic-native/camera';
 import { FileChooser } from '@ionic-native/file-chooser';
+import { IOSFilePicker } from '@ionic-native/file-picker';
 
 import { HTTP } from '@ionic-native/http';
 import { HttpModule } from '@angular/http';
@@ -39,13 +47,17 @@ import { AuditionProvider } from '../providers/audition/audition';
     LoginPage,
     ForgotpasswordPage,
     DashboardPage,
-    ProfilePage
+    ProfilePage,
+    WelcomePage,
+    TermsandconditionsPage
   ],
   imports: [
     BrowserModule,
     HttpModule,
     HttpClientModule,
     IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot(),
+    IonicImageViewerModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -59,7 +71,9 @@ import { AuditionProvider } from '../providers/audition/audition';
     LoginPage,
     ForgotpasswordPage,
     DashboardPage,
-    ProfilePage
+    ProfilePage,
+    WelcomePage,
+    TermsandconditionsPage
   ],
   providers: [
     StatusBar,
@@ -70,7 +84,10 @@ import { AuditionProvider } from '../providers/audition/audition';
     UserProvider,
     AuditionProvider,
     NativeAudio,
-    FileChooser
+    FileChooser,
+    IOSFilePicker,
+    Camera,
+    File,
   ]
 })
 export class AppModule {}

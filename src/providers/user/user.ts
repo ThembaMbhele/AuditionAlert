@@ -19,17 +19,29 @@ export class UserProvider {
   
   getUserById(parameters)
   {
+<<<<<<< HEAD
       return this.http.post(this.url + "/getUserById", parameters);
+=======
+      return this.http.post("http://197.242.149.23/api/getUserById", parameters);
+>>>>>>> 5bf8eb4bf42b09713afedf047c33f76ad58e228a
   }
   
   getCountries()
   {
+<<<<<<< HEAD
       return this.http.get(this.url + "/getCountries");
+=======
+      return this.http.get("http://197.242.149.23/api/getCountries");
+>>>>>>> 5bf8eb4bf42b09713afedf047c33f76ad58e228a
   }
   
   updateProfile(profile)
   {
+<<<<<<< HEAD
       return this.http.post(this.url + "/updateUserById", profile);
+=======
+      return this.http.post("http://197.242.149.23/api/updateUserById", profile);
+>>>>>>> 5bf8eb4bf42b09713afedf047c33f76ad58e228a
   }
 
 }
