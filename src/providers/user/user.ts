@@ -16,17 +16,17 @@ export class UserProvider {
   
   getUserById(parameters)
   {
-      return this.http.post("http://localhost:7777/api/getUserById", parameters);
+      return this.http.post("http://197.242.149.23/api/getUserById", parameters);
   }
   
   getCountries()
   {
-      return this.http.get("http://localhost:7777/api/getCountries");
+      return this.http.get("http://197.242.149.23/api/getCountries");
   }
   
   updateProfile(profile)
   {
-      return this.http.post("http://localhost:7777/api/updateUserById", profile);
+      return this.http.post("http://197.242.149.23/api/updateUserById", profile);
   }
 
 }

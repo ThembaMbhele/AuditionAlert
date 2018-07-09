@@ -31,6 +31,7 @@ public final class R {
     public static final int launcher_name=0x7f050002;
   }
   public static final class xml {
-    public static final int config=0x7f060000;
+    public static final int camera_provider_paths=0x7f060000;
+    public static final int config=0x7f060001;
   }
 }

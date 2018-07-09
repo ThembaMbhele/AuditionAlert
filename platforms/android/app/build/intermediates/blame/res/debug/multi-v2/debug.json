@@ -6,11 +6,11 @@
                 {
                     "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1,2,-1",
-                        "startColumns": "-1,4,-1",
-                        "startOffsets": "-1,55,-1",
-                        "endColumns": "-1,52,-1",
-                        "endOffsets": "-1,103,-1"
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "167,55,108",
+                        "endColumns": "63,52,58",
+                        "endOffsets": "226,103,162"
                     },
                     "to": {
                         "startLines": "2,3,4",

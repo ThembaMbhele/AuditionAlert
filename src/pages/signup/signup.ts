@@ -21,7 +21,7 @@ export class SignupPage {
 
     public email = "";
     public country = "";
-    showError: boolean = false;
+    public showError: boolean = false;
     public user =
     {
         firstName: "",

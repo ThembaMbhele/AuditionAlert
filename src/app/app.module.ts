@@ -20,8 +20,12 @@ import { TermsandconditionsPage } from '../pages/termsandconditions/termsandcond
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NativeAudio } from '@ionic-native/native-audio';
-import { FileChooser } from '@ionic-native/file-chooser';
 import { IonicStorageModule } from '@ionic/storage';
+
+import { File } from '@ionic-native/file';
+import { Camera } from '@ionic-native/camera';
+import { FileChooser } from '@ionic-native/file-chooser';
+import { IOSFilePicker } from '@ionic-native/file-picker';
 
 import { HTTP } from '@ionic-native/http';
 import { HttpModule } from '@angular/http';
@@ -80,7 +84,10 @@ import { AuditionProvider } from '../providers/audition/audition';
     UserProvider,
     AuditionProvider,
     NativeAudio,
-    FileChooser
+    FileChooser,
+    IOSFilePicker,
+    Camera,
+    File,
   ]
 })
 export class AppModule {}

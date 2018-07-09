@@ -25816,6 +25816,10 @@ page-forgotpassword .summitbutton {
   height: 30px !important;
 }
 
+page-forgotpassword .invalid {
+  border-bottom: 1px solid #ea6153;
+}
+
 page-home {
   /* ion-content {
     @include linear-gradient(left,$green-and-blue);

@@ -25,8 +25,6 @@ export class DashboardPage {
     this.auditionProvider.getAuditions().
     subscribe((response: any[]) => {
       this.auditions = response;
-      this.auditions.push({name:'First Audition',description:' sf  efef efsfds fsdfsd fsdfsdfsdf'});
-       this.auditions.push({name:'Second Audition',description:' sf  efef efsfds fsdfsd fsdfsdfsdf'});
     });
   }
 

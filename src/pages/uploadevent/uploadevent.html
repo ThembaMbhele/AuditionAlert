@@ -6,8 +6,8 @@
 -->
 <ion-header transparent>
     <ion-navbar transparent>
-        <ion-title style="margin-left: 30%;">
-            <h1 style="color: #ffffff !important">Upload Event</h1>
+        <ion-title style="margin-left: 10%;">
+            <h1 style="color: darkgray !important">Upload Event</h1>
         </ion-title>
     </ion-navbar>
 </ion-header>
@@ -32,14 +32,14 @@
                 <h4 style="color: darkgray !important;margin-top:10px">Upload Photo</h4>
             </ion-col>
             <ion-col>
-                <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Upload Poster</button>
+                <button ion-button class="summitbutton" color="secondary" (click)="openeditprofile()">Upload Poster</button>
             </ion-col>
         </ion-row>
      </ion-grid>
-    <!--<img src="{{imageFile}}" alt="Ionic File" width="300" height="400"/> -->
+    <img src="{{base64Image}}" alt="Ionic File" width="300" height="400"/> 
   </ion-item>
    <ion-item class="center" no-lines>
-    <button ion-button class="summitbutton" color="secondary" (click)="upload(event)">Upload Event</button>
+    <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Share</button>
   </ion-item>
   </ion-list>
 </ion-content>
