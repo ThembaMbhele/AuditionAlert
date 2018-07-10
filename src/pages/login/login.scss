@@ -1,6 +1,8 @@
 page-login {
 ion-content {
-    background-image: url('../assets/imgs/background.png');
+     background-image: url('../assets/imgs/background.png');
+    background-position: center;
+    background-size: cover;
 }
 .invalid{
     border-bottom: 1px solid #ea6153;

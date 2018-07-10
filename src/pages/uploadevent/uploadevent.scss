@@ -3,7 +3,9 @@ page-uploadevent {
      text-align:center;
 }
 ion-content {
-    background-image: url('../assets/imgs/background.png');
+     background-image: url('../assets/imgs/background.png');
+    background-position: center;
+    background-size: cover;
 }
 .item-md {
     background-color: transparent !important;
