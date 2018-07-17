@@ -91,7 +91,10 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../com-sarriaroman-photoviewer/starter-photoviewer.gradle"
+apply from: "../com-sarriaroman-photoviewer/auditionsalertsa-photoviewer.gradle"
+apply from: "../cordova-plugin-crosswalk-webview/auditionsalertsa-xwalk.gradle"
+apply from: "../cordova-plugin-fcm/auditionsalertsa-FCMPlugin.gradle"
+apply from: "../cordova-android-support-gradle-release/auditionsalertsa-cordova-android-support-gradle-release.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -262,6 +265,8 @@ dependencies {
     implementation(project(path: ":CordovaLib"))
     compile "com.squareup.okhttp3:okhttp-urlconnection:3.10.0"
     compile "com.android.support:support-v4:24.1.1+"
+    compile "com.google.firebase:firebase-core:+"
+    compile "com.google.firebase:firebase-messaging:+"
     // SUB-PROJECT DEPENDENCIES END
 }
 

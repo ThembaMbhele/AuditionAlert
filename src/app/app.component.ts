@@ -11,6 +11,7 @@ import { AboutusPage } from '../pages/aboutus/aboutus';
 import { ContactusPage } from '../pages/contactus/contactus';
 import { LoginPage } from '../pages/login/login';
 import { WelcomePage } from '../pages/welcome/welcome';
+import { FCM } from '@ionic-native/fcm';
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +23,7 @@ export class MyApp {
 
   pages: Array<{ title: string, component: any }>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public storage: Storage, public globalVariables: GlobalVariablesProvider) {
+  constructor(private fcm: FCM, public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public storage: Storage, public globalVariables: GlobalVariablesProvider) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
@@ -50,6 +51,11 @@ export class MyApp {
         } else {
           this.rootPage = WelcomePage;
         }
+      });
+      this.fcm.subscribeToTopic('auditionsalertsa');
+
+      this.fcm.getToken().then(token => {
+        //backend.registerToken(token);
       });
     });
   }

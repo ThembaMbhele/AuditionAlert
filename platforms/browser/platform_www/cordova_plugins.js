@@ -281,6 +281,14 @@ module.exports = [
         "runs": true
     },
     {
+        "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
+        "id": "cordova-plugin-fcm.FCMPlugin",
+        "pluginId": "cordova-plugin-fcm",
+        "clobbers": [
+            "FCMPlugin"
+        ]
+    },
+    {
         "file": "plugins/cordova-plugin-filechooser/www/fileChooser.js",
         "id": "cordova-plugin-filechooser.FileChooser",
         "pluginId": "cordova-plugin-filechooser",
@@ -332,10 +340,13 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "com-sarriaroman-photoviewer": "1.1.18",
+    "cordova-android-support-gradle-release": "1.4.4",
     "cordova-plugin-file": "6.0.1",
     "cordova-plugin-advanced-http": "1.11.1",
     "cordova-plugin-camera": "4.0.3",
+    "cordova-plugin-crosswalk-webview": "2.4.0",
     "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-fcm": "2.1.2",
     "cordova-plugin-filechooser": "1.0.1",
     "cordova-plugin-filepicker": "1.1.5",
     "cordova-plugin-ionic-keyboard": "2.0.5",

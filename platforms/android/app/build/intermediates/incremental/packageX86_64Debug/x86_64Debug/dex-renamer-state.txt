@@ -1,0 +1,4 @@
+#Tue Jul 17 19:22:21 CAT 2018
+base.0=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\x86_64\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\x86_64\\debug\\0\\classes.dex

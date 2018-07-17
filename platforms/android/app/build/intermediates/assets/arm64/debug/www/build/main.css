@@ -25750,6 +25750,8 @@ image-viewer.ion-page img {
 
 page-aboutus ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-aboutus .center {
@@ -25762,6 +25764,8 @@ page-contactus .center {
 
 page-contactus ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-contactus .item-md {
@@ -25797,6 +25801,8 @@ page-contactus toolbar-background-md {
 
 page-dashboard ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-dashboard .delete-btn {
@@ -25812,6 +25818,8 @@ page-forgotpassword .center {
 
 page-forgotpassword ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-forgotpassword .item-md {
@@ -25842,6 +25850,8 @@ page-home {
 
 page-login ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-login .invalid {
@@ -25854,6 +25864,8 @@ page-profile .center {
 
 page-profile ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-profile .item-md {
@@ -25879,6 +25891,8 @@ page-signup .center {
 
 page-signup ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-signup .item-md {
@@ -25904,6 +25918,8 @@ page-signup .invalid {
 
 page-termsandconditions ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-uploadevent .center {
@@ -25912,6 +25928,8 @@ page-uploadevent .center {
 
 page-uploadevent ion-content {
   background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
 }
 
 page-uploadevent .item-md {

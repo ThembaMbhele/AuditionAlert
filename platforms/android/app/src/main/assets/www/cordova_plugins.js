@@ -1,27 +1,11 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
-    "id": "cordova-plugin-device.device",
-    "file": "plugins/cordova-plugin-device/www/device.js",
-    "pluginId": "cordova-plugin-device",
+    "id": "com-sarriaroman-photoviewer.PhotoViewer",
+    "file": "plugins/com-sarriaroman-photoviewer/www/PhotoViewer.js",
+    "pluginId": "com-sarriaroman-photoviewer",
     "clobbers": [
-      "device"
-    ]
-  },
-  {
-    "id": "cordova-plugin-splashscreen.SplashScreen",
-    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-    "pluginId": "cordova-plugin-splashscreen",
-    "clobbers": [
-      "navigator.splashscreen"
-    ]
-  },
-  {
-    "id": "cordova-plugin-ionic-keyboard.keyboard",
-    "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
-    "pluginId": "cordova-plugin-ionic-keyboard",
-    "clobbers": [
-      "window.Keyboard"
+      "PhotoViewer"
     ]
   },
   {
@@ -241,46 +225,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-nativeaudio.nativeaudio",
-    "file": "plugins/cordova-plugin-nativeaudio/www/nativeaudio.js",
-    "pluginId": "cordova-plugin-nativeaudio",
-    "clobbers": [
-      "window.plugins.NativeAudio"
-    ]
-  },
-  {
-    "id": "cordova-plugin-filechooser.FileChooser",
-    "file": "plugins/cordova-plugin-filechooser/www/fileChooser.js",
-    "pluginId": "cordova-plugin-filechooser",
-    "clobbers": [
-      "fileChooser"
-    ]
-  },
-  {
-    "id": "cordova-sqlite-storage.SQLitePlugin",
-    "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
-    "pluginId": "cordova-sqlite-storage",
-    "clobbers": [
-      "SQLitePlugin"
-    ]
-  },
-  {
-    "id": "com-sarriaroman-photoviewer.PhotoViewer",
-    "file": "plugins/com-sarriaroman-photoviewer/www/PhotoViewer.js",
-    "pluginId": "com-sarriaroman-photoviewer",
-    "clobbers": [
-      "PhotoViewer"
-    ]
-  },
-  {
-    "id": "cordova-plugin-filepicker.FilePicker",
-    "file": "plugins/cordova-plugin-filepicker/www/FilePicker.js",
-    "pluginId": "cordova-plugin-filepicker",
-    "clobbers": [
-      "FilePicker"
-    ]
-  },
-  {
     "id": "cordova-plugin-camera.Camera",
     "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
     "pluginId": "cordova-plugin-camera",
@@ -311,25 +255,91 @@ module.exports = [
     "clobbers": [
       "CameraPopoverHandle"
     ]
+  },
+  {
+    "id": "cordova-plugin-device.device",
+    "file": "plugins/cordova-plugin-device/www/device.js",
+    "pluginId": "cordova-plugin-device",
+    "clobbers": [
+      "device"
+    ]
+  },
+  {
+    "id": "cordova-plugin-fcm.FCMPlugin",
+    "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
+    "pluginId": "cordova-plugin-fcm",
+    "clobbers": [
+      "FCMPlugin"
+    ]
+  },
+  {
+    "id": "cordova-plugin-filechooser.FileChooser",
+    "file": "plugins/cordova-plugin-filechooser/www/fileChooser.js",
+    "pluginId": "cordova-plugin-filechooser",
+    "clobbers": [
+      "fileChooser"
+    ]
+  },
+  {
+    "id": "cordova-plugin-filepicker.FilePicker",
+    "file": "plugins/cordova-plugin-filepicker/www/FilePicker.js",
+    "pluginId": "cordova-plugin-filepicker",
+    "clobbers": [
+      "FilePicker"
+    ]
+  },
+  {
+    "id": "cordova-plugin-ionic-keyboard.keyboard",
+    "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
+    "pluginId": "cordova-plugin-ionic-keyboard",
+    "clobbers": [
+      "window.Keyboard"
+    ]
+  },
+  {
+    "id": "cordova-plugin-nativeaudio.nativeaudio",
+    "file": "plugins/cordova-plugin-nativeaudio/www/nativeaudio.js",
+    "pluginId": "cordova-plugin-nativeaudio",
+    "clobbers": [
+      "window.plugins.NativeAudio"
+    ]
+  },
+  {
+    "id": "cordova-plugin-splashscreen.SplashScreen",
+    "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+    "pluginId": "cordova-plugin-splashscreen",
+    "clobbers": [
+      "navigator.splashscreen"
+    ]
+  },
+  {
+    "id": "cordova-sqlite-storage.SQLitePlugin",
+    "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+    "pluginId": "cordova-sqlite-storage",
+    "clobbers": [
+      "SQLitePlugin"
+    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-  "cordova-plugin-whitelist": "1.3.3",
-  "cordova-plugin-device": "2.0.2",
-  "cordova-plugin-splashscreen": "5.0.2",
-  "cordova-plugin-ionic-webview": "1.1.19",
-  "cordova-plugin-ionic-keyboard": "2.0.5",
+  "com-sarriaroman-photoviewer": "1.1.18",
   "cordova-plugin-file": "6.0.1",
   "cordova-plugin-advanced-http": "1.11.1",
-  "cordova-plugin-nativeaudio": "3.0.9",
-  "cordova-plugin-filechooser": "1.0.1",
-  "cordova-sqlite-storage": "2.3.3",
-  "com-sarriaroman-photoviewer": "1.1.18",
-  "cordova-plugin-filepicker": "1.1.5",
   "cordova-plugin-camera": "4.0.3",
-  "cordova-plugin-crosswalk-webview": "2.4.0"
+  "cordova-plugin-crosswalk-webview": "2.4.0",
+  "cordova-plugin-device": "2.0.2",
+  "cordova-plugin-fcm": "2.1.2",
+  "cordova-plugin-filechooser": "1.0.1",
+  "cordova-plugin-filepicker": "1.1.5",
+  "cordova-plugin-ionic-keyboard": "2.0.5",
+  "cordova-plugin-ionic-webview": "1.1.19",
+  "cordova-plugin-nativeaudio": "3.0.9",
+  "cordova-plugin-splashscreen": "5.0.2",
+  "cordova-plugin-whitelist": "1.3.3",
+  "cordova-sqlite-storage": "2.3.3",
+  "cordova-android-support-gradle-release": "1.4.4"
 };
 // BOTTOM OF METADATA
 });

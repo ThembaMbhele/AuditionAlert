@@ -32,6 +32,7 @@ import { HttpClientModule } from '@angular/common/http'
 import { GlobalVariablesProvider } from '../providers/global-variables/global-variables';
 import { UserProvider } from '../providers/user/user';
 import { AuditionProvider } from '../providers/audition/audition';
+import { FCM } from '@ionic-native/fcm';
 
 @NgModule({
   declarations: [ 
@@ -86,6 +87,7 @@ import { AuditionProvider } from '../providers/audition/audition';
     IOSFilePicker,
     Camera,
     File,
+    FCM
   ]
 })
 export class AppModule {}
