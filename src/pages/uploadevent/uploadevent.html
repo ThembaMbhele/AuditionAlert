@@ -41,10 +41,12 @@
                         </ion-col>
                     </ion-row>
                 </ion-grid>
-                <img src="{{base64Image}}" alt="Ionic File" width="300" height="400" />
+                <img *ngIf="isEdit" src="http://auditionsalertsa.dedicated.co.za/{{event.auditionImage}}" alt="Ionic File" width="300" height="400" />
+                 <img *ngIf="!isEdit" src="{{base64Image}}" alt="Ionic File" width="300" height="400" />
             </ion-item>
             <ion-item class="center" no-lines>
-                <button ion-button class="summitbutton" color="secondary" (click)="uploadPoster()">Share</button>
+                <button ion-button class="summitbutton" color="secondary" *ngIf="!isEdit" (click)="uploadPoster()">Share</button>
+                <button ion-button class="summitbutton" color="secondary" *ngIf="isEdit" (click)="updatePoster()">Update</button>
             </ion-item>
         </ion-list>
     </form>

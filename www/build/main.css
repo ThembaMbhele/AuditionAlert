@@ -25758,6 +25758,16 @@ page-aboutus .center {
   text-align: center;
 }
 
+page-auditiondetail .center {
+  text-align: center;
+}
+
+page-auditiondetail ion-content {
+  background-image: url("../assets/imgs/background.png");
+  background-position: center;
+  background-size: cover;
+}
+
 page-contactus .center {
   text-align: center;
 }
@@ -25810,6 +25820,12 @@ page-dashboard .delete-btn {
   height: 20px;
   color: #fff;
   background-color: red;
+}
+
+page-dashboard .update-btn {
+  margin-bottom: -1px;
+  height: 20px;
+  color: #fff;
 }
 
 page-forgotpassword .center {

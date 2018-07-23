@@ -1,0 +1,674 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_dropdown_popup_background_down.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\dropdown_popup_background_down.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-port-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_ic_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\ic_warning.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\raw_wifidirect_api.js.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\raw\\wifidirect_api.js"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_ic_search.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\mipmap-mdpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_ic_menu_share_holo_light.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\menu_select_action_menu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\menu\\select_action_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_ic_menu_share_holo_light.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi_ic_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xxhdpi\\ic_warning.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-port-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-land-mdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_activity_photo.xml.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\layout\\activity_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_dropdown_popup_background_down.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\dropdown_popup_background_down.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_button_compat_shape.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\button_compat_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_bubble.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\bubble.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_color_picker_dialog_title.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\color_picker_dialog_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_color_picker_advanced_component.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\color_picker_advanced_component.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi_ic_menu_share_holo_light.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xxhdpi\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\color_common_google_signin_btn_tint.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_date_time_suggestion.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\date_time_suggestion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_verify_checkmark.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\verify_checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_dropdown_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\mipmap-xxxhdpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_color_picker_advanced_select_handle.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\color_picker_advanced_select_handle.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_bubble_arrow_up.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\bubble_arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_validation_message_bubble.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\validation_message_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\raw_empty.wav.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\raw\\empty.wav"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_icon_light_normal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi_verify_checkmark.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xxhdpi\\verify_checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_dropdown_popup_background_down.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\dropdown_popup_background_down.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_date_time_picker_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout\\date_time_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_bubble.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\bubble.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_dropdown_popup_background_up.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\dropdown_popup_background_up.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_dropdown_popup_background_up.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\dropdown_popup_background_up.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_verify_checkmark.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\verify_checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_ic_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\ic_warning.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\color_common_google_signin_btn_text_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_ic_menu_share_holo_light.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-port-mdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_color_picker_advanced_select_handle.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\color_picker_advanced_select_handle.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_dropdown_popup_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\dropdown_popup_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-land_date_time_picker_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-land\\date_time_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_ondemand_overlay.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\ondemand_overlay.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_autofill_keyboard_accessory_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\autofill_keyboard_accessory_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_verify_checkmark.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\verify_checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_multi_field_time_picker_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\multi_field_time_picker_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_color_picker_dialog_content.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\color_picker_dialog_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-land-xhdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\color_common_google_signin_btn_text_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-v21_button_compat.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-v21\\button_compat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-land-hdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_ondemand_overlay.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\ondemand_overlay.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-land-xxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v17_two_field_date_picker.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout-v17\\two_field_date_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_text_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_bubble_arrow_up.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\bubble_arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_ic_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\ic_warning.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_ic_search.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi_dropdown_popup_background_up.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-hdpi\\dropdown_popup_background_up.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\mipmap-xxhdpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_dropdown_label_color.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\dropdown_label_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_color_picker_border.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\color_picker_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\mipmap-hdpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\xml_camera_provider_paths.xml.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\xml\\camera_provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\raw_xwalk_100_percent.pak.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\raw\\xwalk_100_percent.pak"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_color_picker_advanced_select_handle.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\color_picker_advanced_select_handle.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\raw_icudtl.dat.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\raw\\icudtl.dat"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_bubble_arrow_up.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\bubble_arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxxhdpi_ic_warning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xxxhdpi\\ic_warning.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-v21_button_borderless_compat.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-v21\\button_borderless_compat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxxhdpi_verify_checkmark.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xxxhdpi\\verify_checkmark.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxxhdpi_ic_menu_share_holo_light.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xxxhdpi\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_bubble.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\bubble.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_autofill_keyboard_accessory_icon.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\layout\\autofill_keyboard_accessory_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\mipmap-ldpi_icon.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi_ondemand_overlay.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xhdpi\\ondemand_overlay.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_autofill_chip_inset.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\autofill_chip_inset.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\xml_config.xml.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable_color_button_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable\\color_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\raw_launch_screen_api.js.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\raw\\launch_screen_api.js"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f0e1c5243d019745abfe9c0c8cf0f711\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9a66d34365b14cd387dab507539a8d8d\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-port-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\drawable-xxxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\drawable-xxxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\83a72971b44afdab5db50f81a9ad86ec\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\Downloads\\Visual Studio Code\\AuditionAlert\\AuditionAlert\\platforms\\android\\app\\build\\intermediates\\res\\merged\\arm64\\release\\raw_xwalk.pak.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-1\\files-1.1\\xwalk_core_library-23.53.589.4.aar\\b826037e91296878974c5717d4959f9b\\res\\raw\\xwalk.pak"
+    }
+]

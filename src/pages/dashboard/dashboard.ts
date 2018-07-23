@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ToastController } from 'ionic-angular';
 import { UploadeventPage } from '../uploadevent/uploadevent';
 import { AuditionProvider } from '../../providers/audition/audition';
+import { AuditiondetailPage } from '../auditiondetail/auditiondetail';
 import { GlobalVariablesProvider } from '../../providers/global-variables/global-variables';
 import { HttpClient } from '@angular/common/http';
 import { Storage } from '@ionic/storage';
@@ -21,9 +22,11 @@ export class DashboardPage {
   public showSlides: boolean = false;
   public auditions: any[];
   public userType: string;
+  public userId: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient, public storage: Storage, public auditionProvider: AuditionProvider, public toastCtrl: ToastController, private globalVariables: GlobalVariablesProvider) {
     //get audition events
+    this.userId = this.globalVariables.getUserId();
     this.storage.get('userType').then((val) => {
       if (val) {
         this.userType = val;
@@ -36,6 +39,12 @@ export class DashboardPage {
     this.auditionProvider.getAuditions().
       subscribe((response: any[]) => {
         this.auditions = response;
+        this.auditions.forEach(element => {
+          element.isMine = false;
+          if(this.userId == element.userId)
+             element.isMine = true;
+           
+        });
         this.auditions.sort(function (a, b) {
           let f = Date.parse(b.auditionDate);
           let s = Date.parse(a.auditionDate);
@@ -49,6 +58,10 @@ export class DashboardPage {
   toTimestamp(strDate) {
     var datum = Date.parse(strDate);
     return datum / 1000;
+  }
+
+  openDetails(audition){
+    this.navCtrl.push(AuditiondetailPage,audition);
   }
 
   timeConverter(datetime) {
@@ -66,14 +79,7 @@ export class DashboardPage {
 
   openUpload() {
     this.navCtrl.push(UploadeventPage);
-  }
-
-  openURL(url) {
-    if (!/^(f|ht)tps?:\/\//i.test(url)) {
-      url = "http://" + url;
-    }
-    window.open(url, '_blank', 'location=no');
-  }
+  } 
 
   deleteAuditions(audition) {
     this.http.post("http://197.242.149.23/api/deleteAudition", { auditionId: audition.auditionId }).subscribe((response: any) => {
@@ -84,6 +90,10 @@ export class DashboardPage {
         this.showMessage('We are unable to deleted event please try again later.');
       }
     });
+  }
+
+  editAudition(audition) {
+    this.navCtrl.push(UploadeventPage,audition);
   }
 
   showMessage(message) {

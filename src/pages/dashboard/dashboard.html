@@ -31,11 +31,12 @@
             <ion-col col-6 *ngFor="let audition of auditions" style="padding: 0px !important;">
                 <ion-card>
                     <img height="200" width="100" src="http://auditionsalertsa.dedicated.co.za/{{audition.auditionImage}}" imageViewer >
-                    <ion-card-content style="overflow-x: hidden; overflow-y: auto;height: 100px;">
+                    <ion-card-content style="overflow-x: hidden; overflow-y: auto;height: 100px;" (click)="openDetails(audition)">
                         <p>{{audition.auditionName}}</p>  
-                        <p><a class="item" (click)="openURL(audition.auditionUrl)" href="#">{{audition.auditionUrl}}</a></p>                        
+                        <p><small class="item" style="color: blue;">{{audition.auditionUrl}}</small></p>                        
                         <p>{{audition.auditionDescription}}</p>
                     </ion-card-content>
+                    <button *ngIf="audition.isMine" ion-button  color="secondary" block class="update-btn" (click)="editAudition(audition)">Update</button>
                     <button *ngIf="userType == 'admin'" ion-button  color="secondary" block class="delete-btn" (click)="deleteAuditions(audition)">Delete</button>
                 </ion-card>
                

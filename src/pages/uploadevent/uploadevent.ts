@@ -27,6 +27,7 @@ export class UploadeventPage {
     public min = new Date().toJSON().split('T')[0];;
     imageFile: String = "assets/imgs/newalert.jpg";
     public submitAttempt: boolean = false;
+    public isEdit: boolean = false;
     public event =
     {
         auditionName: "",
@@ -49,6 +50,13 @@ export class UploadeventPage {
             auditionName: ['', Validators.compose([Validators.required])],
             auditionUrl: [''],
         });
+
+        if(navParams.data != null){        
+            this.event = navParams.data;
+            let auditionDate = new Date(this.event.auditionDate);
+            this.event.auditionDate = auditionDate.getFullYear() + '-' + Number(auditionDate.getMonth()) + '-' + auditionDate.getDate();
+            this.isEdit = true;
+        }
     }
     ionViewDidLoad() {
         console.log('ionViewDidLoad UploadeventPage');
@@ -135,6 +143,17 @@ export class UploadeventPage {
         },error => {
             this.showError( error);
         });
+    }
+
+    updatePoster(){
+        this.submitAttempt = true;
+        if (this.auditionForm.valid) {
+             var loader = this.loadingCtrl.create({
+                content: "Please wait..."
+            });
+
+             loader.present();
+        }
     }
 
     uploadPoster() {   

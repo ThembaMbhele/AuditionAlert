@@ -16,6 +16,7 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
 import { ProfilePage } from '../pages/profile/profile';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { TermsandconditionsPage } from '../pages/termsandconditions/termsandconditions';
+import { AuditiondetailPage } from '../pages/auditiondetail/auditiondetail';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -49,7 +50,8 @@ import { FCM } from '@ionic-native/fcm';
     DashboardPage,
     ProfilePage,
     WelcomePage,
-    TermsandconditionsPage
+    TermsandconditionsPage,
+    AuditiondetailPage
   ],
   imports: [
     BrowserModule,
@@ -69,11 +71,12 @@ import { FCM } from '@ionic-native/fcm';
     AboutusPage,
     ContactusPage,
     LoginPage,
-    ForgotpasswordPage,
+    ForgotpasswordPage, 
     DashboardPage,
     ProfilePage,
     WelcomePage,
-    TermsandconditionsPage
+    TermsandconditionsPage,
+    AuditiondetailPage
   ],
   providers: [
     StatusBar,
