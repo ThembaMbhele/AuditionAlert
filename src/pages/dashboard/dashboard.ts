@@ -32,6 +32,12 @@ export class DashboardPage {
         this.userType = val;
       }
     });
+    this.storage.get('userId').then((val) => {
+      if (val) {
+        this.userId = val;
+        this.globalVariables.setUserId(val);
+      }
+    });
     this.getAuditions();
   }
 

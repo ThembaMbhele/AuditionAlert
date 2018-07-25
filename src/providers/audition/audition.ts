@@ -10,8 +10,8 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class AuditionProvider {
 
-  //public url: string = "http://localhost/api";
-  public url: string = "http://auditionsalertsa.dedicated.co.za/api"
+  public url: string = "http://localhost:7777/api";
+  //public url: string = "http://auditionsalertsa.dedicated.co.za/api"
   constructor(public http: HttpClient) {
     console.log('Hello AuditionProvider Provider');
   }
@@ -32,6 +32,11 @@ export class AuditionProvider {
   getAuditions()
   {
       return this.http.get(this.url + "/getAuditionEvents");
+  }
+
+  updateEvent(audition)
+  {
+      return this.http.post(this.url + "/updateAuditionEvent", audition);
   }
 
 }

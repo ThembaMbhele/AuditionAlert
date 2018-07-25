@@ -19,12 +19,12 @@
                 <ion-input type="text" [(ngModel)]="event.auditionName" formControlName="auditionName" [class.invalid]="!auditionForm.controls.auditionName.valid && (auditionForm.controls.auditionName.dirty || submitAttempt)"></ion-input>
             </ion-item>
             <ion-item>
-                <ion-label stacked>Event Date</ion-label>
-                <ion-input type="date" [min]="min" [(ngModel)]="event.auditionDate" formControlName="auditionDate" [class.invalid]="!auditionForm.controls.auditionDate.valid && (auditionForm.controls.auditionDate.dirty || submitAttempt)"></ion-input>
+                <ion-label stacked>Event Date</ion-label>       
+                <ion-datetime displayFormat="YYYY/MM/DD" [min]="min" [max]="max" [(ngModel)]="event.auditionDate" formControlName="auditionDate" [class.invalid]="!auditionForm.controls.auditionDate.valid && (auditionForm.controls.auditionDate.dirty || submitAttempt)"></ion-datetime>
             </ion-item>
             <ion-item>
                 <ion-label floating>URL</ion-label>
-                <ion-input type="text" [(ngModel)]="event.auditionUrl" formControlName="auditionDate"></ion-input>
+                <ion-input type="text" [(ngModel)]="event.auditionUrl" formControlName="auditionUrl"></ion-input>
             </ion-item>
             <ion-item>
                 <ion-label floating>Description</ion-label>
